@@ -1,0 +1,11 @@
+params ["_unit"];
+_unit setCaptive true;
+[_unit, true, player] call ACE_captives_fnc_setHandcuffed;
+sleep 3;
+removeAllWeapons _unit;
+removeAllItems _unit;
+removeAllAssignedItems _unit;
+removeVest _unit;
+removeBackpack _unit;
+removeHeadgear _unit;
+removeGoggles _unit;

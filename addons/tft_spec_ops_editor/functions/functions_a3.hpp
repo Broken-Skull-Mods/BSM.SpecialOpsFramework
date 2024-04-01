@@ -1,0 +1,1 @@
+class a3AmbientAnimCombat {};
