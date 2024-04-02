@@ -347,6 +347,7 @@ class CfgPatches
 		weapons[]={};
 		requiredVersion=0.1;
 		requiredAddons[]={"Characters_f_lxWS","Characters_f_lxWS_headgear","A3_Aegis_Weapons_F_Aegis_Items","A3_Weapons_F"};
+		skipWhenMissingDependencies = 1;
 	};
 };
 class CfgFactionClasses {

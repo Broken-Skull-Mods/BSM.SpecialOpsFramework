@@ -2,6 +2,7 @@
 [list]
     [*] New CQB Module can be activated via trigger using **[thisTrigger] call SpecOps_fnc_dressupBuildingModuleActivate;** && **[thisTrigger] call SpecOps_fnc_dressupBuildingModuleDeactivate;**
     [*] Added Factions in Editor Attribute List.
+    [*] Added Randomizing PC, Tablet, TV, Potraits and Laptop Screen's texture.
 [/list]
 
 [h3] Changes [/h3]
