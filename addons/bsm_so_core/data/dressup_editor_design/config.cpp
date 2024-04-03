@@ -14,7 +14,7 @@ class CfgPatches
 class CfgFunctions {
 	class SpecOps {
 		class DressUp_Modules {
-			file = "tft_so_editor\data\dressup_editor_design\functions";
+			file = "bsm_so_core\data\dressup_editor_design\functions";
             class dressupBuildingModuleActivate { };
             class dressupBuildingModuleInitialize { };
             class dressupBuildingModuleDeactivate { };

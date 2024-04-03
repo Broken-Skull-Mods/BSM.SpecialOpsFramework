@@ -14,7 +14,7 @@ class CfgPatches
 class CfgFunctions {
 	class SpecOps {
 		class Goodies_FunFact {
-			file = "tft_so_editor\data\goodies\functions";
+			file = "bsm_so_core\data\goodies\functions";
 			class goodiesLoadFunFacts { postInit = 1; };
 			class goodiesSpawnFunFactLoop { };
 		}

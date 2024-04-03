@@ -52,9 +52,9 @@ class SpecOps_DressUp {
 			};
 	};
 	class Buildings {
-		#include "\tft_so_editor\data\dressup_buildings\common\_includes.hpp"
-		#include "\tft_so_editor\data\dressup_buildings\tanoa\_includes.hpp"
-		#include "\tft_so_editor\data\dressup_buildings\altis\_includes.hpp"
-		#include "\tft_so_editor\data\dressup_buildings\stratis\_includes.hpp"
+		#include "\bsm_so_core\data\dressup_buildings\common\_includes.hpp"
+		#include "\bsm_so_core\data\dressup_buildings\tanoa\_includes.hpp"
+		#include "\bsm_so_core\data\dressup_buildings\altis\_includes.hpp"
+		#include "\bsm_so_core\data\dressup_buildings\stratis\_includes.hpp"
 	};
 };

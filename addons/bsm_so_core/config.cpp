@@ -1,12 +1,12 @@
-// PREFIX = tft_so_editor
+// PREFIX = bsm_so_core
 
 
 class CfgPatches
 {
 	class tft_spec_ops_editor
 	{
-		author = "BloodyMystik & Orka";
-		name = "Special Ops Framework";
+		author = "Broken Skull Mods™";
+		name = "Special Ops Framework - Core";
 		units[]={ };
 		weapons[]={};
 		requiredVersion=0.1;
@@ -19,11 +19,11 @@ class CfgPatches
 class CfgFunctions {
 	class SpecOps {
 		class Category {
-			file = "tft_so_editor\functions";
-			#include "\tft_so_editor\functions\functions_a3.hpp"
-			#include "\tft_so_editor\functions\functions_common.hpp"
-			#include "\tft_so_editor\functions\functions_server.hpp"
-			#include "\tft_so_editor\functions\functions_ui.hpp"
+			file = "bsm_so_core\functions";
+			#include "\bsm_so_core\functions\functions_a3.hpp"
+			#include "\bsm_so_core\functions\functions_common.hpp"
+			#include "\bsm_so_core\functions\functions_server.hpp"
+			#include "\bsm_so_core\functions\functions_ui.hpp"
 		}
 	};
 };
@@ -33,7 +33,7 @@ class Extended_PreInit_EventHandlers
 {
     class ADDON
     {
-        init = "[] call compile preprocessFileLineNumbers 'tft_so_editor\cba_setting_editor.sqf';";
+        init = "[] call compile preprocessFileLineNumbers 'bsm_so_core\cba_setting_editor.sqf';";
     };
 };				
 
@@ -41,11 +41,11 @@ class Extended_PreInit_EventHandlers
 
 
 class SpecOpsUnitTranslation {
-	#include "\tft_so_editor\config_unit_translation.hpp"
+	#include "\bsm_so_core\config_unit_translation.hpp"
 };
 
 class SpecOpsBuildingDressUp {
-	#include "\tft_so_editor\building_dressup_compiled.hpp"
+	#include "\bsm_so_core\building_dressup_compiled.hpp"
 };
 
 
@@ -495,149 +495,7 @@ class Cfg3DEN
 					};
                 };
             };
-
-			class SpecialOperationsFramework_Faction_Generator
-            {
-				displayName = "Spec-Ops (Faction Unit Generator)";
-                class Attributes
-                {
-					class SpecOps_FactionGenerator
-					{
-						unique = 0; 
-						displayName = "Unit Role?";
-						tooltip = "Choose role in the faction.";
-						property = "SpecOps_FactionGenerator";
-						control = "combo";
-						expression = "_this setVariable ['%s', _value];";
-						defaultValue = -1;
-						validate = "none";
-						typeName = "NUMBER";
-						class Values 
-						{
-							class T10 { name = "Ignored"; value = -1; };
-							class T9 { name = "Survivor"; value = 0; };
-							class T1 { name = "Rifleman"; value = 1; };
-							class T2 { name = "Machine Gunner"; value = 2; };
-							class T3 { name = "Grenadier"; value = 3; };
-							class T4 { name = "Medic"; value = 4; };
-							class T5 { name = "Marksman"; value = 5; };
-							class T6 { name = "Radio Operator"; value = 6; };
-							class T7 { name = "Diver"; value = 7; };
-							class T8 { name = "Variation"; value = 8; };
-							class T11 { name = "Common"; value = 9; };
-							class T12 { name = "Officer"; value = 10; };
-						};
-					};
-
-					class SpecOps_FactionGeneratorCamo
-					{
-						unique = 0; 
-						displayName = "Unit Camo?";
-						tooltip = "Choose camo of unit.";
-						property = "SpecOps_FactionGeneratorCamo";
-						control = "combo";
-						expression = "_this setVariable ['%s', _value];";
-						defaultValue = 0;
-						validate = "none";
-						typeName = "NUMBER";
-						class Values 
-						{
-							class WL { name = "Woodland"; value = 0; };
-							class WT { name = "Winter"; value = 1; };
-							class DT { name = "Desert"; value = 2; };
-						};
-					};
-					class SpecOps_FactionGeneratorVoice
-					{
-						unique = 0; 
-						displayName = "Unit Voice?";
-						tooltip = "Choose Unit Voice Type.";
-						property = "SpecOps_FactionGeneratorVoice";
-						control = "combo";
-						expression = "_this setVariable ['%s', _value];";
-						defaultValue = 0;
-						validate = "none";
-						typeName = "NUMBER";
-						class Values {
-							class AmericanEnglish { name = "American English"; value = 0; };
-							class BritishEnglish { name = "British English"; value = 1; };
-							class AltianEnglish { name = "Altian English"; value = 2; };
-							class Farsi { name = "Farsi"; value = 3; };
-							class Chinese { name = "Chinese"; value = 4; };
-							class FrenchAfricanAcc { name = "French (African Accent)"; value = 5; };
-							class FrenchEnglish { name = "French English"; value = 6; };
-							class Polish { name = "Polish"; value = 7; };
-							class Russian { name = "Russian"; value = 8; };
-						};
-					};
-					class SpecOps_FactionGeneratorFacePersian
-					{
-						unique = 0; 
-						displayName = "Can be Persian?";
-						tooltip = "Choose if this type of face is allowed for this unit";
-						property = "SpecOps_FactionGeneratorFacePersian";
-						control = "Checkbox";
-						expression = "_this setVariable ['%s', _value];";
-						defaultValue = false;
-						typeName = "BOOL"; 
-					};
-
-					class SpecOps_FactionGeneratorFaceWhite
-					{
-						unique = 0; 
-						displayName = "Can be White?";
-						tooltip = "Choose if this type of face is allowed for this unit";
-						property = "SpecOps_FactionGeneratorFaceWhite";
-						control = "Checkbox";
-						expression = "_this setVariable ['%s', _value];";
-						defaultValue = false;
-						typeName = "BOOL"; 
-					};
-
-					class SpecOps_FactionGeneratorFaceBlack
-					{
-						unique = 0; 
-						displayName = "Can be Black?";
-						tooltip = "Choose if this type of face is allowed for this unit";
-						property = "SpecOps_FactionGeneratorFaceBlack";
-						control = "Checkbox";
-						expression = "_this setVariable ['%s', _value];";
-						defaultValue = false;
-						typeName = "BOOL"; 
-					};
-
-					class SpecOps_FactionGeneratorFaceAsian
-					{
-						unique = 0; 
-						displayName = "Can be Asian?";
-						tooltip = "Choose if this type of face is allowed for this unit";
-						property = "SpecOps_FactionGeneratorFaceAsian";
-						control = "Checkbox";
-						expression = "_this setVariable ['%s', _value];";
-						defaultValue = false;
-						typeName = "BOOL"; 
-					};
-
-					class SpecOps_FactionGeneratorFaceGreek
-					{
-						unique = 0; 
-						displayName = "Can be Greek?";
-						tooltip = "Choose if this type of face is allowed for this unit";
-						property = "SpecOps_FactionGeneratorFaceGreek";
-						control = "Checkbox";
-						expression = "_this setVariable ['%s', _value];";
-						defaultValue = false;
-						typeName = "BOOL"; 
-					};
-
-
-
-
-                };
-
-     
-            };
-
+			
 			class SpecialOperationsFramework_Garage_Generator
             {
 				displayName = "Spec-Ops (Faction Garage Generator)";

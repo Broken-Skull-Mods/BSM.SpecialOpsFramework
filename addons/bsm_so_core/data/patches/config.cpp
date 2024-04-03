@@ -18,23 +18,23 @@ class CfgUnitInsignia
 	{
 		displayName="Spec Ops (2024)";
 		author="BloodyMystik";
-		texture="\tft_so_editor\data\patches\spec_ops_2024.paa";
-		textureVehicle="\tft_so_editor\data\patches\spec_ops_2024.paa";
+		texture="\bsm_so_core\data\patches\spec_ops_2024.paa";
+		textureVehicle="\bsm_so_core\data\patches\spec_ops_2024.paa";
 	};
 
 	class specops_f_certification_medic_2024
 	{
 		displayName="Spec Ops (2024)";
 		author="BloodyMystik";
-		texture="\tft_so_editor\data\patches\certification_medic_2024.paa";
-		textureVehicle="\tft_so_editor\data\patches\certification_medic_2024.paa";
+		texture="\bsm_so_core\data\patches\certification_medic_2024.paa";
+		textureVehicle="\bsm_so_core\data\patches\certification_medic_2024.paa";
 	};
 
 	class specops_f_certification_slacker_2024
 	{
 		displayName="Spec Ops (2024)";
 		author="BloodyMystik";
-		texture="\tft_so_editor\data\patches\certification_slacker_2024.paa";
-		textureVehicle="\tft_so_editor\data\patches\certification_slacker_2024.paa";
+		texture="\bsm_so_core\data\patches\certification_slacker_2024.paa";
+		textureVehicle="\bsm_so_core\data\patches\certification_slacker_2024.paa";
 	};
 };

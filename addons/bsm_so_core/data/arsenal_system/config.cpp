@@ -14,7 +14,7 @@ class CfgPatches
 class CfgFunctions {
 	class SpecOps {
 		class ArsenalSystem {
-			file = "tft_so_editor\data\arsenal_system\functions";
+			file = "bsm_so_core\data\arsenal_system\functions";
             class commonExtractUnitGearnStuff { };
             class commonAssignFactionArsenal { };
             class commonInitializeArsenal { postInit = 1; };
