@@ -66,8 +66,7 @@ class commonEdenConditionalAttribute{};
 class commonRelPosObject {};
 class commonGetRelPosRotObject {};
 class commonInitialUnitFaction {};
-class commonCreateFactionAndUnitsFromTrigger {};
-class commonCreateCivFactionAndUnitsFromTrigger {};
+
 class commonUnitSetLoadout {};
 class commonGetRandomFace {};
 class commonGetRandomVoice {};

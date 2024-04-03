@@ -14,7 +14,7 @@ class CfgVehicles {
 		bsCamo = "WL"; 
 		displayName = "Rifleman (Woodland)"; 
 		faction = "BS_O_US_DEVGRU_2023"; 
-		identityTypes[] = {"GreekHead_A3_06", "Male04ENG" ,"G_NATO_default"};
+		identityTypes[] = {"CamoHead_White_01_F", "Male01ENG" ,"G_NATO_default"};
 		uniformClass = "U_B_T_Soldier_F"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","H_HelmetSpecB_green"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","H_HelmetSpecB_green"}; 
@@ -42,7 +42,7 @@ class CfgVehicles {
 		bsCamo = "WL"; 
 		displayName = "Rifleman (Woodland)"; 
 		faction = "BS_B_US_DEVGRU_2023"; 
-		identityTypes[] = {"GreekHead_A3_06", "Male04ENG" ,"G_NATO_default"};
+		identityTypes[] = {"CamoHead_White_01_F", "Male01ENG" ,"G_NATO_default"};
 		uniformClass = "U_B_T_Soldier_F"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","H_HelmetSpecB_green"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","H_HelmetSpecB_green"}; 
@@ -70,7 +70,7 @@ class CfgVehicles {
 		bsCamo = "WL"; 
 		displayName = "Rifleman (Woodland)"; 
 		faction = "BS_I_US_DEVGRU_2023"; 
-		identityTypes[] = {"GreekHead_A3_06", "Male04ENG" ,"G_NATO_default"};
+		identityTypes[] = {"CamoHead_White_01_F", "Male01ENG" ,"G_NATO_default"};
 		uniformClass = "U_B_T_Soldier_F"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","H_HelmetSpecB_green"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","H_HelmetSpecB_green"}; 
@@ -98,7 +98,7 @@ class CfgVehicles {
 		bsCamo = "WL"; 
 		displayName = "Grenadier (Woodland)"; 
 		faction = "BS_O_US_DEVGRU_2023"; 
-		identityTypes[] = {"WhiteHead_16", "Male11ENG" ,"G_NATO_default"};
+		identityTypes[] = {"CamoHead_Greek_06_F", "Male01ENG" ,"G_NATO_default"};
 		uniformClass = "U_B_T_Soldier_F"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","H_HelmetSpecB_green"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","H_HelmetSpecB_green"}; 
@@ -126,7 +126,7 @@ class CfgVehicles {
 		bsCamo = "WL"; 
 		displayName = "Grenadier (Woodland)"; 
 		faction = "BS_B_US_DEVGRU_2023"; 
-		identityTypes[] = {"WhiteHead_16", "Male11ENG" ,"G_NATO_default"};
+		identityTypes[] = {"CamoHead_Greek_06_F", "Male01ENG" ,"G_NATO_default"};
 		uniformClass = "U_B_T_Soldier_F"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","H_HelmetSpecB_green"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","H_HelmetSpecB_green"}; 
@@ -154,7 +154,7 @@ class CfgVehicles {
 		bsCamo = "WL"; 
 		displayName = "Grenadier (Woodland)"; 
 		faction = "BS_I_US_DEVGRU_2023"; 
-		identityTypes[] = {"WhiteHead_16", "Male11ENG" ,"G_NATO_default"};
+		identityTypes[] = {"CamoHead_Greek_06_F", "Male01ENG" ,"G_NATO_default"};
 		uniformClass = "U_B_T_Soldier_F"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","H_HelmetSpecB_green"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","H_HelmetSpecB_green"}; 
@@ -182,7 +182,7 @@ class CfgVehicles {
 		bsCamo = "WL"; 
 		displayName = "Radio Operator (Woodland)"; 
 		faction = "BS_O_US_DEVGRU_2023"; 
-		identityTypes[] = {"CamoHead_White_19_F", "Male08ENG" ,"G_NATO_default"};
+		identityTypes[] = {"WhiteHead_09", "Male06ENG" ,"G_NATO_default"};
 		uniformClass = "U_B_T_Soldier_F"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","H_HelmetSpecB_green"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","H_HelmetSpecB_green"}; 
@@ -210,7 +210,7 @@ class CfgVehicles {
 		bsCamo = "WL"; 
 		displayName = "Radio Operator (Woodland)"; 
 		faction = "BS_B_US_DEVGRU_2023"; 
-		identityTypes[] = {"CamoHead_White_19_F", "Male08ENG" ,"G_NATO_default"};
+		identityTypes[] = {"WhiteHead_09", "Male06ENG" ,"G_NATO_default"};
 		uniformClass = "U_B_T_Soldier_F"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","H_HelmetSpecB_green"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","H_HelmetSpecB_green"}; 
@@ -238,7 +238,7 @@ class CfgVehicles {
 		bsCamo = "WL"; 
 		displayName = "Radio Operator (Woodland)"; 
 		faction = "BS_I_US_DEVGRU_2023"; 
-		identityTypes[] = {"CamoHead_White_19_F", "Male08ENG" ,"G_NATO_default"};
+		identityTypes[] = {"WhiteHead_09", "Male06ENG" ,"G_NATO_default"};
 		uniformClass = "U_B_T_Soldier_F"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","H_HelmetSpecB_green"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","H_HelmetSpecB_green"}; 
@@ -266,12 +266,12 @@ class CfgVehicles {
 		bsCamo = "WL"; 
 		displayName = "Machine Gunner (Woodland)"; 
 		faction = "BS_O_US_DEVGRU_2023"; 
-		identityTypes[] = {"WhiteHead_21", "Male02ENG" ,"G_NATO_default"};
+		identityTypes[] = {"CamoHead_White_13_F", "Male05ENG" ,"G_NATO_default"};
 		uniformClass = "U_B_T_Soldier_F"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","TIOW_IVAS_Olive","H_HelmetSpecB_green"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","TIOW_IVAS_Olive","H_HelmetSpecB_green"}; 
-		weapons[] = {"LMG_mas_cia_02_F","rhsusf_weap_MP7A2_folded","ACE_Yardage450"}; 
-		respawnWeapons[] = {"LMG_mas_cia_02_F","rhsusf_weap_MP7A2_folded","ACE_Yardage450"};
+		weapons[] = {"CUP_lmg_Mk48_wdl","rhsusf_weap_MP7A2_folded","ACE_Yardage450"}; 
+		respawnWeapons[] = {"CUP_lmg_Mk48_wdl","rhsusf_weap_MP7A2_folded","ACE_Yardage450"};
 		magazines[] = {};
 		respawnMagazines[] = {};
 		backpack = "B_ViperHarness_whex_F";
@@ -279,7 +279,7 @@ class CfgVehicles {
 		{
 			init = "[(_this select 0)] call SpecOps_fnc_commonUnitSetLoadout;";
 		};
-		ALiVE_orbatCreator_loadout[] = {{"LMG_mas_cia_02_F","ACE_muzzle_mzls_93mmg","rhsusf_acc_anpeq15_bk_top","optic_tws_mg",{"150Rnd_93x64_Mag",120},{},"rhs_acc_harris_swivel"},{},{"rhsusf_weap_MP7A2_folded","rhsusf_acc_rotex_mp7","rhsusf_acc_anpeq15side_bk","rhsusf_acc_eotech_xps3",{"rhsusf_mag_40Rnd_46x30_JHP",40},{},""},{"U_B_T_Soldier_F",{{"ACE_elasticBandage",8},{"ACE_quikclot",10},{"ACE_epinephrine",1},{"ACE_morphine",2},{"ACE_tourniquet",4},{"ACE_microDAGR",1},{"ACE_EntrenchingTool",1},{"ACE_personalAidKit",1},{"ACE_EarPlugs",1}}},{"V_CarrierRigKBT_01_light_CDF_F",{{"SmokeShell",6,1},{"rhs_mag_m67",2,1}}},{"B_ViperHarness_whex_F",{{"ACE_CableTie",3},{"ACE_IR_Strobe_Item",1},{"150Rnd_93x64_Mag",5,120}}},"H_HelmetSpecB_green","",{"ACE_Yardage450","","","",{},{},""},{"ItemMap","ItemGPS","TFAR_anprc148jem","ItemCompass","Itemwatch","TIOW_IVAS_Olive"}};
+		ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_Mk48_wdl","rhsusf_acc_ARDEC_M240","CUP_acc_ANPEQ_15_Flashlight_OD_L","optic_tws_mg",{"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M",100},{},""},{},{"rhsusf_weap_MP7A2_folded","rhsusf_acc_rotex_mp7","rhsusf_acc_anpeq15side_bk","rhsusf_acc_eotech_xps3",{"rhsusf_mag_40Rnd_46x30_JHP",40},{},""},{"U_B_T_Soldier_F",{{"ACE_elasticBandage",8},{"ACE_quikclot",10},{"ACE_epinephrine",1},{"ACE_morphine",2},{"ACE_tourniquet",4},{"ACE_microDAGR",1},{"ACE_EntrenchingTool",1},{"ACE_personalAidKit",1},{"ACE_EarPlugs",1}}},{"V_CarrierRigKBT_01_light_CDF_F",{{"SmokeShell",6,1},{"rhs_mag_m67",2,1}}},{"B_ViperHarness_whex_F",{{"ACE_CableTie",3},{"ACE_IR_Strobe_Item",1},{"CUP_100Rnd_TE4_LRT4_Green_Tracer_762x51_Belt_M",1,100},{"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",1,100},{"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M",1,100},{"CUP_100Rnd_TE4_LRT4_Yellow_Tracer_762x51_Belt_M",3,100}}},"H_HelmetSpecB_green","",{"ACE_Yardage450","","","",{},{},""},{"ItemMap","ItemGPS","TFAR_anprc148jem","ItemCompass","Itemwatch","TIOW_IVAS_Olive"}};
 		ALiVE_orbatCreator_owned = 1;
 		side = 0; 
 	}; 
@@ -294,12 +294,12 @@ class CfgVehicles {
 		bsCamo = "WL"; 
 		displayName = "Machine Gunner (Woodland)"; 
 		faction = "BS_B_US_DEVGRU_2023"; 
-		identityTypes[] = {"WhiteHead_21", "Male02ENG" ,"G_NATO_default"};
+		identityTypes[] = {"CamoHead_White_13_F", "Male05ENG" ,"G_NATO_default"};
 		uniformClass = "U_B_T_Soldier_F"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","TIOW_IVAS_Olive","H_HelmetSpecB_green"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","TIOW_IVAS_Olive","H_HelmetSpecB_green"}; 
-		weapons[] = {"LMG_mas_cia_02_F","rhsusf_weap_MP7A2_folded","ACE_Yardage450"}; 
-		respawnWeapons[] = {"LMG_mas_cia_02_F","rhsusf_weap_MP7A2_folded","ACE_Yardage450"};
+		weapons[] = {"CUP_lmg_Mk48_wdl","rhsusf_weap_MP7A2_folded","ACE_Yardage450"}; 
+		respawnWeapons[] = {"CUP_lmg_Mk48_wdl","rhsusf_weap_MP7A2_folded","ACE_Yardage450"};
 		magazines[] = {};
 		respawnMagazines[] = {};
 		backpack = "B_ViperHarness_whex_F";
@@ -307,7 +307,7 @@ class CfgVehicles {
 		{
 			init = "[(_this select 0)] call SpecOps_fnc_commonUnitSetLoadout;";
 		};
-		ALiVE_orbatCreator_loadout[] = {{"LMG_mas_cia_02_F","ACE_muzzle_mzls_93mmg","rhsusf_acc_anpeq15_bk_top","optic_tws_mg",{"150Rnd_93x64_Mag",120},{},"rhs_acc_harris_swivel"},{},{"rhsusf_weap_MP7A2_folded","rhsusf_acc_rotex_mp7","rhsusf_acc_anpeq15side_bk","rhsusf_acc_eotech_xps3",{"rhsusf_mag_40Rnd_46x30_JHP",40},{},""},{"U_B_T_Soldier_F",{{"ACE_elasticBandage",8},{"ACE_quikclot",10},{"ACE_epinephrine",1},{"ACE_morphine",2},{"ACE_tourniquet",4},{"ACE_microDAGR",1},{"ACE_EntrenchingTool",1},{"ACE_personalAidKit",1},{"ACE_EarPlugs",1}}},{"V_CarrierRigKBT_01_light_CDF_F",{{"SmokeShell",6,1},{"rhs_mag_m67",2,1}}},{"B_ViperHarness_whex_F",{{"ACE_CableTie",3},{"ACE_IR_Strobe_Item",1},{"150Rnd_93x64_Mag",5,120}}},"H_HelmetSpecB_green","",{"ACE_Yardage450","","","",{},{},""},{"ItemMap","ItemGPS","TFAR_anprc148jem","ItemCompass","Itemwatch","TIOW_IVAS_Olive"}};
+		ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_Mk48_wdl","rhsusf_acc_ARDEC_M240","CUP_acc_ANPEQ_15_Flashlight_OD_L","optic_tws_mg",{"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M",100},{},""},{},{"rhsusf_weap_MP7A2_folded","rhsusf_acc_rotex_mp7","rhsusf_acc_anpeq15side_bk","rhsusf_acc_eotech_xps3",{"rhsusf_mag_40Rnd_46x30_JHP",40},{},""},{"U_B_T_Soldier_F",{{"ACE_elasticBandage",8},{"ACE_quikclot",10},{"ACE_epinephrine",1},{"ACE_morphine",2},{"ACE_tourniquet",4},{"ACE_microDAGR",1},{"ACE_EntrenchingTool",1},{"ACE_personalAidKit",1},{"ACE_EarPlugs",1}}},{"V_CarrierRigKBT_01_light_CDF_F",{{"SmokeShell",6,1},{"rhs_mag_m67",2,1}}},{"B_ViperHarness_whex_F",{{"ACE_CableTie",3},{"ACE_IR_Strobe_Item",1},{"CUP_100Rnd_TE4_LRT4_Green_Tracer_762x51_Belt_M",1,100},{"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",1,100},{"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M",1,100},{"CUP_100Rnd_TE4_LRT4_Yellow_Tracer_762x51_Belt_M",3,100}}},"H_HelmetSpecB_green","",{"ACE_Yardage450","","","",{},{},""},{"ItemMap","ItemGPS","TFAR_anprc148jem","ItemCompass","Itemwatch","TIOW_IVAS_Olive"}};
 		ALiVE_orbatCreator_owned = 1;
 		side = 1; 
 	}; 
@@ -322,12 +322,12 @@ class CfgVehicles {
 		bsCamo = "WL"; 
 		displayName = "Machine Gunner (Woodland)"; 
 		faction = "BS_I_US_DEVGRU_2023"; 
-		identityTypes[] = {"WhiteHead_21", "Male02ENG" ,"G_NATO_default"};
+		identityTypes[] = {"CamoHead_White_13_F", "Male05ENG" ,"G_NATO_default"};
 		uniformClass = "U_B_T_Soldier_F"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","TIOW_IVAS_Olive","H_HelmetSpecB_green"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","TIOW_IVAS_Olive","H_HelmetSpecB_green"}; 
-		weapons[] = {"LMG_mas_cia_02_F","rhsusf_weap_MP7A2_folded","ACE_Yardage450"}; 
-		respawnWeapons[] = {"LMG_mas_cia_02_F","rhsusf_weap_MP7A2_folded","ACE_Yardage450"};
+		weapons[] = {"CUP_lmg_Mk48_wdl","rhsusf_weap_MP7A2_folded","ACE_Yardage450"}; 
+		respawnWeapons[] = {"CUP_lmg_Mk48_wdl","rhsusf_weap_MP7A2_folded","ACE_Yardage450"};
 		magazines[] = {};
 		respawnMagazines[] = {};
 		backpack = "B_ViperHarness_whex_F";
@@ -335,7 +335,7 @@ class CfgVehicles {
 		{
 			init = "[(_this select 0)] call SpecOps_fnc_commonUnitSetLoadout;";
 		};
-		ALiVE_orbatCreator_loadout[] = {{"LMG_mas_cia_02_F","ACE_muzzle_mzls_93mmg","rhsusf_acc_anpeq15_bk_top","optic_tws_mg",{"150Rnd_93x64_Mag",120},{},"rhs_acc_harris_swivel"},{},{"rhsusf_weap_MP7A2_folded","rhsusf_acc_rotex_mp7","rhsusf_acc_anpeq15side_bk","rhsusf_acc_eotech_xps3",{"rhsusf_mag_40Rnd_46x30_JHP",40},{},""},{"U_B_T_Soldier_F",{{"ACE_elasticBandage",8},{"ACE_quikclot",10},{"ACE_epinephrine",1},{"ACE_morphine",2},{"ACE_tourniquet",4},{"ACE_microDAGR",1},{"ACE_EntrenchingTool",1},{"ACE_personalAidKit",1},{"ACE_EarPlugs",1}}},{"V_CarrierRigKBT_01_light_CDF_F",{{"SmokeShell",6,1},{"rhs_mag_m67",2,1}}},{"B_ViperHarness_whex_F",{{"ACE_CableTie",3},{"ACE_IR_Strobe_Item",1},{"150Rnd_93x64_Mag",5,120}}},"H_HelmetSpecB_green","",{"ACE_Yardage450","","","",{},{},""},{"ItemMap","ItemGPS","TFAR_anprc148jem","ItemCompass","Itemwatch","TIOW_IVAS_Olive"}};
+		ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_Mk48_wdl","rhsusf_acc_ARDEC_M240","CUP_acc_ANPEQ_15_Flashlight_OD_L","optic_tws_mg",{"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M",100},{},""},{},{"rhsusf_weap_MP7A2_folded","rhsusf_acc_rotex_mp7","rhsusf_acc_anpeq15side_bk","rhsusf_acc_eotech_xps3",{"rhsusf_mag_40Rnd_46x30_JHP",40},{},""},{"U_B_T_Soldier_F",{{"ACE_elasticBandage",8},{"ACE_quikclot",10},{"ACE_epinephrine",1},{"ACE_morphine",2},{"ACE_tourniquet",4},{"ACE_microDAGR",1},{"ACE_EntrenchingTool",1},{"ACE_personalAidKit",1},{"ACE_EarPlugs",1}}},{"V_CarrierRigKBT_01_light_CDF_F",{{"SmokeShell",6,1},{"rhs_mag_m67",2,1}}},{"B_ViperHarness_whex_F",{{"ACE_CableTie",3},{"ACE_IR_Strobe_Item",1},{"CUP_100Rnd_TE4_LRT4_Green_Tracer_762x51_Belt_M",1,100},{"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",1,100},{"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M",1,100},{"CUP_100Rnd_TE4_LRT4_Yellow_Tracer_762x51_Belt_M",3,100}}},"H_HelmetSpecB_green","",{"ACE_Yardage450","","","",{},{},""},{"ItemMap","ItemGPS","TFAR_anprc148jem","ItemCompass","Itemwatch","TIOW_IVAS_Olive"}};
 		ALiVE_orbatCreator_owned = 1;
 		side = 2; 
 	}; 
@@ -350,7 +350,7 @@ class CfgVehicles {
 		bsCamo = "WL"; 
 		displayName = "Sniper (Woodland)"; 
 		faction = "BS_O_US_DEVGRU_2023"; 
-		identityTypes[] = {"WhiteHead_01", "Male11ENG" ,"G_NATO_default"};
+		identityTypes[] = {"PersianHead_A3_03", "Male05ENG" ,"G_NATO_default"};
 		uniformClass = "U_B_T_Soldier_F"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","TIOW_IVAS_Olive","H_HelmetSpecB_green"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","TIOW_IVAS_Olive","H_HelmetSpecB_green"}; 
@@ -378,7 +378,7 @@ class CfgVehicles {
 		bsCamo = "WL"; 
 		displayName = "Sniper (Woodland)"; 
 		faction = "BS_B_US_DEVGRU_2023"; 
-		identityTypes[] = {"WhiteHead_01", "Male11ENG" ,"G_NATO_default"};
+		identityTypes[] = {"PersianHead_A3_03", "Male05ENG" ,"G_NATO_default"};
 		uniformClass = "U_B_T_Soldier_F"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","TIOW_IVAS_Olive","H_HelmetSpecB_green"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","TIOW_IVAS_Olive","H_HelmetSpecB_green"}; 
@@ -406,7 +406,7 @@ class CfgVehicles {
 		bsCamo = "WL"; 
 		displayName = "Sniper (Woodland)"; 
 		faction = "BS_I_US_DEVGRU_2023"; 
-		identityTypes[] = {"WhiteHead_01", "Male11ENG" ,"G_NATO_default"};
+		identityTypes[] = {"PersianHead_A3_03", "Male05ENG" ,"G_NATO_default"};
 		uniformClass = "U_B_T_Soldier_F"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","TIOW_IVAS_Olive","H_HelmetSpecB_green"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","TIOW_IVAS_Olive","H_HelmetSpecB_green"}; 
@@ -434,7 +434,7 @@ class CfgVehicles {
 		bsCamo = "WL"; 
 		displayName = "Doctor (Woodland)"; 
 		faction = "BS_O_US_DEVGRU_2023"; 
-		identityTypes[] = {"TanoanHead_A3_05", "Male11ENG" ,"G_NATO_default"};
+		identityTypes[] = {"PersianHead_A3_01", "Male10ENG" ,"G_NATO_default"};
 		uniformClass = "U_B_T_Soldier_F"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","H_HelmetSpecB_green"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","H_HelmetSpecB_green"}; 
@@ -462,7 +462,7 @@ class CfgVehicles {
 		bsCamo = "WL"; 
 		displayName = "Doctor (Woodland)"; 
 		faction = "BS_B_US_DEVGRU_2023"; 
-		identityTypes[] = {"TanoanHead_A3_05", "Male11ENG" ,"G_NATO_default"};
+		identityTypes[] = {"PersianHead_A3_01", "Male10ENG" ,"G_NATO_default"};
 		uniformClass = "U_B_T_Soldier_F"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","H_HelmetSpecB_green"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","H_HelmetSpecB_green"}; 
@@ -490,7 +490,7 @@ class CfgVehicles {
 		bsCamo = "WL"; 
 		displayName = "Doctor (Woodland)"; 
 		faction = "BS_I_US_DEVGRU_2023"; 
-		identityTypes[] = {"TanoanHead_A3_05", "Male11ENG" ,"G_NATO_default"};
+		identityTypes[] = {"PersianHead_A3_01", "Male10ENG" ,"G_NATO_default"};
 		uniformClass = "U_B_T_Soldier_F"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","H_HelmetSpecB_green"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","H_HelmetSpecB_green"}; 
@@ -518,7 +518,7 @@ class CfgVehicles {
 		bsCamo = "WL"; 
 		displayName = "Diver (Woodland)"; 
 		faction = "BS_O_US_DEVGRU_2023"; 
-		identityTypes[] = {"WhiteHead_11", "Male01ENG" ,"G_NATO_default"};
+		identityTypes[] = {"WhiteHead_21", "Male04ENG" ,"G_NATO_default"};
 		uniformClass = "U_mas_cia_B_Wetsuit"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","NVGoggles_mas_cia_hv","G_B_Diving","H_HelmetSpecB_green"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","NVGoggles_mas_cia_hv","G_B_Diving","H_HelmetSpecB_green"}; 
@@ -546,7 +546,7 @@ class CfgVehicles {
 		bsCamo = "WL"; 
 		displayName = "Diver (Woodland)"; 
 		faction = "BS_B_US_DEVGRU_2023"; 
-		identityTypes[] = {"WhiteHead_11", "Male01ENG" ,"G_NATO_default"};
+		identityTypes[] = {"WhiteHead_21", "Male04ENG" ,"G_NATO_default"};
 		uniformClass = "U_mas_cia_B_Wetsuit"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","NVGoggles_mas_cia_hv","G_B_Diving","H_HelmetSpecB_green"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","NVGoggles_mas_cia_hv","G_B_Diving","H_HelmetSpecB_green"}; 
@@ -574,7 +574,7 @@ class CfgVehicles {
 		bsCamo = "WL"; 
 		displayName = "Diver (Woodland)"; 
 		faction = "BS_I_US_DEVGRU_2023"; 
-		identityTypes[] = {"WhiteHead_11", "Male01ENG" ,"G_NATO_default"};
+		identityTypes[] = {"WhiteHead_21", "Male04ENG" ,"G_NATO_default"};
 		uniformClass = "U_mas_cia_B_Wetsuit"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","NVGoggles_mas_cia_hv","G_B_Diving","H_HelmetSpecB_green"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","NVGoggles_mas_cia_hv","G_B_Diving","H_HelmetSpecB_green"}; 
@@ -602,7 +602,7 @@ class CfgVehicles {
 		bsCamo = "WL"; 
 		displayName = "Variant 1"; 
 		faction = "BS_O_US_DEVGRU_2023"; 
-		identityTypes[] = {"WhiteHead_02", "Male10ENG" ,"G_NATO_default"};
+		identityTypes[] = {"WhiteHead_21", "Male05ENG" ,"G_NATO_default"};
 		uniformClass = "U_B_UBACS_tshirt_wdl_f"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","G_Shemag_oli","H_Booniehat_aucamo_hs_F"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","G_Shemag_oli","H_Booniehat_aucamo_hs_F"}; 
@@ -630,7 +630,7 @@ class CfgVehicles {
 		bsCamo = "WL"; 
 		displayName = "Variant 1"; 
 		faction = "BS_B_US_DEVGRU_2023"; 
-		identityTypes[] = {"WhiteHead_02", "Male10ENG" ,"G_NATO_default"};
+		identityTypes[] = {"WhiteHead_21", "Male05ENG" ,"G_NATO_default"};
 		uniformClass = "U_B_UBACS_tshirt_wdl_f"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","G_Shemag_oli","H_Booniehat_aucamo_hs_F"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","G_Shemag_oli","H_Booniehat_aucamo_hs_F"}; 
@@ -658,7 +658,7 @@ class CfgVehicles {
 		bsCamo = "WL"; 
 		displayName = "Variant 1"; 
 		faction = "BS_I_US_DEVGRU_2023"; 
-		identityTypes[] = {"WhiteHead_02", "Male10ENG" ,"G_NATO_default"};
+		identityTypes[] = {"WhiteHead_21", "Male05ENG" ,"G_NATO_default"};
 		uniformClass = "U_B_UBACS_tshirt_wdl_f"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","G_Shemag_oli","H_Booniehat_aucamo_hs_F"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","G_Shemag_oli","H_Booniehat_aucamo_hs_F"}; 
@@ -686,7 +686,7 @@ class CfgVehicles {
 		bsCamo = "WL"; 
 		displayName = "Variant 2"; 
 		faction = "BS_O_US_DEVGRU_2023"; 
-		identityTypes[] = {"TanoanHead_A3_08", "Male08ENG" ,"G_NATO_default"};
+		identityTypes[] = {"TanoanHead_A3_02", "Male11ENG" ,"G_NATO_default"};
 		uniformClass = "U_B_T_Soldier_AR_F"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","G_Balaclava_light_G_wdl_F","H_HelmetSpecB_green"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","G_Balaclava_light_G_wdl_F","H_HelmetSpecB_green"}; 
@@ -714,7 +714,7 @@ class CfgVehicles {
 		bsCamo = "WL"; 
 		displayName = "Variant 2"; 
 		faction = "BS_B_US_DEVGRU_2023"; 
-		identityTypes[] = {"TanoanHead_A3_08", "Male08ENG" ,"G_NATO_default"};
+		identityTypes[] = {"TanoanHead_A3_02", "Male11ENG" ,"G_NATO_default"};
 		uniformClass = "U_B_T_Soldier_AR_F"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","G_Balaclava_light_G_wdl_F","H_HelmetSpecB_green"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","G_Balaclava_light_G_wdl_F","H_HelmetSpecB_green"}; 
@@ -742,7 +742,7 @@ class CfgVehicles {
 		bsCamo = "WL"; 
 		displayName = "Variant 2"; 
 		faction = "BS_I_US_DEVGRU_2023"; 
-		identityTypes[] = {"TanoanHead_A3_08", "Male08ENG" ,"G_NATO_default"};
+		identityTypes[] = {"TanoanHead_A3_02", "Male11ENG" ,"G_NATO_default"};
 		uniformClass = "U_B_T_Soldier_AR_F"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","G_Balaclava_light_G_wdl_F","H_HelmetSpecB_green"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","G_Balaclava_light_G_wdl_F","H_HelmetSpecB_green"}; 
@@ -770,7 +770,7 @@ class CfgVehicles {
 		bsCamo = "WT"; 
 		displayName = "Rifleman (Winter)"; 
 		faction = "BS_O_US_DEVGRU_2023"; 
-		identityTypes[] = {"WhiteHead_16", "Male12ENG" ,"G_NATO_default"};
+		identityTypes[] = {"CamoHead_Greek_05_F", "Male05ENG" ,"G_NATO_default"};
 		uniformClass = "U_mas_cia_B_CombatUniform_w"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","H_mas_cia_airframe_w"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","H_mas_cia_airframe_w"}; 
@@ -798,7 +798,7 @@ class CfgVehicles {
 		bsCamo = "WT"; 
 		displayName = "Rifleman (Winter)"; 
 		faction = "BS_B_US_DEVGRU_2023"; 
-		identityTypes[] = {"WhiteHead_16", "Male12ENG" ,"G_NATO_default"};
+		identityTypes[] = {"CamoHead_Greek_05_F", "Male05ENG" ,"G_NATO_default"};
 		uniformClass = "U_mas_cia_B_CombatUniform_w"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","H_mas_cia_airframe_w"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","H_mas_cia_airframe_w"}; 
@@ -826,7 +826,7 @@ class CfgVehicles {
 		bsCamo = "WT"; 
 		displayName = "Rifleman (Winter)"; 
 		faction = "BS_I_US_DEVGRU_2023"; 
-		identityTypes[] = {"WhiteHead_16", "Male12ENG" ,"G_NATO_default"};
+		identityTypes[] = {"CamoHead_Greek_05_F", "Male05ENG" ,"G_NATO_default"};
 		uniformClass = "U_mas_cia_B_CombatUniform_w"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","H_mas_cia_airframe_w"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","H_mas_cia_airframe_w"}; 
@@ -854,7 +854,7 @@ class CfgVehicles {
 		bsCamo = "WT"; 
 		displayName = "Grenadier (Winter)"; 
 		faction = "BS_O_US_DEVGRU_2023"; 
-		identityTypes[] = {"TanoanHead_A3_02", "Male08ENG" ,"G_NATO_default"};
+		identityTypes[] = {"WhiteHead_12", "Male01ENG" ,"G_NATO_default"};
 		uniformClass = "U_mas_cia_B_suite_WINT"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","USP_RAID_SMW2_BLK","H_mas_cia_helmet_ops_w"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","USP_RAID_SMW2_BLK","H_mas_cia_helmet_ops_w"}; 
@@ -882,7 +882,7 @@ class CfgVehicles {
 		bsCamo = "WT"; 
 		displayName = "Grenadier (Winter)"; 
 		faction = "BS_B_US_DEVGRU_2023"; 
-		identityTypes[] = {"TanoanHead_A3_02", "Male08ENG" ,"G_NATO_default"};
+		identityTypes[] = {"WhiteHead_12", "Male01ENG" ,"G_NATO_default"};
 		uniformClass = "U_mas_cia_B_suite_WINT"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","USP_RAID_SMW2_BLK","H_mas_cia_helmet_ops_w"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","USP_RAID_SMW2_BLK","H_mas_cia_helmet_ops_w"}; 
@@ -910,7 +910,7 @@ class CfgVehicles {
 		bsCamo = "WT"; 
 		displayName = "Grenadier (Winter)"; 
 		faction = "BS_I_US_DEVGRU_2023"; 
-		identityTypes[] = {"TanoanHead_A3_02", "Male08ENG" ,"G_NATO_default"};
+		identityTypes[] = {"WhiteHead_12", "Male01ENG" ,"G_NATO_default"};
 		uniformClass = "U_mas_cia_B_suite_WINT"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","USP_RAID_SMW2_BLK","H_mas_cia_helmet_ops_w"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","USP_RAID_SMW2_BLK","H_mas_cia_helmet_ops_w"}; 
@@ -938,7 +938,7 @@ class CfgVehicles {
 		bsCamo = "WT"; 
 		displayName = "Radio Operator (Winter)"; 
 		faction = "BS_O_US_DEVGRU_2023"; 
-		identityTypes[] = {"CamoHead_White_08_F", "Male03ENG" ,"G_NATO_default"};
+		identityTypes[] = {"CamoHead_Persian_01_F", "Male12ENG" ,"G_NATO_default"};
 		uniformClass = "U_mas_cia_B_CombatUniform_w2"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","USP_BALACLAVA_ESS_MCA2","H_mas_cia_beanie_w"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","USP_BALACLAVA_ESS_MCA2","H_mas_cia_beanie_w"}; 
@@ -966,7 +966,7 @@ class CfgVehicles {
 		bsCamo = "WT"; 
 		displayName = "Radio Operator (Winter)"; 
 		faction = "BS_B_US_DEVGRU_2023"; 
-		identityTypes[] = {"CamoHead_White_08_F", "Male03ENG" ,"G_NATO_default"};
+		identityTypes[] = {"CamoHead_Persian_01_F", "Male12ENG" ,"G_NATO_default"};
 		uniformClass = "U_mas_cia_B_CombatUniform_w2"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","USP_BALACLAVA_ESS_MCA2","H_mas_cia_beanie_w"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","USP_BALACLAVA_ESS_MCA2","H_mas_cia_beanie_w"}; 
@@ -994,7 +994,7 @@ class CfgVehicles {
 		bsCamo = "WT"; 
 		displayName = "Radio Operator (Winter)"; 
 		faction = "BS_I_US_DEVGRU_2023"; 
-		identityTypes[] = {"CamoHead_White_08_F", "Male03ENG" ,"G_NATO_default"};
+		identityTypes[] = {"CamoHead_Persian_01_F", "Male12ENG" ,"G_NATO_default"};
 		uniformClass = "U_mas_cia_B_CombatUniform_w2"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","USP_BALACLAVA_ESS_MCA2","H_mas_cia_beanie_w"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","USP_BALACLAVA_ESS_MCA2","H_mas_cia_beanie_w"}; 
@@ -1022,12 +1022,12 @@ class CfgVehicles {
 		bsCamo = "WT"; 
 		displayName = "Machine Gunner (Winter)"; 
 		faction = "BS_O_US_DEVGRU_2023"; 
-		identityTypes[] = {"CamoHead_White_18_F", "Male10ENG" ,"G_NATO_default"};
+		identityTypes[] = {"GreekHead_A3_10_sa", "Male09ENG" ,"G_NATO_default"};
 		uniformClass = "U_mas_cia_B_CombatUniform_w"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","H_mas_cia_airframe_w"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","H_mas_cia_airframe_w"}; 
-		weapons[] = {"LMG_mas_cia_02_F","rhsusf_weap_MP7A2_folded","ACE_Yardage450"}; 
-		respawnWeapons[] = {"LMG_mas_cia_02_F","rhsusf_weap_MP7A2_folded","ACE_Yardage450"};
+		weapons[] = {"CUP_lmg_Mk48","rhsusf_weap_MP7A2_folded","ACE_Yardage450"}; 
+		respawnWeapons[] = {"CUP_lmg_Mk48","rhsusf_weap_MP7A2_folded","ACE_Yardage450"};
 		magazines[] = {};
 		respawnMagazines[] = {};
 		backpack = "B_mas_cia_AssaultPack_w";
@@ -1035,7 +1035,7 @@ class CfgVehicles {
 		{
 			init = "[(_this select 0)] call SpecOps_fnc_commonUnitSetLoadout;";
 		};
-		ALiVE_orbatCreator_loadout[] = {{"LMG_mas_cia_02_F","ACE_muzzle_mzls_93mmg","rhsusf_acc_anpeq15_bk_top","optic_tws_mg",{"150Rnd_93x64_Mag",120},{},"rhs_acc_harris_swivel"},{},{"rhsusf_weap_MP7A2_folded","rhsusf_acc_rotex_mp7","rhsusf_acc_anpeq15side_bk","rhsusf_acc_eotech_xps3",{"rhsusf_mag_40Rnd_46x30_JHP",40},{},""},{"U_mas_cia_B_CombatUniform_w",{{"ACE_elasticBandage",8},{"ACE_quikclot",10},{"ACE_epinephrine",1},{"ACE_morphine",2},{"ACE_tourniquet",4},{"ACE_microDAGR",1},{"ACE_EntrenchingTool",1},{"ACE_personalAidKit",1},{"ACE_EarPlugs",1}}},{"V_mas_cia_PlateCarrierAR_win",{{"SmokeShell",6,1},{"rhs_mag_m67",2,1}}},{"B_mas_cia_AssaultPack_w",{{"ACE_CableTie",3},{"ACE_IR_Strobe_Item",1},{"150Rnd_93x64_Mag",5,120}}},"H_mas_cia_airframe_w","",{"ACE_Yardage450","","","",{},{},""},{"ItemMap","ItemGPS","TFAR_anprc148jem","ItemCompass","Itemwatch",""}};
+		ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_Mk48","ACE_muzzle_mzls_B","CUP_acc_ANPEQ_15_Black","optic_tws_mg",{"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M",100},{},""},{},{"rhsusf_weap_MP7A2_folded","rhsusf_acc_rotex_mp7","rhsusf_acc_anpeq15side_bk","rhsusf_acc_eotech_xps3",{"rhsusf_mag_40Rnd_46x30_JHP",40},{},""},{"U_mas_cia_B_CombatUniform_w",{{"ACE_elasticBandage",8},{"ACE_quikclot",10},{"ACE_epinephrine",1},{"ACE_morphine",2},{"ACE_tourniquet",4},{"ACE_microDAGR",1},{"ACE_EntrenchingTool",1},{"ACE_personalAidKit",1},{"ACE_EarPlugs",1}}},{"V_mas_cia_PlateCarrierAR_win",{{"SmokeShell",6,1},{"rhs_mag_m67",2,1}}},{"B_mas_cia_AssaultPack_w",{{"ACE_CableTie",3},{"ACE_IR_Strobe_Item",1},{"CUP_100Rnd_TE4_LRT4_Yellow_Tracer_762x51_Belt_M",1,100},{"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M",1,100},{"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",1,100},{"CUP_100Rnd_TE4_LRT4_Green_Tracer_762x51_Belt_M",4,100}}},"H_mas_cia_airframe_w","",{"ACE_Yardage450","","","",{},{},""},{"ItemMap","ItemGPS","TFAR_anprc148jem","ItemCompass","Itemwatch",""}};
 		ALiVE_orbatCreator_owned = 1;
 		side = 0; 
 	}; 
@@ -1050,12 +1050,12 @@ class CfgVehicles {
 		bsCamo = "WT"; 
 		displayName = "Machine Gunner (Winter)"; 
 		faction = "BS_B_US_DEVGRU_2023"; 
-		identityTypes[] = {"CamoHead_White_18_F", "Male10ENG" ,"G_NATO_default"};
+		identityTypes[] = {"GreekHead_A3_10_sa", "Male09ENG" ,"G_NATO_default"};
 		uniformClass = "U_mas_cia_B_CombatUniform_w"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","H_mas_cia_airframe_w"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","H_mas_cia_airframe_w"}; 
-		weapons[] = {"LMG_mas_cia_02_F","rhsusf_weap_MP7A2_folded","ACE_Yardage450"}; 
-		respawnWeapons[] = {"LMG_mas_cia_02_F","rhsusf_weap_MP7A2_folded","ACE_Yardage450"};
+		weapons[] = {"CUP_lmg_Mk48","rhsusf_weap_MP7A2_folded","ACE_Yardage450"}; 
+		respawnWeapons[] = {"CUP_lmg_Mk48","rhsusf_weap_MP7A2_folded","ACE_Yardage450"};
 		magazines[] = {};
 		respawnMagazines[] = {};
 		backpack = "B_mas_cia_AssaultPack_w";
@@ -1063,7 +1063,7 @@ class CfgVehicles {
 		{
 			init = "[(_this select 0)] call SpecOps_fnc_commonUnitSetLoadout;";
 		};
-		ALiVE_orbatCreator_loadout[] = {{"LMG_mas_cia_02_F","ACE_muzzle_mzls_93mmg","rhsusf_acc_anpeq15_bk_top","optic_tws_mg",{"150Rnd_93x64_Mag",120},{},"rhs_acc_harris_swivel"},{},{"rhsusf_weap_MP7A2_folded","rhsusf_acc_rotex_mp7","rhsusf_acc_anpeq15side_bk","rhsusf_acc_eotech_xps3",{"rhsusf_mag_40Rnd_46x30_JHP",40},{},""},{"U_mas_cia_B_CombatUniform_w",{{"ACE_elasticBandage",8},{"ACE_quikclot",10},{"ACE_epinephrine",1},{"ACE_morphine",2},{"ACE_tourniquet",4},{"ACE_microDAGR",1},{"ACE_EntrenchingTool",1},{"ACE_personalAidKit",1},{"ACE_EarPlugs",1}}},{"V_mas_cia_PlateCarrierAR_win",{{"SmokeShell",6,1},{"rhs_mag_m67",2,1}}},{"B_mas_cia_AssaultPack_w",{{"ACE_CableTie",3},{"ACE_IR_Strobe_Item",1},{"150Rnd_93x64_Mag",5,120}}},"H_mas_cia_airframe_w","",{"ACE_Yardage450","","","",{},{},""},{"ItemMap","ItemGPS","TFAR_anprc148jem","ItemCompass","Itemwatch",""}};
+		ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_Mk48","ACE_muzzle_mzls_B","CUP_acc_ANPEQ_15_Black","optic_tws_mg",{"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M",100},{},""},{},{"rhsusf_weap_MP7A2_folded","rhsusf_acc_rotex_mp7","rhsusf_acc_anpeq15side_bk","rhsusf_acc_eotech_xps3",{"rhsusf_mag_40Rnd_46x30_JHP",40},{},""},{"U_mas_cia_B_CombatUniform_w",{{"ACE_elasticBandage",8},{"ACE_quikclot",10},{"ACE_epinephrine",1},{"ACE_morphine",2},{"ACE_tourniquet",4},{"ACE_microDAGR",1},{"ACE_EntrenchingTool",1},{"ACE_personalAidKit",1},{"ACE_EarPlugs",1}}},{"V_mas_cia_PlateCarrierAR_win",{{"SmokeShell",6,1},{"rhs_mag_m67",2,1}}},{"B_mas_cia_AssaultPack_w",{{"ACE_CableTie",3},{"ACE_IR_Strobe_Item",1},{"CUP_100Rnd_TE4_LRT4_Yellow_Tracer_762x51_Belt_M",1,100},{"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M",1,100},{"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",1,100},{"CUP_100Rnd_TE4_LRT4_Green_Tracer_762x51_Belt_M",4,100}}},"H_mas_cia_airframe_w","",{"ACE_Yardage450","","","",{},{},""},{"ItemMap","ItemGPS","TFAR_anprc148jem","ItemCompass","Itemwatch",""}};
 		ALiVE_orbatCreator_owned = 1;
 		side = 1; 
 	}; 
@@ -1078,12 +1078,12 @@ class CfgVehicles {
 		bsCamo = "WT"; 
 		displayName = "Machine Gunner (Winter)"; 
 		faction = "BS_I_US_DEVGRU_2023"; 
-		identityTypes[] = {"CamoHead_White_18_F", "Male10ENG" ,"G_NATO_default"};
+		identityTypes[] = {"GreekHead_A3_10_sa", "Male09ENG" ,"G_NATO_default"};
 		uniformClass = "U_mas_cia_B_CombatUniform_w"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","H_mas_cia_airframe_w"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","H_mas_cia_airframe_w"}; 
-		weapons[] = {"LMG_mas_cia_02_F","rhsusf_weap_MP7A2_folded","ACE_Yardage450"}; 
-		respawnWeapons[] = {"LMG_mas_cia_02_F","rhsusf_weap_MP7A2_folded","ACE_Yardage450"};
+		weapons[] = {"CUP_lmg_Mk48","rhsusf_weap_MP7A2_folded","ACE_Yardage450"}; 
+		respawnWeapons[] = {"CUP_lmg_Mk48","rhsusf_weap_MP7A2_folded","ACE_Yardage450"};
 		magazines[] = {};
 		respawnMagazines[] = {};
 		backpack = "B_mas_cia_AssaultPack_w";
@@ -1091,7 +1091,7 @@ class CfgVehicles {
 		{
 			init = "[(_this select 0)] call SpecOps_fnc_commonUnitSetLoadout;";
 		};
-		ALiVE_orbatCreator_loadout[] = {{"LMG_mas_cia_02_F","ACE_muzzle_mzls_93mmg","rhsusf_acc_anpeq15_bk_top","optic_tws_mg",{"150Rnd_93x64_Mag",120},{},"rhs_acc_harris_swivel"},{},{"rhsusf_weap_MP7A2_folded","rhsusf_acc_rotex_mp7","rhsusf_acc_anpeq15side_bk","rhsusf_acc_eotech_xps3",{"rhsusf_mag_40Rnd_46x30_JHP",40},{},""},{"U_mas_cia_B_CombatUniform_w",{{"ACE_elasticBandage",8},{"ACE_quikclot",10},{"ACE_epinephrine",1},{"ACE_morphine",2},{"ACE_tourniquet",4},{"ACE_microDAGR",1},{"ACE_EntrenchingTool",1},{"ACE_personalAidKit",1},{"ACE_EarPlugs",1}}},{"V_mas_cia_PlateCarrierAR_win",{{"SmokeShell",6,1},{"rhs_mag_m67",2,1}}},{"B_mas_cia_AssaultPack_w",{{"ACE_CableTie",3},{"ACE_IR_Strobe_Item",1},{"150Rnd_93x64_Mag",5,120}}},"H_mas_cia_airframe_w","",{"ACE_Yardage450","","","",{},{},""},{"ItemMap","ItemGPS","TFAR_anprc148jem","ItemCompass","Itemwatch",""}};
+		ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_Mk48","ACE_muzzle_mzls_B","CUP_acc_ANPEQ_15_Black","optic_tws_mg",{"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M",100},{},""},{},{"rhsusf_weap_MP7A2_folded","rhsusf_acc_rotex_mp7","rhsusf_acc_anpeq15side_bk","rhsusf_acc_eotech_xps3",{"rhsusf_mag_40Rnd_46x30_JHP",40},{},""},{"U_mas_cia_B_CombatUniform_w",{{"ACE_elasticBandage",8},{"ACE_quikclot",10},{"ACE_epinephrine",1},{"ACE_morphine",2},{"ACE_tourniquet",4},{"ACE_microDAGR",1},{"ACE_EntrenchingTool",1},{"ACE_personalAidKit",1},{"ACE_EarPlugs",1}}},{"V_mas_cia_PlateCarrierAR_win",{{"SmokeShell",6,1},{"rhs_mag_m67",2,1}}},{"B_mas_cia_AssaultPack_w",{{"ACE_CableTie",3},{"ACE_IR_Strobe_Item",1},{"CUP_100Rnd_TE4_LRT4_Yellow_Tracer_762x51_Belt_M",1,100},{"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M",1,100},{"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",1,100},{"CUP_100Rnd_TE4_LRT4_Green_Tracer_762x51_Belt_M",4,100}}},"H_mas_cia_airframe_w","",{"ACE_Yardage450","","","",{},{},""},{"ItemMap","ItemGPS","TFAR_anprc148jem","ItemCompass","Itemwatch",""}};
 		ALiVE_orbatCreator_owned = 1;
 		side = 2; 
 	}; 
@@ -1106,7 +1106,7 @@ class CfgVehicles {
 		bsCamo = "WT"; 
 		displayName = "Sniper (Winter)"; 
 		faction = "BS_O_US_DEVGRU_2023"; 
-		identityTypes[] = {"CamoHead_White_18_F", "Male01ENG" ,"G_NATO_default"};
+		identityTypes[] = {"CamoHead_White_09_F", "Male06ENG" ,"G_NATO_default"};
 		uniformClass = "U_mas_cia_B_CombatUniform_w2"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","H_mas_cia_beanie_w"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","H_mas_cia_beanie_w"}; 
@@ -1134,7 +1134,7 @@ class CfgVehicles {
 		bsCamo = "WT"; 
 		displayName = "Sniper (Winter)"; 
 		faction = "BS_B_US_DEVGRU_2023"; 
-		identityTypes[] = {"CamoHead_White_18_F", "Male01ENG" ,"G_NATO_default"};
+		identityTypes[] = {"CamoHead_White_09_F", "Male06ENG" ,"G_NATO_default"};
 		uniformClass = "U_mas_cia_B_CombatUniform_w2"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","H_mas_cia_beanie_w"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","H_mas_cia_beanie_w"}; 
@@ -1162,7 +1162,7 @@ class CfgVehicles {
 		bsCamo = "WT"; 
 		displayName = "Sniper (Winter)"; 
 		faction = "BS_I_US_DEVGRU_2023"; 
-		identityTypes[] = {"CamoHead_White_18_F", "Male01ENG" ,"G_NATO_default"};
+		identityTypes[] = {"CamoHead_White_09_F", "Male06ENG" ,"G_NATO_default"};
 		uniformClass = "U_mas_cia_B_CombatUniform_w2"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","H_mas_cia_beanie_w"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","H_mas_cia_beanie_w"}; 
@@ -1190,7 +1190,7 @@ class CfgVehicles {
 		bsCamo = "WT"; 
 		displayName = "Doctor (Winter)"; 
 		faction = "BS_O_US_DEVGRU_2023"; 
-		identityTypes[] = {"TanoanHead_A3_04", "Male10ENG" ,"G_NATO_default"};
+		identityTypes[] = {"CamoHead_White_19_F", "Male05ENG" ,"G_NATO_default"};
 		uniformClass = "U_mas_cia_B_CombatUniform_w"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","H_mas_cia_beanie_w"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","H_mas_cia_beanie_w"}; 
@@ -1218,7 +1218,7 @@ class CfgVehicles {
 		bsCamo = "WT"; 
 		displayName = "Doctor (Winter)"; 
 		faction = "BS_B_US_DEVGRU_2023"; 
-		identityTypes[] = {"TanoanHead_A3_04", "Male10ENG" ,"G_NATO_default"};
+		identityTypes[] = {"CamoHead_White_19_F", "Male05ENG" ,"G_NATO_default"};
 		uniformClass = "U_mas_cia_B_CombatUniform_w"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","H_mas_cia_beanie_w"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","H_mas_cia_beanie_w"}; 
@@ -1246,7 +1246,7 @@ class CfgVehicles {
 		bsCamo = "WT"; 
 		displayName = "Doctor (Winter)"; 
 		faction = "BS_I_US_DEVGRU_2023"; 
-		identityTypes[] = {"TanoanHead_A3_04", "Male10ENG" ,"G_NATO_default"};
+		identityTypes[] = {"CamoHead_White_19_F", "Male05ENG" ,"G_NATO_default"};
 		uniformClass = "U_mas_cia_B_CombatUniform_w"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","H_mas_cia_beanie_w"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","H_mas_cia_beanie_w"}; 
@@ -1274,7 +1274,7 @@ class CfgVehicles {
 		bsCamo = "DT"; 
 		displayName = "Rifleman (Desert)"; 
 		faction = "BS_O_US_DEVGRU_2023"; 
-		identityTypes[] = {"CamoHead_Greek_02_F", "Male10ENG" ,"G_NATO_default"};
+		identityTypes[] = {"TanoanHead_A3_03", "Male05ENG" ,"G_NATO_default"};
 		uniformClass = "USP_G3F_G3C_KP_MX_AOR1"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","USP_OPSCORE_FASTMTC_KTBANSHEE_MS"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","USP_OPSCORE_FASTMTC_KTBANSHEE_MS"}; 
@@ -1302,7 +1302,7 @@ class CfgVehicles {
 		bsCamo = "DT"; 
 		displayName = "Rifleman (Desert)"; 
 		faction = "BS_B_US_DEVGRU_2023"; 
-		identityTypes[] = {"CamoHead_Greek_02_F", "Male10ENG" ,"G_NATO_default"};
+		identityTypes[] = {"TanoanHead_A3_03", "Male05ENG" ,"G_NATO_default"};
 		uniformClass = "USP_G3F_G3C_KP_MX_AOR1"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","USP_OPSCORE_FASTMTC_KTBANSHEE_MS"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","USP_OPSCORE_FASTMTC_KTBANSHEE_MS"}; 
@@ -1330,7 +1330,7 @@ class CfgVehicles {
 		bsCamo = "DT"; 
 		displayName = "Rifleman (Desert)"; 
 		faction = "BS_I_US_DEVGRU_2023"; 
-		identityTypes[] = {"CamoHead_Greek_02_F", "Male10ENG" ,"G_NATO_default"};
+		identityTypes[] = {"TanoanHead_A3_03", "Male05ENG" ,"G_NATO_default"};
 		uniformClass = "USP_G3F_G3C_KP_MX_AOR1"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","USP_OPSCORE_FASTMTC_KTBANSHEE_MS"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","USP_OPSCORE_FASTMTC_KTBANSHEE_MS"}; 
@@ -1358,7 +1358,7 @@ class CfgVehicles {
 		bsCamo = "DT"; 
 		displayName = "Grenadier (Desert)"; 
 		faction = "BS_O_US_DEVGRU_2023"; 
-		identityTypes[] = {"CamoHead_White_15_F", "Male08ENG" ,"G_NATO_default"};
+		identityTypes[] = {"AsianHead_A3_01", "Male07ENG" ,"G_NATO_default"};
 		uniformClass = "USP_G3C_KP_MX_AOR1"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","USP_OPSCORE_FASTMTC_KTBANSHEE_MS"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","USP_OPSCORE_FASTMTC_KTBANSHEE_MS"}; 
@@ -1386,7 +1386,7 @@ class CfgVehicles {
 		bsCamo = "DT"; 
 		displayName = "Grenadier (Desert)"; 
 		faction = "BS_B_US_DEVGRU_2023"; 
-		identityTypes[] = {"CamoHead_White_15_F", "Male08ENG" ,"G_NATO_default"};
+		identityTypes[] = {"AsianHead_A3_01", "Male07ENG" ,"G_NATO_default"};
 		uniformClass = "USP_G3C_KP_MX_AOR1"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","USP_OPSCORE_FASTMTC_KTBANSHEE_MS"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","USP_OPSCORE_FASTMTC_KTBANSHEE_MS"}; 
@@ -1414,7 +1414,7 @@ class CfgVehicles {
 		bsCamo = "DT"; 
 		displayName = "Grenadier (Desert)"; 
 		faction = "BS_I_US_DEVGRU_2023"; 
-		identityTypes[] = {"CamoHead_White_15_F", "Male08ENG" ,"G_NATO_default"};
+		identityTypes[] = {"AsianHead_A3_01", "Male07ENG" ,"G_NATO_default"};
 		uniformClass = "USP_G3C_KP_MX_AOR1"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","USP_OPSCORE_FASTMTC_KTBANSHEE_MS"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","USP_OPSCORE_FASTMTC_KTBANSHEE_MS"}; 
@@ -1442,7 +1442,7 @@ class CfgVehicles {
 		bsCamo = "DT"; 
 		displayName = "Radio Operator (Desert)"; 
 		faction = "BS_O_US_DEVGRU_2023"; 
-		identityTypes[] = {"GreekHead_A3_05", "Male03ENG" ,"G_NATO_default"};
+		identityTypes[] = {"GreekHead_A3_06", "Male12ENG" ,"G_NATO_default"};
 		uniformClass = "USP_G3C_KP_MX_AOR1"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","USP_OPSCORE_FASTMTC_KTBANSHEE_MSW"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","USP_OPSCORE_FASTMTC_KTBANSHEE_MSW"}; 
@@ -1470,7 +1470,7 @@ class CfgVehicles {
 		bsCamo = "DT"; 
 		displayName = "Radio Operator (Desert)"; 
 		faction = "BS_B_US_DEVGRU_2023"; 
-		identityTypes[] = {"GreekHead_A3_05", "Male03ENG" ,"G_NATO_default"};
+		identityTypes[] = {"GreekHead_A3_06", "Male12ENG" ,"G_NATO_default"};
 		uniformClass = "USP_G3C_KP_MX_AOR1"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","USP_OPSCORE_FASTMTC_KTBANSHEE_MSW"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","USP_OPSCORE_FASTMTC_KTBANSHEE_MSW"}; 
@@ -1498,7 +1498,7 @@ class CfgVehicles {
 		bsCamo = "DT"; 
 		displayName = "Radio Operator (Desert)"; 
 		faction = "BS_I_US_DEVGRU_2023"; 
-		identityTypes[] = {"GreekHead_A3_05", "Male03ENG" ,"G_NATO_default"};
+		identityTypes[] = {"GreekHead_A3_06", "Male12ENG" ,"G_NATO_default"};
 		uniformClass = "USP_G3C_KP_MX_AOR1"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","USP_OPSCORE_FASTMTC_KTBANSHEE_MSW"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","USP_OPSCORE_FASTMTC_KTBANSHEE_MSW"}; 
@@ -1526,12 +1526,12 @@ class CfgVehicles {
 		bsCamo = "DT"; 
 		displayName = "Machine Gunner (Desert)"; 
 		faction = "BS_O_US_DEVGRU_2023"; 
-		identityTypes[] = {"WhiteHead_07", "Male03ENG" ,"G_NATO_default"};
+		identityTypes[] = {"AfricanHead_01", "Male03ENG" ,"G_NATO_default"};
 		uniformClass = "USP_G3C_KP_MX_AOR1"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","USP_OPSCORE_FASTMTC_KTBANSHEE_MTW"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","USP_OPSCORE_FASTMTC_KTBANSHEE_MTW"}; 
-		weapons[] = {"LMG_mas_cia_02_F","rhsusf_weap_MP7A2_folded","ACE_Yardage450"}; 
-		respawnWeapons[] = {"LMG_mas_cia_02_F","rhsusf_weap_MP7A2_folded","ACE_Yardage450"};
+		weapons[] = {"CUP_lmg_Mk48_nohg_des","rhsusf_weap_MP7A2_folded","ACE_Yardage450"}; 
+		respawnWeapons[] = {"CUP_lmg_Mk48_nohg_des","rhsusf_weap_MP7A2_folded","ACE_Yardage450"};
 		magazines[] = {};
 		respawnMagazines[] = {};
 		backpack = "tfa_eagle_aor1";
@@ -1539,7 +1539,7 @@ class CfgVehicles {
 		{
 			init = "[(_this select 0)] call SpecOps_fnc_commonUnitSetLoadout;";
 		};
-		ALiVE_orbatCreator_loadout[] = {{"LMG_mas_cia_02_F","ACE_muzzle_mzls_93mmg","rhsusf_acc_anpeq15_bk_top","optic_tws_mg",{"150Rnd_93x64_Mag",120},{},"rhs_acc_harris_swivel"},{},{"rhsusf_weap_MP7A2_folded","rhsusf_acc_rotex_mp7","rhsusf_acc_anpeq15side_bk","rhsusf_acc_eotech_xps3",{"rhsusf_mag_40Rnd_46x30_JHP",40},{},""},{"USP_G3C_KP_MX_AOR1",{{"ACE_elasticBandage",8},{"ACE_quikclot",10},{"ACE_epinephrine",1},{"ACE_morphine",2},{"ACE_tourniquet",4},{"ACE_microDAGR",1},{"ACE_EntrenchingTool",1},{"ACE_personalAidKit",1},{"ACE_EarPlugs",1}}},{"tfa_lbt_operator_aor1",{{"SmokeShell",6,1},{"rhs_mag_m67",2,1}}},{"tfa_eagle_aor1",{{"ACE_CableTie",3},{"ACE_IR_Strobe_Item",1},{"150Rnd_93x64_Mag",5,120}}},"USP_OPSCORE_FASTMTC_KTBANSHEE_MTW","",{"ACE_Yardage450","","","",{},{},""},{"ItemMap","ItemGPS","TFAR_anprc148jem","ItemCompass","Itemwatch",""}};
+		ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_Mk48_nohg_des","ACE_muzzle_mzls_B","CUP_acc_ANPEQ_15","optic_tws_mg",{"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M",100},{},""},{},{"rhsusf_weap_MP7A2_folded","rhsusf_acc_rotex_mp7","rhsusf_acc_anpeq15side_bk","rhsusf_acc_eotech_xps3",{"rhsusf_mag_40Rnd_46x30_JHP",40},{},""},{"USP_G3C_KP_MX_AOR1",{{"ACE_elasticBandage",8},{"ACE_quikclot",10},{"ACE_epinephrine",1},{"ACE_morphine",2},{"ACE_tourniquet",4},{"ACE_microDAGR",1},{"ACE_EntrenchingTool",1},{"ACE_personalAidKit",1},{"ACE_EarPlugs",1}}},{"tfa_lbt_operator_aor1",{{"SmokeShell",6,1},{"rhs_mag_m67",2,1}}},{"tfa_eagle_aor1",{{"ACE_CableTie",3},{"ACE_IR_Strobe_Item",1},{"CUP_100Rnd_TE4_LRT4_Yellow_Tracer_762x51_Belt_M",1,100},{"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",1,100},{"CUP_100Rnd_TE4_LRT4_Green_Tracer_762x51_Belt_M",1,100},{"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M",5,100}}},"USP_OPSCORE_FASTMTC_KTBANSHEE_MTW","",{"ACE_Yardage450","","","",{},{},""},{"ItemMap","ItemGPS","TFAR_anprc148jem","ItemCompass","Itemwatch",""}};
 		ALiVE_orbatCreator_owned = 1;
 		side = 0; 
 	}; 
@@ -1554,12 +1554,12 @@ class CfgVehicles {
 		bsCamo = "DT"; 
 		displayName = "Machine Gunner (Desert)"; 
 		faction = "BS_B_US_DEVGRU_2023"; 
-		identityTypes[] = {"WhiteHead_07", "Male03ENG" ,"G_NATO_default"};
+		identityTypes[] = {"AfricanHead_01", "Male03ENG" ,"G_NATO_default"};
 		uniformClass = "USP_G3C_KP_MX_AOR1"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","USP_OPSCORE_FASTMTC_KTBANSHEE_MTW"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","USP_OPSCORE_FASTMTC_KTBANSHEE_MTW"}; 
-		weapons[] = {"LMG_mas_cia_02_F","rhsusf_weap_MP7A2_folded","ACE_Yardage450"}; 
-		respawnWeapons[] = {"LMG_mas_cia_02_F","rhsusf_weap_MP7A2_folded","ACE_Yardage450"};
+		weapons[] = {"CUP_lmg_Mk48_nohg_des","rhsusf_weap_MP7A2_folded","ACE_Yardage450"}; 
+		respawnWeapons[] = {"CUP_lmg_Mk48_nohg_des","rhsusf_weap_MP7A2_folded","ACE_Yardage450"};
 		magazines[] = {};
 		respawnMagazines[] = {};
 		backpack = "tfa_eagle_aor1";
@@ -1567,7 +1567,7 @@ class CfgVehicles {
 		{
 			init = "[(_this select 0)] call SpecOps_fnc_commonUnitSetLoadout;";
 		};
-		ALiVE_orbatCreator_loadout[] = {{"LMG_mas_cia_02_F","ACE_muzzle_mzls_93mmg","rhsusf_acc_anpeq15_bk_top","optic_tws_mg",{"150Rnd_93x64_Mag",120},{},"rhs_acc_harris_swivel"},{},{"rhsusf_weap_MP7A2_folded","rhsusf_acc_rotex_mp7","rhsusf_acc_anpeq15side_bk","rhsusf_acc_eotech_xps3",{"rhsusf_mag_40Rnd_46x30_JHP",40},{},""},{"USP_G3C_KP_MX_AOR1",{{"ACE_elasticBandage",8},{"ACE_quikclot",10},{"ACE_epinephrine",1},{"ACE_morphine",2},{"ACE_tourniquet",4},{"ACE_microDAGR",1},{"ACE_EntrenchingTool",1},{"ACE_personalAidKit",1},{"ACE_EarPlugs",1}}},{"tfa_lbt_operator_aor1",{{"SmokeShell",6,1},{"rhs_mag_m67",2,1}}},{"tfa_eagle_aor1",{{"ACE_CableTie",3},{"ACE_IR_Strobe_Item",1},{"150Rnd_93x64_Mag",5,120}}},"USP_OPSCORE_FASTMTC_KTBANSHEE_MTW","",{"ACE_Yardage450","","","",{},{},""},{"ItemMap","ItemGPS","TFAR_anprc148jem","ItemCompass","Itemwatch",""}};
+		ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_Mk48_nohg_des","ACE_muzzle_mzls_B","CUP_acc_ANPEQ_15","optic_tws_mg",{"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M",100},{},""},{},{"rhsusf_weap_MP7A2_folded","rhsusf_acc_rotex_mp7","rhsusf_acc_anpeq15side_bk","rhsusf_acc_eotech_xps3",{"rhsusf_mag_40Rnd_46x30_JHP",40},{},""},{"USP_G3C_KP_MX_AOR1",{{"ACE_elasticBandage",8},{"ACE_quikclot",10},{"ACE_epinephrine",1},{"ACE_morphine",2},{"ACE_tourniquet",4},{"ACE_microDAGR",1},{"ACE_EntrenchingTool",1},{"ACE_personalAidKit",1},{"ACE_EarPlugs",1}}},{"tfa_lbt_operator_aor1",{{"SmokeShell",6,1},{"rhs_mag_m67",2,1}}},{"tfa_eagle_aor1",{{"ACE_CableTie",3},{"ACE_IR_Strobe_Item",1},{"CUP_100Rnd_TE4_LRT4_Yellow_Tracer_762x51_Belt_M",1,100},{"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",1,100},{"CUP_100Rnd_TE4_LRT4_Green_Tracer_762x51_Belt_M",1,100},{"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M",5,100}}},"USP_OPSCORE_FASTMTC_KTBANSHEE_MTW","",{"ACE_Yardage450","","","",{},{},""},{"ItemMap","ItemGPS","TFAR_anprc148jem","ItemCompass","Itemwatch",""}};
 		ALiVE_orbatCreator_owned = 1;
 		side = 1; 
 	}; 
@@ -1582,12 +1582,12 @@ class CfgVehicles {
 		bsCamo = "DT"; 
 		displayName = "Machine Gunner (Desert)"; 
 		faction = "BS_I_US_DEVGRU_2023"; 
-		identityTypes[] = {"WhiteHead_07", "Male03ENG" ,"G_NATO_default"};
+		identityTypes[] = {"AfricanHead_01", "Male03ENG" ,"G_NATO_default"};
 		uniformClass = "USP_G3C_KP_MX_AOR1"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","USP_OPSCORE_FASTMTC_KTBANSHEE_MTW"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","USP_OPSCORE_FASTMTC_KTBANSHEE_MTW"}; 
-		weapons[] = {"LMG_mas_cia_02_F","rhsusf_weap_MP7A2_folded","ACE_Yardage450"}; 
-		respawnWeapons[] = {"LMG_mas_cia_02_F","rhsusf_weap_MP7A2_folded","ACE_Yardage450"};
+		weapons[] = {"CUP_lmg_Mk48_nohg_des","rhsusf_weap_MP7A2_folded","ACE_Yardage450"}; 
+		respawnWeapons[] = {"CUP_lmg_Mk48_nohg_des","rhsusf_weap_MP7A2_folded","ACE_Yardage450"};
 		magazines[] = {};
 		respawnMagazines[] = {};
 		backpack = "tfa_eagle_aor1";
@@ -1595,7 +1595,7 @@ class CfgVehicles {
 		{
 			init = "[(_this select 0)] call SpecOps_fnc_commonUnitSetLoadout;";
 		};
-		ALiVE_orbatCreator_loadout[] = {{"LMG_mas_cia_02_F","ACE_muzzle_mzls_93mmg","rhsusf_acc_anpeq15_bk_top","optic_tws_mg",{"150Rnd_93x64_Mag",120},{},"rhs_acc_harris_swivel"},{},{"rhsusf_weap_MP7A2_folded","rhsusf_acc_rotex_mp7","rhsusf_acc_anpeq15side_bk","rhsusf_acc_eotech_xps3",{"rhsusf_mag_40Rnd_46x30_JHP",40},{},""},{"USP_G3C_KP_MX_AOR1",{{"ACE_elasticBandage",8},{"ACE_quikclot",10},{"ACE_epinephrine",1},{"ACE_morphine",2},{"ACE_tourniquet",4},{"ACE_microDAGR",1},{"ACE_EntrenchingTool",1},{"ACE_personalAidKit",1},{"ACE_EarPlugs",1}}},{"tfa_lbt_operator_aor1",{{"SmokeShell",6,1},{"rhs_mag_m67",2,1}}},{"tfa_eagle_aor1",{{"ACE_CableTie",3},{"ACE_IR_Strobe_Item",1},{"150Rnd_93x64_Mag",5,120}}},"USP_OPSCORE_FASTMTC_KTBANSHEE_MTW","",{"ACE_Yardage450","","","",{},{},""},{"ItemMap","ItemGPS","TFAR_anprc148jem","ItemCompass","Itemwatch",""}};
+		ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_Mk48_nohg_des","ACE_muzzle_mzls_B","CUP_acc_ANPEQ_15","optic_tws_mg",{"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M",100},{},""},{},{"rhsusf_weap_MP7A2_folded","rhsusf_acc_rotex_mp7","rhsusf_acc_anpeq15side_bk","rhsusf_acc_eotech_xps3",{"rhsusf_mag_40Rnd_46x30_JHP",40},{},""},{"USP_G3C_KP_MX_AOR1",{{"ACE_elasticBandage",8},{"ACE_quikclot",10},{"ACE_epinephrine",1},{"ACE_morphine",2},{"ACE_tourniquet",4},{"ACE_microDAGR",1},{"ACE_EntrenchingTool",1},{"ACE_personalAidKit",1},{"ACE_EarPlugs",1}}},{"tfa_lbt_operator_aor1",{{"SmokeShell",6,1},{"rhs_mag_m67",2,1}}},{"tfa_eagle_aor1",{{"ACE_CableTie",3},{"ACE_IR_Strobe_Item",1},{"CUP_100Rnd_TE4_LRT4_Yellow_Tracer_762x51_Belt_M",1,100},{"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",1,100},{"CUP_100Rnd_TE4_LRT4_Green_Tracer_762x51_Belt_M",1,100},{"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M",5,100}}},"USP_OPSCORE_FASTMTC_KTBANSHEE_MTW","",{"ACE_Yardage450","","","",{},{},""},{"ItemMap","ItemGPS","TFAR_anprc148jem","ItemCompass","Itemwatch",""}};
 		ALiVE_orbatCreator_owned = 1;
 		side = 2; 
 	}; 
@@ -1610,7 +1610,7 @@ class CfgVehicles {
 		bsCamo = "DT"; 
 		displayName = "Sniper (Desert)"; 
 		faction = "BS_O_US_DEVGRU_2023"; 
-		identityTypes[] = {"WhiteHead_10", "Male09ENG" ,"G_NATO_default"};
+		identityTypes[] = {"WhiteHead_03", "Male05ENG" ,"G_NATO_default"};
 		uniformClass = "USP_G3C_CS_KP_MX_AOR1"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","USP_OPSCORE_FASTMTC_KTBANSHEE_MSW"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","USP_OPSCORE_FASTMTC_KTBANSHEE_MSW"}; 
@@ -1638,7 +1638,7 @@ class CfgVehicles {
 		bsCamo = "DT"; 
 		displayName = "Sniper (Desert)"; 
 		faction = "BS_B_US_DEVGRU_2023"; 
-		identityTypes[] = {"WhiteHead_10", "Male09ENG" ,"G_NATO_default"};
+		identityTypes[] = {"WhiteHead_03", "Male05ENG" ,"G_NATO_default"};
 		uniformClass = "USP_G3C_CS_KP_MX_AOR1"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","USP_OPSCORE_FASTMTC_KTBANSHEE_MSW"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","USP_OPSCORE_FASTMTC_KTBANSHEE_MSW"}; 
@@ -1666,7 +1666,7 @@ class CfgVehicles {
 		bsCamo = "DT"; 
 		displayName = "Sniper (Desert)"; 
 		faction = "BS_I_US_DEVGRU_2023"; 
-		identityTypes[] = {"WhiteHead_10", "Male09ENG" ,"G_NATO_default"};
+		identityTypes[] = {"WhiteHead_03", "Male05ENG" ,"G_NATO_default"};
 		uniformClass = "USP_G3C_CS_KP_MX_AOR1"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","USP_OPSCORE_FASTMTC_KTBANSHEE_MSW"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","USP_OPSCORE_FASTMTC_KTBANSHEE_MSW"}; 
@@ -1694,7 +1694,7 @@ class CfgVehicles {
 		bsCamo = "DT"; 
 		displayName = "Doctor (Desert)"; 
 		faction = "BS_O_US_DEVGRU_2023"; 
-		identityTypes[] = {"WhiteHead_06", "Male03ENG" ,"G_NATO_default"};
+		identityTypes[] = {"WhiteHead_02", "Male08ENG" ,"G_NATO_default"};
 		uniformClass = "USP_G3C_CS_KP_MX_AOR1"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","USP_OPSCORE_FASTMTC_KTBANSHEE_MSW"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","USP_OPSCORE_FASTMTC_KTBANSHEE_MSW"}; 
@@ -1722,7 +1722,7 @@ class CfgVehicles {
 		bsCamo = "DT"; 
 		displayName = "Doctor (Desert)"; 
 		faction = "BS_B_US_DEVGRU_2023"; 
-		identityTypes[] = {"WhiteHead_06", "Male03ENG" ,"G_NATO_default"};
+		identityTypes[] = {"WhiteHead_02", "Male08ENG" ,"G_NATO_default"};
 		uniformClass = "USP_G3C_CS_KP_MX_AOR1"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","USP_OPSCORE_FASTMTC_KTBANSHEE_MSW"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","USP_OPSCORE_FASTMTC_KTBANSHEE_MSW"}; 
@@ -1750,7 +1750,7 @@ class CfgVehicles {
 		bsCamo = "DT"; 
 		displayName = "Doctor (Desert)"; 
 		faction = "BS_I_US_DEVGRU_2023"; 
-		identityTypes[] = {"WhiteHead_06", "Male03ENG" ,"G_NATO_default"};
+		identityTypes[] = {"WhiteHead_02", "Male08ENG" ,"G_NATO_default"};
 		uniformClass = "USP_G3C_CS_KP_MX_AOR1"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","USP_OPSCORE_FASTMTC_KTBANSHEE_MSW"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","USP_OPSCORE_FASTMTC_KTBANSHEE_MSW"}; 
@@ -1778,7 +1778,7 @@ class CfgVehicles {
 		bsCamo = "WT"; 
 		displayName = "Diver (Winter)"; 
 		faction = "BS_O_US_DEVGRU_2023"; 
-		identityTypes[] = {"WhiteHead_05", "Male05ENG" ,"G_NATO_default"};
+		identityTypes[] = {"WhiteHead_09", "Male07ENG" ,"G_NATO_default"};
 		uniformClass = "U_mas_cia_B_Wetsuit"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","NVGoggles_mas_cia_hv","G_B_Diving","H_HelmetSpecB_green"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","NVGoggles_mas_cia_hv","G_B_Diving","H_HelmetSpecB_green"}; 
@@ -1806,7 +1806,7 @@ class CfgVehicles {
 		bsCamo = "WT"; 
 		displayName = "Diver (Winter)"; 
 		faction = "BS_B_US_DEVGRU_2023"; 
-		identityTypes[] = {"WhiteHead_05", "Male05ENG" ,"G_NATO_default"};
+		identityTypes[] = {"WhiteHead_09", "Male07ENG" ,"G_NATO_default"};
 		uniformClass = "U_mas_cia_B_Wetsuit"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","NVGoggles_mas_cia_hv","G_B_Diving","H_HelmetSpecB_green"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","NVGoggles_mas_cia_hv","G_B_Diving","H_HelmetSpecB_green"}; 
@@ -1834,7 +1834,7 @@ class CfgVehicles {
 		bsCamo = "WT"; 
 		displayName = "Diver (Winter)"; 
 		faction = "BS_I_US_DEVGRU_2023"; 
-		identityTypes[] = {"WhiteHead_05", "Male05ENG" ,"G_NATO_default"};
+		identityTypes[] = {"WhiteHead_09", "Male07ENG" ,"G_NATO_default"};
 		uniformClass = "U_mas_cia_B_Wetsuit"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","NVGoggles_mas_cia_hv","G_B_Diving","H_HelmetSpecB_green"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","NVGoggles_mas_cia_hv","G_B_Diving","H_HelmetSpecB_green"}; 
@@ -1862,7 +1862,7 @@ class CfgVehicles {
 		bsCamo = "DT"; 
 		displayName = "Diver (Desert)"; 
 		faction = "BS_O_US_DEVGRU_2023"; 
-		identityTypes[] = {"CamoHead_White_04_F", "Male03ENG" ,"G_NATO_default"};
+		identityTypes[] = {"TanoanHead_A3_06", "Male07ENG" ,"G_NATO_default"};
 		uniformClass = "U_mas_cia_B_Wetsuit"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","NVGoggles_mas_cia_hv","G_B_Diving","H_HelmetSpecB_green"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","NVGoggles_mas_cia_hv","G_B_Diving","H_HelmetSpecB_green"}; 
@@ -1890,7 +1890,7 @@ class CfgVehicles {
 		bsCamo = "DT"; 
 		displayName = "Diver (Desert)"; 
 		faction = "BS_B_US_DEVGRU_2023"; 
-		identityTypes[] = {"CamoHead_White_04_F", "Male03ENG" ,"G_NATO_default"};
+		identityTypes[] = {"TanoanHead_A3_06", "Male07ENG" ,"G_NATO_default"};
 		uniformClass = "U_mas_cia_B_Wetsuit"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","NVGoggles_mas_cia_hv","G_B_Diving","H_HelmetSpecB_green"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","NVGoggles_mas_cia_hv","G_B_Diving","H_HelmetSpecB_green"}; 
@@ -1918,7 +1918,7 @@ class CfgVehicles {
 		bsCamo = "DT"; 
 		displayName = "Diver (Desert)"; 
 		faction = "BS_I_US_DEVGRU_2023"; 
-		identityTypes[] = {"CamoHead_White_04_F", "Male03ENG" ,"G_NATO_default"};
+		identityTypes[] = {"TanoanHead_A3_06", "Male07ENG" ,"G_NATO_default"};
 		uniformClass = "U_mas_cia_B_Wetsuit"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","NVGoggles_mas_cia_hv","G_B_Diving","H_HelmetSpecB_green"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","TFAR_anprc148jem","ItemGPS","NVGoggles_mas_cia_hv","G_B_Diving","H_HelmetSpecB_green"}; 
@@ -1946,7 +1946,7 @@ class CfgVehicles {
 		bsCamo = "WL"; 
 		displayName = "Officer (Woodland)"; 
 		faction = "BS_O_US_DEVGRU_2023"; 
-		identityTypes[] = {"TanoanHead_A3_07", "Male11ENG" ,"G_NATO_default"};
+		identityTypes[] = {"CamoHead_White_15_F", "Male09ENG" ,"G_NATO_default"};
 		uniformClass = "U_mas_cia_B_suite_CQB"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","ItemGPS","H_Hat_brown"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","ItemGPS","H_Hat_brown"}; 
@@ -1974,7 +1974,7 @@ class CfgVehicles {
 		bsCamo = "WL"; 
 		displayName = "Officer (Woodland)"; 
 		faction = "BS_B_US_DEVGRU_2023"; 
-		identityTypes[] = {"TanoanHead_A3_07", "Male11ENG" ,"G_NATO_default"};
+		identityTypes[] = {"CamoHead_White_15_F", "Male09ENG" ,"G_NATO_default"};
 		uniformClass = "U_mas_cia_B_suite_CQB"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","ItemGPS","H_Hat_brown"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","ItemGPS","H_Hat_brown"}; 
@@ -2002,7 +2002,7 @@ class CfgVehicles {
 		bsCamo = "WL"; 
 		displayName = "Officer (Woodland)"; 
 		faction = "BS_I_US_DEVGRU_2023"; 
-		identityTypes[] = {"TanoanHead_A3_07", "Male11ENG" ,"G_NATO_default"};
+		identityTypes[] = {"CamoHead_White_15_F", "Male09ENG" ,"G_NATO_default"};
 		uniformClass = "U_mas_cia_B_suite_CQB"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","ItemGPS","H_Hat_brown"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","ItemGPS","H_Hat_brown"}; 
@@ -2030,7 +2030,7 @@ class CfgVehicles {
 		bsCamo = "WT"; 
 		displayName = "Officer (Winter)"; 
 		faction = "BS_O_US_DEVGRU_2023"; 
-		identityTypes[] = {"CamoHead_White_08_F", "Male10ENG" ,"G_NATO_default"};
+		identityTypes[] = {"WhiteHead_06", "Male05ENG" ,"G_NATO_default"};
 		uniformClass = "U_mas_cia_B_CombatUniform_w"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","ItemGPS","H_Hat_grey"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","ItemGPS","H_Hat_grey"}; 
@@ -2058,7 +2058,7 @@ class CfgVehicles {
 		bsCamo = "WT"; 
 		displayName = "Officer (Winter)"; 
 		faction = "BS_B_US_DEVGRU_2023"; 
-		identityTypes[] = {"CamoHead_White_08_F", "Male10ENG" ,"G_NATO_default"};
+		identityTypes[] = {"WhiteHead_06", "Male05ENG" ,"G_NATO_default"};
 		uniformClass = "U_mas_cia_B_CombatUniform_w"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","ItemGPS","H_Hat_grey"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","ItemGPS","H_Hat_grey"}; 
@@ -2086,7 +2086,7 @@ class CfgVehicles {
 		bsCamo = "WT"; 
 		displayName = "Officer (Winter)"; 
 		faction = "BS_I_US_DEVGRU_2023"; 
-		identityTypes[] = {"CamoHead_White_08_F", "Male10ENG" ,"G_NATO_default"};
+		identityTypes[] = {"WhiteHead_06", "Male05ENG" ,"G_NATO_default"};
 		uniformClass = "U_mas_cia_B_CombatUniform_w"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","ItemGPS","H_Hat_grey"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","ItemGPS","H_Hat_grey"}; 
@@ -2114,7 +2114,7 @@ class CfgVehicles {
 		bsCamo = "DT"; 
 		displayName = "Officer (Desert)"; 
 		faction = "BS_O_US_DEVGRU_2023"; 
-		identityTypes[] = {"CamoHead_Asian_03_F", "Male07ENG" ,"G_NATO_default"};
+		identityTypes[] = {"TanoanHead_A3_07", "Male08ENG" ,"G_NATO_default"};
 		uniformClass = "U_mas_cia_B_suite_VEG"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","ItemGPS","H_Hat_camo"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","ItemGPS","H_Hat_camo"}; 
@@ -2142,7 +2142,7 @@ class CfgVehicles {
 		bsCamo = "DT"; 
 		displayName = "Officer (Desert)"; 
 		faction = "BS_B_US_DEVGRU_2023"; 
-		identityTypes[] = {"CamoHead_Asian_03_F", "Male07ENG" ,"G_NATO_default"};
+		identityTypes[] = {"TanoanHead_A3_07", "Male08ENG" ,"G_NATO_default"};
 		uniformClass = "U_mas_cia_B_suite_VEG"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","ItemGPS","H_Hat_camo"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","ItemGPS","H_Hat_camo"}; 
@@ -2170,7 +2170,7 @@ class CfgVehicles {
 		bsCamo = "DT"; 
 		displayName = "Officer (Desert)"; 
 		faction = "BS_I_US_DEVGRU_2023"; 
-		identityTypes[] = {"CamoHead_Asian_03_F", "Male07ENG" ,"G_NATO_default"};
+		identityTypes[] = {"TanoanHead_A3_07", "Male08ENG" ,"G_NATO_default"};
 		uniformClass = "U_mas_cia_B_suite_VEG"; 
 		linkedItems[] = {"ItemMap","ItemCompass","Itemwatch","ItemGPS","H_Hat_camo"}; 
 		respawnlinkedItems[] = {"ItemMap","ItemCompass","Itemwatch","ItemGPS","H_Hat_camo"}; 
@@ -2188,7 +2188,6 @@ class CfgVehicles {
 		side = 2; 
 	}; 
 };
-
 class CfgPatches
 {
 	class bm_specops_faction_US_DEVGRU_2023
@@ -2197,11 +2196,10 @@ class CfgPatches
 		units[]={};
 		weapons[]={};
 		requiredVersion=0.1;
-		requiredAddons[]={"mas_cia_jsog_weap","rhsusf_c_weapons","ace_irlight","A3_Weapons_F_Acc","YL_LPVO","ace_realisticnames","ace_scopes","rhs_c_weapons","Blastcore_MainCore","ace_compat_rhs_usf3_arsenal","ace_compat_rhs_usf3","A3_Characters_F_Exp","ace_medical_treatment","ace_microdagr","ace_trenches","ace_hearing","A3_Atlas_Characters_F_Atlas_Vests","A3_Weapons_F","ace_logistics_wirecutter","ace_huntir","ace_captives","ace_attach","A3_Atlas_Characters_F_Atlas_Headgear","ace_yardage450","tfar_handhelds","ace_chemlights","ace_flashsuppressors","A3_Weapons_F_Mark","A3_Aegis_Weapons_F_Aegis","ace_reload","A3_Atlas_Weapons_F_Atlas","ace_ballistics","Ivas_Goggles","ace_kestrel4500","ace_maptools","ace_rangecard","ace_atragmx","mas_cia_jsog","A3_Weapons_F_Exp","Snake_Titan_AMMO","A3_Aegis_Characters_F_Aegis_Uniforms","A3_Weapons_F_Mark_Acc","A3_Weapons_F_Enoch_Acc","A3_Weapons_F_Mark_LongRangeRifles_DMR_04","A3_Weapons_F_Launchers_Titan","ace_javelin","USP_Gear_Body","tfa_lbt","USP_Gear_Head","A3_Characters_F","A3_Aegis_Characters_F_Aegis_Vests"};
+		requiredAddons[]={"mas_cia_jsog_weap","rhsusf_c_weapons","ace_irlight","A3_Weapons_F_Acc","YL_LPVO","ace_realisticnames","ace_scopes","rhs_c_weapons","Blastcore_MainCore","ace_compat_rhs_usf3_arsenal","ace_compat_rhs_usf3","A3_Characters_F_Exp","ace_medical_treatment","ace_microdagr","ace_trenches","ace_hearing","A3_Atlas_Characters_F_Atlas_Vests","A3_Weapons_F","ace_logistics_wirecutter","ace_huntir","ace_captives","ace_attach","A3_Atlas_Characters_F_Atlas_Headgear","ace_yardage450","tfar_handhelds","ace_chemlights","CUP_Weapons_Mk48","CUP_Weapons_West_Attachments","CUP_Weapons_Ammunition","Ivas_Goggles","ace_kestrel4500","ace_maptools","ace_rangecard","ace_atragmx","mas_cia_jsog","A3_Weapons_F_Exp","A3_Aegis_Weapons_F_Aegis","ace_ballistics","Snake_Titan_AMMO","A3_Aegis_Characters_F_Aegis_Uniforms","A3_Weapons_F_Mark_Acc","A3_Weapons_F_Enoch_Acc","A3_Weapons_F_Mark_LongRangeRifles_DMR_04","A3_Weapons_F_Mark","A3_Weapons_F_Launchers_Titan","ace_javelin","ace_flashsuppressors","USP_Gear_Body","tfa_lbt","USP_Gear_Head","A3_Characters_F","A3_Aegis_Characters_F_Aegis_Vests"};
 		skipWhenMissingDependencies = 1;
 	};
 };
-
 class CfgFactionClasses {
 	// As Friendly (BluFOR)
 	class BS_B_US_DEVGRU_2023_BASE { 
@@ -2228,9 +2226,9 @@ class CfgFactionClasses {
 			"Camp Hazard", "Camp Ambition", "Camp Honesty", "Camp Energy", "Camp Chaos", "Camp Satellite", "Camp Stormgaze", 
 			"Camp Solitude", "Camp Fear", "Camp Hurricane", "Camp Murder",  "Camp Carnage", "Camp Salvation"
 		};
-		brokenSkullArsenal[]={"SmokeShellBlue","SmokeShellGreen","SmokeShellOrange","SmokeShellPurple","SmokeShellRed","SmokeShellYellow","ACE_bodyBag","ACE_bodyBag_blue","ACE_bodyBag_white","ACE_bloodIV","ACE_bloodIV_250","ACE_bloodIV_500","ACE_plasmaIV","ACE_plasmaIV_250","ACE_plasmaIV_500","ACE_salineIV","ACE_salineIV_250","ACE_salineIV_500","ACE_splint","ACE_surgicalKit","ACE_suture","ACE_tourniquet","ACE_personalAidKit","ACE_morphine","ACE_epinephrine","ACE_quikclot","ACE_elasticBandage","ACE_adenosine","ACE_WaterBottle","ACE_Sunflower_Seeds","ACE_Humanitarian_Ration","ACE_Can_Franta","ACE_wirecutter","ACE_RangeCard","MineDetector","ACE_microDAGR","ACE_MapTools","ACE_Clacker","ACE_M26_Clacker","ACE_Kestrel4500","ACE_HuntIR_monitor","ACE_Fortify","ACE_EntrenchingTool","ACE_DefusalKit","ACE_DeadManSwitch","ACE_DAGR","ACE_ATragMX","ACE_artilleryTable","ACE_RangeTable_82mm","DemoCharge_Remote_Mag","rhsusf_m112_mag","ATMine_Range_Mag","Aegis_HandFlare_Green","Aegis_HandFlare_Red","plp_bo_w_BottleLiqCream","plp_bo_w_BottleGin","plp_bo_w_BottleLiqOrange","plp_bo_w_BottleTequila","ACE_CableTie","plp_bo_w_Cigar","plp_bo_w_CigarCutter","ACE_EarPlugs","plp_bo_w_CigarFine","ACE_IR_Strobe_Item","plp_bo_w_CigarBoxSealed","ACE_SpareBarrel","ACE_SpraypaintBlack","ACE_SpraypaintBlue","ACE_SpraypaintGreen","ACE_SpraypaintRed","ACE_SpraypaintWhite","ACE_SpraypaintYellow","plp_bo_w_SunBlocker","plp_bo_w_SunMilk","ACE_UAVBattery","arifle_mas_cia_SPAR_01_snd_F","rhsusf_acc_nt4_tan","ACE_DBAL_A3_Red","optic_Hamr","rhs_mag_30Rnd_556x45_M855A1_EPM","rhs_acc_harris_swivel","rhs_weap_m72a7","rhsusf_weap_MP7A2_folded","rhsusf_acc_rotex_mp7","rhsusf_acc_anpeq15side_bk","rhsusf_acc_eotech_xps3","rhsusf_mag_40Rnd_46x30_JHP","U_B_T_Soldier_F","Atlas_V_CarrierRigKBT_01_CQB_CDF_F","SmokeShell","rhs_mag_30Rnd_556x45_M855A1_PMAG","rhs_mag_m67","rhs_mag_mk84","H_HelmetSpecB_green","ACE_Yardage450","ItemMap","ItemGPS","TFAR_anprc148jem","ItemCompass","Itemwatch","arifle_mas_cia_SPAR_01_GL_snd_F","1Rnd_HE_Grenade_shell","V_CarrierRigKBT_01_light_CDF_F","rhs_mag_m713_Red","rhs_mag_m714_White","ACE_HuntIR_M203","V_CarrierRigKBT_01_heavy_CDF_F","Chemlight_green","LMG_mas_cia_02_F","ACE_muzzle_mzls_93mmg","rhsusf_acc_anpeq15_bk_top","optic_tws_mg","150Rnd_93x64_Mag","TIOW_IVAS_Olive","srifle_mas_cia_LRR_F","optic_Nightstalker","10Rnd_mas_cia_408_APDS_Mag","arifle_mas_cia_SDAR_F","muzzle_snds_M","rhsusf_acc_anpeq15_bk","rhsusf_acc_g33_xps3","rhs_mag_30Rnd_556x45_M855A1_Stanag_Ranger","U_mas_cia_B_Wetsuit","V_mas_cia_RebreatherB","NVGoggles_mas_cia_hv","srifle_LRR_tna_F","muzzle_snds_408_black","optic_tws_sniper","7Rnd_408_Mag","launch_mas_cia_Stinger_F","Titan_AA","hgun_mas_cia_P226_F","muzzle_snds_L","Aegis_acc_pointer_compact_pistol_red","16Rnd_9x21_Mag_v2","U_B_UBACS_tshirt_wdl_f","optic_AMS","optic_AMS_khk","optic_AMS_snd","rhsusf_acc_nxs_3515x50_md","rhsusf_acc_nxs_3515x50f1_h58","rhsusf_acc_nxs_3515x50f1_md","rhsusf_acc_nxs_3515x50f1_h58_sun","optic_Holosight_lush_F","rhsusf_acc_EOTECH","H_Booniehat_aucamo_hs_F","srifle_DMR_04_Tan_F","optic_ERCO_blk_F","10Rnd_127x54_Mag","launch_I_Titan_short_F","Titan_AT","rhsusf_weap_m9","rhsusf_mag_15Rnd_9x19_JHP","U_B_T_Soldier_AR_F","arifle_mas_cia_SPAR_01_w_F","U_mas_cia_B_CombatUniform_w","V_mas_cia_PlateCarrierRF_win","H_mas_cia_airframe_w","arifle_mas_cia_SPAR_01_GL_w_F","U_mas_cia_B_suite_WINT","V_mas_cia_PlateCarrier1_win","H_mas_cia_helmet_ops_w","rhsusf_acc_SF3P556","U_mas_cia_B_CombatUniform_w2","V_mas_cia_PlateCarrierLR_win","H_mas_cia_beanie_w","V_mas_cia_PlateCarrierAR_win","V_mas_cia_belt_carrier_LR_wint","rhs_weap_mk18_d","rhsusf_acc_anpeq16a","USP_G3F_G3C_KP_MX_AOR1","tfa_lbt_operator_aor1","USP_OPSCORE_FASTMTC_KTBANSHEE_MS","USP_G3C_KP_MX_AOR1","USP_OPSCORE_FASTMTC_KTBANSHEE_MSW","USP_OPSCORE_FASTMTC_KTBANSHEE_MTW","USP_G3C_CS_KP_MX_AOR1","U_mas_cia_B_suite_CQB","V_TacVest_blk","H_Hat_brown","H_Hat_grey","U_mas_cia_B_suite_VEG","V_TacVest_khk","H_Hat_camo"};
+		brokenSkullArsenal[]={"SmokeShellBlue","SmokeShellGreen","SmokeShellOrange","SmokeShellPurple","SmokeShellRed","SmokeShellYellow","ACE_bodyBag","ACE_bodyBag_blue","ACE_bodyBag_white","ACE_bloodIV","ACE_bloodIV_250","ACE_bloodIV_500","ACE_plasmaIV","ACE_plasmaIV_250","ACE_plasmaIV_500","ACE_salineIV","ACE_salineIV_250","ACE_salineIV_500","ACE_splint","ACE_surgicalKit","ACE_suture","ACE_tourniquet","ACE_personalAidKit","ACE_morphine","ACE_epinephrine","ACE_quikclot","ACE_elasticBandage","ACE_adenosine","ACE_WaterBottle","ACE_Sunflower_Seeds","ACE_Humanitarian_Ration","ACE_Can_Franta","ACE_wirecutter","ACE_RangeCard","MineDetector","ACE_microDAGR","ACE_MapTools","ACE_Clacker","ACE_M26_Clacker","ACE_Kestrel4500","ACE_HuntIR_monitor","ACE_Fortify","ACE_EntrenchingTool","ACE_DefusalKit","ACE_DeadManSwitch","ACE_DAGR","ACE_ATragMX","ACE_artilleryTable","ACE_RangeTable_82mm","DemoCharge_Remote_Mag","rhsusf_m112_mag","ATMine_Range_Mag","Aegis_HandFlare_Green","Aegis_HandFlare_Red","plp_bo_w_BottleLiqCream","plp_bo_w_BottleGin","plp_bo_w_BottleLiqOrange","plp_bo_w_BottleTequila","ACE_CableTie","plp_bo_w_Cigar","plp_bo_w_CigarCutter","ACE_EarPlugs","plp_bo_w_CigarFine","ACE_IR_Strobe_Item","plp_bo_w_CigarBoxSealed","ACE_SpareBarrel","ACE_SpraypaintBlack","ACE_SpraypaintBlue","ACE_SpraypaintGreen","ACE_SpraypaintRed","ACE_SpraypaintWhite","ACE_SpraypaintYellow","plp_bo_w_SunBlocker","plp_bo_w_SunMilk","ACE_UAVBattery","arifle_mas_cia_SPAR_01_snd_F","rhsusf_acc_nt4_tan","ACE_DBAL_A3_Red","optic_Hamr","rhs_mag_30Rnd_556x45_M855A1_EPM","rhs_acc_harris_swivel","rhs_weap_m72a7","rhsusf_weap_MP7A2_folded","rhsusf_acc_rotex_mp7","rhsusf_acc_anpeq15side_bk","rhsusf_acc_eotech_xps3","rhsusf_mag_40Rnd_46x30_JHP","U_B_T_Soldier_F","Atlas_V_CarrierRigKBT_01_CQB_CDF_F","SmokeShell","rhs_mag_30Rnd_556x45_M855A1_PMAG","rhs_mag_m67","rhs_mag_mk84","H_HelmetSpecB_green","ACE_Yardage450","ItemMap","ItemGPS","TFAR_anprc148jem","ItemCompass","Itemwatch","arifle_mas_cia_SPAR_01_GL_snd_F","1Rnd_HE_Grenade_shell","V_CarrierRigKBT_01_light_CDF_F","rhs_mag_m713_Red","rhs_mag_m714_White","ACE_HuntIR_M203","V_CarrierRigKBT_01_heavy_CDF_F","Chemlight_green","CUP_lmg_Mk48_wdl","rhsusf_acc_ARDEC_M240","CUP_acc_ANPEQ_15_Flashlight_OD_L","optic_tws_mg","CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M","CUP_100Rnd_TE4_LRT4_Green_Tracer_762x51_Belt_M","CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M","CUP_100Rnd_TE4_LRT4_Yellow_Tracer_762x51_Belt_M","TIOW_IVAS_Olive","srifle_mas_cia_LRR_F","optic_Nightstalker","10Rnd_mas_cia_408_APDS_Mag","arifle_mas_cia_SDAR_F","muzzle_snds_M","rhsusf_acc_anpeq15_bk","rhsusf_acc_g33_xps3","rhs_mag_30Rnd_556x45_M855A1_Stanag_Ranger","U_mas_cia_B_Wetsuit","V_mas_cia_RebreatherB","NVGoggles_mas_cia_hv","srifle_LRR_tna_F","muzzle_snds_408_black","optic_tws_sniper","7Rnd_408_Mag","launch_mas_cia_Stinger_F","Titan_AA","hgun_mas_cia_P226_F","muzzle_snds_L","Aegis_acc_pointer_compact_pistol_red","16Rnd_9x21_Mag_v2","U_B_UBACS_tshirt_wdl_f","optic_AMS","optic_AMS_khk","optic_AMS_snd","rhsusf_acc_nxs_3515x50_md","rhsusf_acc_nxs_3515x50f1_h58","rhsusf_acc_nxs_3515x50f1_md","rhsusf_acc_nxs_3515x50f1_h58_sun","optic_Holosight_lush_F","rhsusf_acc_EOTECH","H_Booniehat_aucamo_hs_F","srifle_DMR_04_Tan_F","optic_ERCO_blk_F","10Rnd_127x54_Mag","launch_I_Titan_short_F","Titan_AT","rhsusf_weap_m9","rhsusf_mag_15Rnd_9x19_JHP","U_B_T_Soldier_AR_F","arifle_mas_cia_SPAR_01_w_F","U_mas_cia_B_CombatUniform_w","V_mas_cia_PlateCarrierRF_win","H_mas_cia_airframe_w","arifle_mas_cia_SPAR_01_GL_w_F","U_mas_cia_B_suite_WINT","V_mas_cia_PlateCarrier1_win","H_mas_cia_helmet_ops_w","rhsusf_acc_SF3P556","U_mas_cia_B_CombatUniform_w2","V_mas_cia_PlateCarrierLR_win","H_mas_cia_beanie_w","CUP_lmg_Mk48","ACE_muzzle_mzls_B","CUP_acc_ANPEQ_15_Black","V_mas_cia_PlateCarrierAR_win","V_mas_cia_belt_carrier_LR_wint","rhs_weap_mk18_d","rhsusf_acc_anpeq16a","USP_G3F_G3C_KP_MX_AOR1","tfa_lbt_operator_aor1","USP_OPSCORE_FASTMTC_KTBANSHEE_MS","USP_G3C_KP_MX_AOR1","USP_OPSCORE_FASTMTC_KTBANSHEE_MSW","CUP_lmg_Mk48_nohg_des","CUP_acc_ANPEQ_15","USP_OPSCORE_FASTMTC_KTBANSHEE_MTW","USP_G3C_CS_KP_MX_AOR1","U_mas_cia_B_suite_CQB","V_TacVest_blk","H_Hat_brown","H_Hat_grey","U_mas_cia_B_suite_VEG","V_TacVest_khk","H_Hat_camo"};
 
-		garage[]={{"B_APC_Tracked_01_AA_F",2,1000,0},{"B_Quadbike_01_F",0,100,-1},{"B_LSV_01_armed_F",0,300,2},{"B_LSV_01_light_F",0,100,-1},{"B_MRAP_01_hmg_F",1,600,2},{"B_MRAP_01_gmg_F",1,600,2},{"B_MRAP_01_F",1,500,-1},{"B_Truck_01_covered_F",1,50,3},{"B_Truck_01_transport_F",1,50,3},{"B_Truck_01_Repair_F",1,50,-1},{"B_Truck_01_flatbed_F",1,50,-1},{"B_Truck_01_cargo_F",1,50,-1},{"B_Boat_Transport_01_F",0,50,-1},{"B_Boat_Armed_01_minigun_F",1,50,-1},{"APC_Wheeled_01_mortar_base_lxWS",2,40,1},{"B_APC_Wheeled_01_cannon_v2_F",2,40,1},{"B_APC_Wheeled_01_atgm_lxWS_v2",2,40,1},{"B_Plane_CAS_01_dynamicLoadout_F",2,2000,-1},{"B_VTOL_01_armed_F",2,2000,-1},{"B_SDV_01_F",1,50,-1},{"B_AFV_Wheeled_01_cannon_F",2,40,1},{"B_AFV_Wheeled_01_up_cannon_F",2,40,1},{"B_MBT_01_TUSK_F",2,2500,1},{"B_Plane_Fighter_05_Stealth_F",2,2000,-1}};
+		garage[]={{"B_Quadbike_01_F",0,100,-1},{"B_LSV_01_armed_F",0,300,2},{"B_LSV_01_light_F",0,100,-1},{"B_MRAP_01_hmg_F",1,600,2},{"B_MRAP_01_gmg_F",1,600,2},{"B_MRAP_01_F",1,500,-1},{"B_Truck_01_covered_F",1,50,3},{"B_Truck_01_transport_F",1,50,3},{"B_Truck_01_Repair_F",1,50,-1},{"B_Truck_01_flatbed_F",1,50,-1},{"B_Truck_01_cargo_F",1,50,-1},{"B_Boat_Transport_01_F",0,50,-1},{"B_Boat_Armed_01_minigun_F",1,50,-1},{"APC_Wheeled_01_mortar_base_lxWS",2,40,1},{"B_APC_Wheeled_01_cannon_v2_F",2,40,1},{"B_APC_Wheeled_01_atgm_lxWS_v2",2,40,1},{"B_Plane_CAS_01_dynamicLoadout_F",2,2000,-1},{"B_VTOL_01_armed_F",2,2000,-1},{"B_SDV_01_F",1,50,-1},{"B_AFV_Wheeled_01_cannon_F",2,40,1},{"B_AFV_Wheeled_01_up_cannon_F",2,40,1},{"B_MBT_01_TUSK_F",2,2500,1},{"B_Plane_Fighter_05_Stealth_F",2,2000,-1},{"B_APC_Tracked_01_AA_F",2,1000,0}};
 		SamSystem[]={"B_SAM_System_02_F"};
 		StaticLowMG[]={"B_HMG_01_A_F"};
 		StaticHighMG[]={"B_HMG_01_high_F"};

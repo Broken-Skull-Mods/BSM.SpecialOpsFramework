@@ -1,8 +1,8 @@
 
 params ["_trigger", "_displayName", "_side", "_year", ["_flag", "\A3\Data_F\Flags\flag_US_CO.paa"]];
 /*
-    [US_DEVGRU_2023, "US - DEVGRU (%1)", 1, "2023"] call SpecOps_fnc_commonCreateCivFactionAndUnitsFromTrigger;
-    [AFICAN_POP_2024, "African - Muslim (%1)", 1, "2024"] call SpecOps_fnc_commonCreateCivFactionAndUnitsFromTrigger;
+    [US_DEVGRU_2023, "US - DEVGRU (%1)", 1, "2023"] call SpecOps_fnc_toolCreateCivFactionAndUnitsFromTrigger;
+    [AFICAN_POP_2024, "African - Muslim (%1)", 1, "2024"] call SpecOps_fnc_toolCreateCivFactionAndUnitsFromTrigger;
 */
 private _br = toString [13,10];
 private _toCopy = "";

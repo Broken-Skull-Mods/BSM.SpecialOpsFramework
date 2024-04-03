@@ -1,8 +1,9 @@
 
 params ["_trigger", "_displayName", "_side", "_year", ["_flag", "\A3\Data_F\Flags\flag_US_CO.paa"]];
 /*
-    [US_DEVGRU_2023, "US - DEVGRU (%1)", 1, "2023"] call SpecOps_fnc_commonCreateFactionAndUnitsFromTrigger;
-    [US_DEVGRU_2023, "US - DEVGRU (%1)", 1, "2023"] call SpecOps_fnc_commonCreateFactionAndUnitsFromTrigger;
+    [US_DEVGRU_2023, "US - DEVGRU (%1)", 1, "2023"] call SpecOps_fnc_toolCreateFactionAndUnitsFromTrigger;
+    [US_DEVGRU_2023, "US - DEVGRU (%1)", 1, "2023"] call SpecOps_fnc_toolCreateFactionAndUnitsFromTrigger;
+    [US_RANGER_2000, "US - RANGER (%1)", 1, "2000"] call SpecOps_fnc_toolCreateFactionAndUnitsFromTrigger;
     [US_DEVGRU_2023, "US - DEVGRU (%1)", 1, "2023"] execVM "test.sqf";
     (allUnits inArea B_US_DEVGRU_2023)
 */
