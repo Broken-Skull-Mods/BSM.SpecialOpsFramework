@@ -22,6 +22,8 @@ class CfgFunctions {
             class voiceGetSettings {};
             class voiceModuleGeneric {};
             class voiceModuleInitialize {};
+            class voiceModuleAny {};
+            class videoModuleAny {};
             class voicePlayerLoop {
                 postInit = 1;
             };
@@ -68,10 +70,95 @@ class CfgVehicles {
                 typeName = "STRING";
                 class Values : SpecOps_Module_BLUFOR_Factions { };
             };
+        };
+    };
+    
+    class SpecOps_Any_Video : Module_F {
+        scope = 2;
+        displayName = "Spec-Ops (Any Video)";
+		icon = "\tftm\icons\video_camera.paa";	// Map icon. Delete this entry to use the default icon.
+		category = "SpecOps_Modules";
+		function = "SpecOps_fnc_videoModuleAny";	// Name of function triggered once conditions are met
+		functionPriority = 1;				// Execution priority, modules with lower number are executed first. 0 is used when the attribute is undefined
+		isTriggerActivated = 1;				// 1 for module waiting until all synced triggers are activated
+		isGlobal = 1;						// 0 for server only execution, 1 for global execution, 2 for persistent global execution
+		isDisposable = 0;					// 1 if modules is to be disabled once it is activated (i.e. repeated trigger activation will not work)
+		curatorCanAttach = 0;				// 1 to allow Zeus to attach the module to an entity
+		canSetArea = 0;						// Allows for setting the area values in the Attributes menu in 3DEN
+		canSetAreaShape = 0;				// Allows for setting "Rectangle" or "Ellipse" in Attributes menu in 3DEN
+		canSetAreaHeight = 0;				// Allows 1for setting height or Z value in Attributes menu in 3DEN
+        is3DEN = 0;							// 1 to run init function in Eden Editor as well
+        class Attributes {
+			class SpecOps_Video {
+				unique = 0; 
+				displayName = "Video Path";
+				tooltip = "";
+				property = "SpecOps_Video";
+				control = "Edit";
+				expression = "_this setVariable ['%s', _value];";
+				defaultValue = "";
+				validate = "none";
+				typeName = "STRING"; 
+			};
 
+            class SpecOps_ShowOnPhone {
+                unique = 0; 
+				displayName = "Show on PDA?";
+				tooltip = "video will open on Chest Phone.";
+				property = "SpecOps_ShowOnPhone";
+                control = "Checkbox";
+                expression = "_this setVariable ['%s', _value];";
+                defaultValue = false;
+                typeName = "BOOL"; 
+            };
+        };
+    };
+
+    class SpecOps_Any_Audio : Module_F {
+        scope = 2;
+        displayName = "Spec-Ops (Any Audio)";
+		icon = "\tftm\icons\sound_on.paa";	// Map icon. Delete this entry to use the default icon.
+		category = "SpecOps_Modules";
+
+		function = "SpecOps_fnc_voiceModuleAny";	// Name of function triggered once conditions are met
+		functionPriority = 1;				// Execution priority, modules with lower number are executed first. 0 is used when the attribute is undefined
+		isTriggerActivated = 1;				// 1 for module waiting until all synced triggers are activated
+		isGlobal = 1;						// 0 for server only execution, 1 for global execution, 2 for persistent global execution
+		isDisposable = 0;					// 1 if modules is to be disabled once it is activated (i.e. repeated trigger activation will not work)
+		curatorCanAttach = 0;				// 1 to allow Zeus to attach the module to an entity
+		canSetArea = 0;						// Allows for setting the area values in the Attributes menu in 3DEN
+		canSetAreaShape = 0;				// Allows for setting "Rectangle" or "Ellipse" in Attributes menu in 3DEN
+		canSetAreaHeight = 0;				// Allows 1for setting height or Z value in Attributes menu in 3DEN
+        is3DEN = 0;							// 1 to run init function in Eden Editor as well
+
+        class Attributes {
+
+			class SpecOps_AudioClassName {
+				unique = 0; 
+				displayName = "Audio Class";
+				tooltip = "Audio File.";
+				property = "SpecOps_AudioClassName";
+				control = "Edit";
+				expression = "_this setVariable ['%s', _value];";
+				defaultValue = "";
+				validate = "variable";
+				typeName = "STRING"; 
+			};
+
+            class SpecOps_OnlyRadioOperators {
+                unique = 0; 
+				displayName = "Radio Operators Only?";
+				tooltip = "false to notify everyone, otherwise only RTO will receive notice and will have to relay that.";
+				property = "SpecOps_OnlyRadioOperators";
+                control = "Checkbox";
+                expression = "_this setVariable ['%s', _value];";
+                defaultValue = true;
+                typeName = "BOOL"; 
+            };
 
         };
     };
+
     class SpecOps_Generic_Audio : Module_F {
         scope = 2;
         displayName = "Spec-Ops (Generic Audio)";
@@ -97,10 +184,12 @@ class CfgVehicles {
                 property = "SpecOps_Faction";
                 control = "combo";
                 expression = "_this setVariable ['%s', _value];";
-                defaultValue = nil;
+                defaultValue = "";
                 validate = "none";
                 typeName = "STRING";
-                class Values : SpecOps_Module_OPFOR_Factions { };
+                class Values : SpecOps_Module_OPFOR_Factions {
+                    class Undefined { name = "Mission Faction"; value = ""; };
+                };
             };
 
             class SpecOps_VoiceSpeech {
