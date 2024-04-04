@@ -1,14 +1,13 @@
 [h3] Features [/h3]
 [list]
-    [*] New CQB Module can be activated via trigger using **[thisTrigger] call SpecOps_fnc_dressupBuildingModuleActivate;** && **[thisTrigger] call SpecOps_fnc_dressupBuildingModuleDeactivate;**
-    [*] Added Factions in Editor Attribute List.
-    [*] Added Randomizing PC, Tablet, TV, Potraits and Laptop Screen's texture.
+    [*] Added Early 2000 US Ranger as Faction.
 [/list]
 
 [h3] Changes [/h3]
 [list]
-    [*] Updated Faction (Static Guns were not set).
-    [*] Updated Faction (Factions Available in Arsenal).
+    [*] Updated Factions
+    [*] Separated Mods into multiple addons
+    [*] Cleaned Codes
 [/list]
 
 [h3] Experiment [/h3]

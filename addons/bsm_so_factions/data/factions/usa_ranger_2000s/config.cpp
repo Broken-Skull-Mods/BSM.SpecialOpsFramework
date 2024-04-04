@@ -1,5 +1,6 @@
 
 
+#include "\bsm_so_factions\data\factions\usa_ranger_2000s\audio.hpp"
 class CfgVehicles {
 	class B_Survivor_F;
 	class I_G_Survivor_F;

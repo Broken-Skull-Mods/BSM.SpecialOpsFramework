@@ -3,7 +3,6 @@ class serverMissionRequest {};
 class serverMissionGetFirstObjective {};
 class serverMissionSetAllObjectives {};
 class serverMissionExtractConnections {};
-class serverMissionAudioLoadFromEntity {};
 class serverMissionLoadNextObjective {};
 class serverMissionStartFromEntityType {};
 class serverMissionLoadNextObjectiveIfAny {};

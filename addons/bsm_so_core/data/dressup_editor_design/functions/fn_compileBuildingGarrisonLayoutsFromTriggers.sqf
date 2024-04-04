@@ -2,6 +2,7 @@
 params [["_prefix", "NoPrefix"]];
 /*
     ["BS", "Village", "Tanoa"] call SpecOps_fnc_compileBuildingGarrisonLayoutsFromTriggers;
+    ["BS", "Village", "Tanoa"] call SpecOps_fnc_compileBuildingGarrisonLayoutsFromTriggers;
     [] call SpecOps_fnc_compileBuildingGarrisonLayoutsFromTriggers;
 */
 private _requiredAddons = [];

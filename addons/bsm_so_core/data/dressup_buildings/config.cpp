@@ -51,10 +51,5 @@ class SpecOps_DressUp {
 				"SpecOps_Screen_6",  "SpecOps_Screen_7", "SpecOps_Screen_8", "SpecOps_Screen_9", "Land_FlatTV_01_F"
 			};
 	};
-	class Buildings {
-		#include "\bsm_so_core\data\dressup_buildings\common\_includes.hpp"
-		#include "\bsm_so_core\data\dressup_buildings\tanoa\_includes.hpp"
-		#include "\bsm_so_core\data\dressup_buildings\altis\_includes.hpp"
-		#include "\bsm_so_core\data\dressup_buildings\stratis\_includes.hpp"
-	};
+
 };

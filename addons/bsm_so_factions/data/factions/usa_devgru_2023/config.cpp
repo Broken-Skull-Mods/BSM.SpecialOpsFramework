@@ -1,4 +1,4 @@
-
+#include "\bsm_so_factions\data\factions\usa_devgru_2023\audio.hpp"
 
 class CfgVehicles {
 	class B_Survivor_F;
@@ -2188,6 +2188,7 @@ class CfgVehicles {
 		side = 2; 
 	}; 
 };
+
 class CfgPatches
 {
 	class bm_specops_faction_US_DEVGRU_2023
@@ -2196,11 +2197,23 @@ class CfgPatches
 		units[]={};
 		weapons[]={};
 		requiredVersion=0.1;
-		requiredAddons[]={"bm_specops_faction_US_ARMA_BASE", "mas_cia_jsog_weap","rhsusf_c_weapons","ace_irlight","A3_Weapons_F_Acc","YL_LPVO","ace_realisticnames","ace_scopes","rhs_c_weapons","Blastcore_MainCore","ace_compat_rhs_usf3_arsenal","ace_compat_rhs_usf3","A3_Characters_F_Exp","ace_medical_treatment","ace_microdagr","ace_trenches","ace_hearing","A3_Atlas_Characters_F_Atlas_Vests","A3_Weapons_F","ace_logistics_wirecutter","ace_huntir","ace_captives","ace_attach","A3_Atlas_Characters_F_Atlas_Headgear","ace_yardage450","tfar_handhelds","ace_chemlights","CUP_Weapons_Mk48","CUP_Weapons_West_Attachments","CUP_Weapons_Ammunition","Ivas_Goggles","ace_kestrel4500","ace_maptools","ace_rangecard","ace_atragmx","mas_cia_jsog","A3_Weapons_F_Exp","A3_Aegis_Weapons_F_Aegis","ace_ballistics","Snake_Titan_AMMO","A3_Aegis_Characters_F_Aegis_Uniforms","A3_Weapons_F_Mark_Acc","A3_Weapons_F_Enoch_Acc","A3_Weapons_F_Mark_LongRangeRifles_DMR_04","A3_Weapons_F_Mark","A3_Weapons_F_Launchers_Titan","ace_javelin","ace_flashsuppressors","USP_Gear_Body","tfa_lbt","USP_Gear_Head","A3_Characters_F","A3_Aegis_Characters_F_Aegis_Vests"};
+		requiredAddons[]={
+			"bm_specops_faction_US_ARMA_BASE", "mas_cia_jsog_weap","rhsusf_c_weapons","ace_irlight","A3_Weapons_F_Acc",
+			"YL_LPVO","ace_realisticnames","ace_scopes","rhs_c_weapons","Blastcore_MainCore","ace_compat_rhs_usf3_arsenal",
+			"ace_compat_rhs_usf3","A3_Characters_F_Exp","ace_medical_treatment","ace_microdagr","ace_trenches","ace_hearing",
+			"A3_Atlas_Characters_F_Atlas_Vests","A3_Weapons_F","ace_logistics_wirecutter","ace_huntir","ace_captives","ace_attach",
+			"A3_Atlas_Characters_F_Atlas_Headgear","ace_yardage450","tfar_handhelds","ace_chemlights","CUP_Weapons_Mk48","CUP_Weapons_West_Attachments",
+			"CUP_Weapons_Ammunition","Ivas_Goggles","ace_kestrel4500","ace_maptools","ace_rangecard","ace_atragmx","mas_cia_jsog","A3_Weapons_F_Exp",
+			"A3_Aegis_Weapons_F_Aegis","ace_ballistics","Snake_Titan_AMMO","A3_Aegis_Characters_F_Aegis_Uniforms","A3_Weapons_F_Mark_Acc",
+			"A3_Weapons_F_Enoch_Acc","A3_Weapons_F_Mark_LongRangeRifles_DMR_04","A3_Weapons_F_Mark","A3_Weapons_F_Launchers_Titan","ace_javelin",
+			"ace_flashsuppressors","USP_Gear_Body","tfa_lbt","USP_Gear_Head","A3_Characters_F","A3_Aegis_Characters_F_Aegis_Vests"
+		};
 		skipWhenMissingDependencies = 1;
 	};
 };
+
 class CfgFactionClasses {
+
 	// As Friendly (BluFOR)
 	class BS_B_US_DEVGRU_2023_BASE { 
 		Advanced = 0; 
@@ -2239,6 +2252,7 @@ class CfgFactionClasses {
 		VehicleTanks[]={"APC_Wheeled_01_mortar_base_lxWS","B_APC_Wheeled_01_cannon_v2_F","B_APC_Wheeled_01_atgm_lxWS_v2","B_AFV_Wheeled_01_cannon_F","B_AFV_Wheeled_01_up_cannon_F","B_MBT_01_TUSK_F"};
 		VehicleTransport[]={"B_Truck_01_covered_F","B_Truck_01_transport_F"};
 	};
+
 	// As Friendly (BluFOR)
 	class BS_B_US_DEVGRU_2023 : BS_B_US_DEVGRU_2023_BASE { 
 		useForSpecOps = 1;   
@@ -2248,6 +2262,7 @@ class CfgFactionClasses {
 		icon = "\A3\Data_F\Flags\flag_US_CO.paa";
 		priority = 0; 
 	};
+	
 	// As Opposite Forces (OpFOR)
 	class BS_O_US_DEVGRU_2023 : BS_B_US_DEVGRU_2023_BASE { 
 		useForSpecOps = 1;
@@ -2257,6 +2272,7 @@ class CfgFactionClasses {
 		icon = "\A3\Data_F\Flags\flag_US_CO.paa";
 		priority = 0; 
 	};
+	
 	// As Independent (Independent)
 	class BS_I_US_DEVGRU_2023 : BS_B_US_DEVGRU_2023_BASE { 
 		useForSpecOps = 1;
@@ -2266,7 +2282,9 @@ class CfgFactionClasses {
 		icon = "\A3\Data_F\Flags\flag_US_CO.paa";
 		priority = 0; 
 	};
+
 };
+
 // As Friendly (BluFOR)
 class SpecOps_Module_BLUFOR_Factions { 
 	class BS_B_US_DEVGRU_2023 { name = "US - DEVGRU (2023)"; value = "BS_B_US_DEVGRU_2023"; };  

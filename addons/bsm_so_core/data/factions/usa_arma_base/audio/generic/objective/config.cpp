@@ -16,7 +16,7 @@ class CfgSounds {
     class USA_SOCOM_Generic_Prisonners_Required_Walker_0
     {
         name = "Generic_Prisonners_Required_Walker_0";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\objective\Generic_Prisonners_Required_Walker_0.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\objective\Generic_Prisonners_Required_Walker_0.ogg", 5, 1, 10};
         titles[] = { 
             0, "Team... ",
             1, "You are task to capture as many enemy combatant as possible, we don't have a specific number...",
@@ -29,7 +29,7 @@ class CfgSounds {
     class USA_SOCOM_Generic_Prisonners_Required_Walker_1
     {
         name = "Generic_Prisonners_Required_Walker_1";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\objective\Generic_Prisonners_Required_Walker_1.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\objective\Generic_Prisonners_Required_Walker_1.ogg", 5, 1, 10};
         titles[] = { 
             0, "Boys... ",
             2, "We must capture enemy combatant, alive and breathing... otherwise, objective will be a failure.",
@@ -40,7 +40,7 @@ class CfgSounds {
     class USA_SOCOM_Generic_Prisonners_Required_Walker_2
     {
         name = "Generic_Prisonners_Required_Walker_2";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\objective\Generic_Prisonners_Required_Walker_2.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\objective\Generic_Prisonners_Required_Walker_2.ogg", 5, 1, 10};
         titles[] = { 
             0, "Iceman...",
             1, "In order to successfully complete this objective we need to capture some enemy combatants.",
@@ -53,7 +53,7 @@ class CfgSounds {
     class USA_SOCOM_Generic_Prisonners_Required_Walker_3
     {
         name = "Generic_Prisonners_Required_Walker_3";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\objective\Generic_Prisonners_Required_Walker_3.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\objective\Generic_Prisonners_Required_Walker_3.ogg", 5, 1, 10};
         titles[] = { 
             0, "Iceman...",
             2, "Capture enemies until we tell you otherwise...",
@@ -64,7 +64,7 @@ class CfgSounds {
     class USA_SOCOM_Generic_Prisonners_Required_Walker_4
     {
         name = "Generic_Prisonners_Required_Walker_4";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\objective\Generic_Prisonners_Required_Walker_4.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\objective\Generic_Prisonners_Required_Walker_4.ogg", 5, 1, 10};
         titles[] = { 
             0, "Boys...",
             2, "The capture of dirtbags is crucial to the success of our objective,",
@@ -75,7 +75,7 @@ class CfgSounds {
     class USA_SOCOM_Generic_Prisonners_Captured_Walker_0
     {
         name = "Generic_Prisonners_Captured_Walker_0";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\objective\Generic_Prisonners_Captured_Walker_0.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\objective\Generic_Prisonners_Captured_Walker_0.ogg", 5, 1, 10};
         titles[] = { 
             0, "Iceman...",
             2, "Good job on the capture of these terrorists...",
@@ -86,7 +86,7 @@ class CfgSounds {
     class USA_SOCOM_Generic_Prisonners_Captured_Walker_1
     {
         name = "Generic_Prisonners_Captured_Walker_1";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\objective\Generic_Prisonners_Captured_Walker_1.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\objective\Generic_Prisonners_Captured_Walker_1.ogg", 5, 1, 10};
         titles[] = { 
             0, "Iceman, Iceman...",
             3, "great job! With all the terrorist you captured...",
@@ -97,7 +97,7 @@ class CfgSounds {
     class USA_SOCOM_Generic_Prisonners_Captured_Walker_2
     {
         name = "Generic_Prisonners_Captured_Walker_2";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\objective\Generic_Prisonners_Captured_Walker_2.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\objective\Generic_Prisonners_Captured_Walker_2.ogg", 5, 1, 10};
         titles[] = { 
             0, "Good job, Iceman!",
             2, "We have enough H.V.Ts captured...",
@@ -109,14 +109,14 @@ class CfgSounds {
     class USA_SOCOM_Generic_Objective_Airstrip_V0_0
     {
         name = "Generic_Objective_Airstrip_V0_0";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\objective\Generic_Objective_Airstrip_V0_0.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\objective\Generic_Objective_Airstrip_V0_0.ogg", 5, 1, 10};
         titles[] = { 0, "" };
     };
 
     class USA_SOCOM_Generic_Objective_Airstrip_V0_1
     {
         name = "Generic_Objective_Airstrip_V0_1";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\objective\Generic_Objective_Airstrip_V0_1.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\objective\Generic_Objective_Airstrip_V0_1.ogg", 5, 1, 10};
         titles[] = { 0, "" };
     };
 
@@ -124,140 +124,140 @@ class CfgSounds {
     class USA_SOCOM_Generic_Objective_Ambush_V0_0
     {
         name = "Generic_Objective_Ambush_V0_0";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\objective\Generic_Objective_Ambush_V0_0.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\objective\Generic_Objective_Ambush_V0_0.ogg", 5, 1, 10};
         titles[] = { 0, "" };
     };
 
     class USA_SOCOM_Generic_Objective_Assasination_V0_0
     {
         name = "Generic_Objective_Assasination_V0_0";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\objective\Generic_Objective_Assasination_V0_0.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\objective\Generic_Objective_Assasination_V0_0.ogg", 5, 1, 10};
         titles[] = { 0, "" };
     };
 
     class USA_SOCOM_Generic_Objective_Assasination_V0_1
     {
         name = "Generic_Objective_Assasination_V0_1";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\objective\Generic_Objective_Assasination_V0_1.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\objective\Generic_Objective_Assasination_V0_1.ogg", 5, 1, 10};
         titles[] = { 0, "" };
     };
 
     class USA_SOCOM_Generic_Objective_Charter_0_Civ_Death_V0_0
     {
         name = "Generic_Objective_Charter_0_Civ_Death_V0_0";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\objective\Generic_Objective_Charter_0_Civ_Death_V0_0.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\objective\Generic_Objective_Charter_0_Civ_Death_V0_0.ogg", 5, 1, 10};
         titles[] = { 0, "" };
     };
 
     class USA_SOCOM_Generic_Objective_Charter_0_Death_V0_0
     {
         name = "Generic_Objective_Charter_0_Death_V0_0";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\objective\Generic_Objective_Charter_0_Death_V0_0.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\objective\Generic_Objective_Charter_0_Death_V0_0.ogg", 5, 1, 10};
         titles[] = { 0, "" };
     };
 
     class USA_SOCOM_Generic_Objective_Charter_1_Civ_Death_V0_0
     {
         name = "Generic_Objective_Charter_1_Civ_Death_V0_0";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\objective\Generic_Objective_Charter_1_Civ_Death_V0_0.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\objective\Generic_Objective_Charter_1_Civ_Death_V0_0.ogg", 5, 1, 10};
         titles[] = { 0, "" };
     };
 
     class USA_SOCOM_Generic_Objective_Charter_1_Death_V0_0
     {
         name = "Generic_Objective_Charter_1_Death_V0_0";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\objective\Generic_Objective_Charter_1_Death_V0_0.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\objective\Generic_Objective_Charter_1_Death_V0_0.ogg", 5, 1, 10};
         titles[] = { 0, "" };
     };
 
     class USA_SOCOM_Generic_Objective_Charter_2_Civ_Death_V0_0
     {
         name = "Generic_Objective_Charter_2_Civ_Death_V0_0";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\objective\Generic_Objective_Charter_2_Civ_Death_V0_0.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\objective\Generic_Objective_Charter_2_Civ_Death_V0_0.ogg", 5, 1, 10};
         titles[] = { 0, "" };
     };
 
     class USA_SOCOM_Generic_Objective_Charter_2_Death_V0_0
     {
         name = "Generic_Objective_Charter_2_Death_V0_0";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\objective\Generic_Objective_Charter_2_Death_V0_0.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\objective\Generic_Objective_Charter_2_Death_V0_0.ogg", 5, 1, 10};
         titles[] = { 0, "" };
     };
 
     class USA_SOCOM_Generic_Objective_Charter_3_Civ_Death_V0_0
     {
         name = "Generic_Objective_Charter_3_Civ_Death_V0_0";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\objective\Generic_Objective_Charter_3_Civ_Death_V0_0.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\objective\Generic_Objective_Charter_3_Civ_Death_V0_0.ogg", 5, 1, 10};
         titles[] = { 0, "" };
     };
 
     class USA_SOCOM_Generic_Objective_Charter_3_Death_V0_0
     {
         name = "Generic_Objective_Charter_3_Death_V0_0";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\objective\Generic_Objective_Charter_3_Death_V0_0.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\objective\Generic_Objective_Charter_3_Death_V0_0.ogg", 5, 1, 10};
         titles[] = { 0, "" };
     };
 
     class USA_SOCOM_Generic_Objective_Charter_Unlimited_Civ_Death_V0_0
     {
         name = "Generic_Objective_Charter_Unlimited_Civ_Death_V0_0";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\objective\Generic_Objective_Charter_Unlimited_Civ_Death_V0_0.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\objective\Generic_Objective_Charter_Unlimited_Civ_Death_V0_0.ogg", 5, 1, 10};
         titles[] = { 0, "" };
     };
 
     class USA_SOCOM_Generic_Objective_Charter_Unlimited_Death_V0_0
     {
         name = "Generic_Objective_Charter_Unlimited_Death_V0_0";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\objective\Generic_Objective_Charter_Unlimited_Death_V0_0.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\objective\Generic_Objective_Charter_Unlimited_Death_V0_0.ogg", 5, 1, 10};
         titles[] = { 0, "" };
     };
 
     class USA_SOCOM_Generic_Objective_Charter_Update_V0_0
     {
         name = "Generic_Objective_Charter_Update_V0_0";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\objective\Generic_Objective_Charter_Update_V0_0.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\objective\Generic_Objective_Charter_Update_V0_0.ogg", 5, 1, 10};
         titles[] = { 0, "" };
     };
 
     class USA_SOCOM_Generic_Objective_Clear_Town_V0_0
     {
         name = "Generic_Objective_Clear_Town_V0_0";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\objective\Generic_Objective_Clear_Town_V0_0.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\objective\Generic_Objective_Clear_Town_V0_0.ogg", 5, 1, 10};
         titles[] = { 0, "" };
     };
 
     class USA_SOCOM_Generic_Objective_Clear_Village_V0_0
     {
         name = "Generic_Objective_Clear_Village_V0_0";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\objective\Generic_Objective_Clear_Village_V0_0.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\objective\Generic_Objective_Clear_Village_V0_0.ogg", 5, 1, 10};
         titles[] = { 0, "" };
     };
 
     class USA_SOCOM_Generic_Objective_CommsTransformer_V0_0
     {
         name = "Generic_Objective_CommsTransformer_V0_0";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\objective\Generic_Objective_CommsTransformer_V0_0.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\objective\Generic_Objective_CommsTransformer_V0_0.ogg", 5, 1, 10};
         titles[] = { 0, "" };
     };
 
     class USA_SOCOM_Generic_Objective_FallenBody_V0_0
     {
         name = "Generic_Objective_FallenBody_V0_0";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\objective\Generic_Objective_FallenBody_V0_0.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\objective\Generic_Objective_FallenBody_V0_0.ogg", 5, 1, 10};
         titles[] = { 0, "" };
     };
 
     class USA_SOCOM_Generic_Objective_Intel_V0_0
     {
         name = "Generic_Objective_Intel_V0_0";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\objective\Generic_Objective_Intel_V0_0.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\objective\Generic_Objective_Intel_V0_0.ogg", 5, 1, 10};
         titles[] = { 0, "" };
     };
 
     class USA_SOCOM_Generic_Objective_Resource_V0_0
     {
         name = "Generic_Objective_Resource_V0_0";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\objective\Generic_Objective_Resource_V0_0.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\objective\Generic_Objective_Resource_V0_0.ogg", 5, 1, 10};
         titles[] = { 0, "" };
     };
 
@@ -268,7 +268,7 @@ class CfgSounds {
     class USA_SOCOM_Generic_Prisonners_Required_Clyde_0
     {
         name = "Generic_Prisonners_Required_Clyde_0";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\objective\Generic_Prisonners_Required_Clyde_0.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\objective\Generic_Prisonners_Required_Clyde_0.ogg", 5, 1, 10};
         titles[] = { 
             0, "Team... ",
             1, "You are task to capture as many enemy combatant as possible, we don't have a specific number...",
@@ -281,7 +281,7 @@ class CfgSounds {
     class USA_SOCOM_Generic_Prisonners_Required_Clyde_1
     {
         name = "Generic_Prisonners_Required_Clyde_1";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\objective\Generic_Prisonners_Required_Clyde_1.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\objective\Generic_Prisonners_Required_Clyde_1.ogg", 5, 1, 10};
         titles[] = { 
             0, "Boys... ",
             2, "We must capture enemy combatant, alive and breathing... otherwise, objective will be a failure.",
@@ -292,7 +292,7 @@ class CfgSounds {
     class USA_SOCOM_Generic_Prisonners_Required_Clyde_2
     {
         name = "Generic_Prisonners_Required_Clyde_2";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\objective\Generic_Prisonners_Required_Clyde_2.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\objective\Generic_Prisonners_Required_Clyde_2.ogg", 5, 1, 10};
         titles[] = { 
             0, "Iceman...",
             2, "In order to successfully complete this objective we need to capture some enemy combatants.",
@@ -305,7 +305,7 @@ class CfgSounds {
     class USA_SOCOM_Generic_Prisonners_Required_Clyde_3
     {
         name = "Generic_Prisonners_Required_Clyde_3";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\objective\Generic_Prisonners_Required_Clyde_3.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\objective\Generic_Prisonners_Required_Clyde_3.ogg", 5, 1, 10};
         titles[] = { 
             0, "Iceman...",
             1, "Capture enemies until we tell you otherwise...",
@@ -316,7 +316,7 @@ class CfgSounds {
     class USA_SOCOM_Generic_Prisonners_Required_Clyde_4
     {
         name = "Generic_Prisonners_Required_Clyde_4";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\objective\Generic_Prisonners_Required_Clyde_4.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\objective\Generic_Prisonners_Required_Clyde_4.ogg", 5, 1, 10};
         titles[] = { 
             0, "Boys...",
             1, "The capture of dirtbags is crucial to the success of our objective,",
@@ -328,7 +328,7 @@ class CfgSounds {
     class USA_SOCOM_Generic_Prisonners_Captured_Clyde_0
     {
         name = "Generic_Prisonners_Captured_Clyde_0";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\objective\Generic_Prisonners_Captured_Clyde_0.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\objective\Generic_Prisonners_Captured_Clyde_0.ogg", 5, 1, 10};
         titles[] = { 
             0, "Iceman...",
             2, "Good job on the capture of these terrorists...",
@@ -339,7 +339,7 @@ class CfgSounds {
     class USA_SOCOM_Generic_Prisonners_Captured_Clyde_1
     {
         name = "Generic_Prisonners_Captured_Clyde_1";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\objective\Generic_Prisonners_Captured_Clyde_1.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\objective\Generic_Prisonners_Captured_Clyde_1.ogg", 5, 1, 10};
         titles[] = { 
             0, "Iceman, Iceman...",
             1, "great job! With all the terrorist you captured...",
@@ -350,7 +350,7 @@ class CfgSounds {
     class USA_SOCOM_Generic_Prisonners_Captured_Clyde_2
     {
         name = "Generic_Prisonners_Captured_Clyde_2";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\objective\Generic_Prisonners_Captured_Clyde_2.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\objective\Generic_Prisonners_Captured_Clyde_2.ogg", 5, 1, 10};
         titles[] = { 
             0, "Good job, Iceman!",
             2, "We have enough H.V.Ts captured...",
@@ -363,154 +363,154 @@ class CfgSounds {
     class USA_SOCOM_Generic_Objective_Airstrip_V1_0
     {
         name = "Generic_Objective_Airstrip_V1_0";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\objective\Generic_Objective_Airstrip_V1_0.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\objective\Generic_Objective_Airstrip_V1_0.ogg", 5, 1, 10};
         titles[] = { 0, "" };
     };
 
     class USA_SOCOM_Generic_Objective_Airstrip_V1_1
     {
         name = "Generic_Objective_Airstrip_V1_1";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\objective\Generic_Objective_Airstrip_V1_1.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\objective\Generic_Objective_Airstrip_V1_1.ogg", 5, 1, 10};
         titles[] = { 0, "" };
     };
 
     class USA_SOCOM_Generic_Objective_Ambush_V1_0
     {
         name = "Generic_Objective_Ambush_V1_0";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\objective\Generic_Objective_Ambush_V1_0.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\objective\Generic_Objective_Ambush_V1_0.ogg", 5, 1, 10};
         titles[] = { 0, "" };
     };
 
     class USA_SOCOM_Generic_Objective_Assasination_V1_0
     {
         name = "Generic_Objective_Assasination_V0_0";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\objective\Generic_Objective_Assasination_V0_0.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\objective\Generic_Objective_Assasination_V0_0.ogg", 5, 1, 10};
         titles[] = { 0, "" };
     };
 
     class USA_SOCOM_Generic_Objective_Assasination_V1_1
     {
         name = "Generic_Objective_Assasination_V1_1";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\objective\Generic_Objective_Assasination_V1_1.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\objective\Generic_Objective_Assasination_V1_1.ogg", 5, 1, 10};
         titles[] = { 0, "" };
     };
 
     class USA_SOCOM_Generic_Objective_Charter_0_Civ_Death_V1_0
     {
         name = "Generic_Objective_Charter_0_Civ_Death_V1_0";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\objective\Generic_Objective_Charter_0_Civ_Death_V1_0.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\objective\Generic_Objective_Charter_0_Civ_Death_V1_0.ogg", 5, 1, 10};
         titles[] = { 0, "" };
     };
 
     class USA_SOCOM_Generic_Objective_Charter_0_Death_V1_0
     {
         name = "Generic_Objective_Charter_0_Death_V1_0";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\objective\Generic_Objective_Charter_0_Death_V1_0.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\objective\Generic_Objective_Charter_0_Death_V1_0.ogg", 5, 1, 10};
         titles[] = { 0, "" };
     };
 
     class USA_SOCOM_Generic_Objective_Charter_1_Civ_Death_V1_0
     {
         name = "Generic_Objective_Charter_1_Civ_Death_V1_0";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\objective\Generic_Objective_Charter_1_Civ_Death_V1_0.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\objective\Generic_Objective_Charter_1_Civ_Death_V1_0.ogg", 5, 1, 10};
         titles[] = { 0, "" };
     };
 
     class USA_SOCOM_Generic_Objective_Charter_1_Death_V1_0
     {
         name = "Generic_Objective_Charter_1_Death_V1_0";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\objective\Generic_Objective_Charter_1_Death_V1_0.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\objective\Generic_Objective_Charter_1_Death_V1_0.ogg", 5, 1, 10};
         titles[] = { 0, "" };
     };
 
     class USA_SOCOM_Generic_Objective_Charter_2_Civ_Death_V1_0
     {
         name = "Generic_Objective_Charter_2_Civ_Death_V1_0";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\objective\Generic_Objective_Charter_2_Civ_Death_V1_0.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\objective\Generic_Objective_Charter_2_Civ_Death_V1_0.ogg", 5, 1, 10};
         titles[] = { 0, "" };
     };
 
     class USA_SOCOM_Generic_Objective_Charter_2_Death_V1_0
     {
         name = "Generic_Objective_Charter_2_Death_V1_0";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\objective\Generic_Objective_Charter_2_Death_V1_0.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\objective\Generic_Objective_Charter_2_Death_V1_0.ogg", 5, 1, 10};
         titles[] = { 0, "" };
     };
 
     class USA_SOCOM_Generic_Objective_Charter_3_Civ_Death_V1_0
     {
         name = "Generic_Objective_Charter_3_Civ_Death_V1_0";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\objective\Generic_Objective_Charter_3_Civ_Death_V1_0.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\objective\Generic_Objective_Charter_3_Civ_Death_V1_0.ogg", 5, 1, 10};
         titles[] = { 0, "" };
     };
 
     class USA_SOCOM_Generic_Objective_Charter_3_Death_V1_0
     {
         name = "Generic_Objective_Charter_3_Death_V1_0";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\objective\Generic_Objective_Charter_3_Death_V1_0.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\objective\Generic_Objective_Charter_3_Death_V1_0.ogg", 5, 1, 10};
         titles[] = { 0, "" };
     };
 
     class USA_SOCOM_Generic_Objective_Charter_Unlimited_Civ_Death_V1_0
     {
         name = "Generic_Objective_Charter_Unlimited_Civ_Death_V1_0";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\objective\Generic_Objective_Charter_Unlimited_Civ_Death_V1_0.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\objective\Generic_Objective_Charter_Unlimited_Civ_Death_V1_0.ogg", 5, 1, 10};
         titles[] = { 0, "" };
     };
 
     class USA_SOCOM_Generic_Objective_Charter_Unlimited_Death_V1_0
     {
         name = "Generic_Objective_Charter_Unlimited_Death_V1_0";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\objective\Generic_Objective_Charter_Unlimited_Death_V1_0.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\objective\Generic_Objective_Charter_Unlimited_Death_V1_0.ogg", 5, 1, 10};
         titles[] = { 0, "" };
     };
 
     class USA_SOCOM_Generic_Objective_Charter_Update_V1_0
     {
         name = "Generic_Objective_Charter_Update_V1_0";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\objective\Generic_Objective_Charter_Update_V1_0.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\objective\Generic_Objective_Charter_Update_V1_0.ogg", 5, 1, 10};
         titles[] = { 0, "" };
     };
 
     class USA_SOCOM_Generic_Objective_Clear_Town_V1_0
     {
         name = "Generic_Objective_Clear_Town_V1_0";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\objective\Generic_Objective_Clear_Town_V1_0.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\objective\Generic_Objective_Clear_Town_V1_0.ogg", 5, 1, 10};
         titles[] = { 0, "" };
     };
 
     class USA_SOCOM_Generic_Objective_Clear_Village_V1_0
     {
         name = "Generic_Objective_Clear_Village_V1_0";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\objective\Generic_Objective_Clear_Village_V1_0.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\objective\Generic_Objective_Clear_Village_V1_0.ogg", 5, 1, 10};
         titles[] = { 0, "" };
     };
 
     class USA_SOCOM_Generic_Objective_CommsTransformer_V1_0
     {
         name = "Generic_Objective_CommsTransformer_V1_0";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\objective\Generic_Objective_CommsTransformer_V1_0.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\objective\Generic_Objective_CommsTransformer_V1_0.ogg", 5, 1, 10};
         titles[] = { 0, "" };
     };
 
     class USA_SOCOM_Generic_Objective_FallenBody_V1_0
     {
         name = "Generic_Objective_FallenBody_V1_0";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\objective\Generic_Objective_FallenBody_V1_0.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\objective\Generic_Objective_FallenBody_V1_0.ogg", 5, 1, 10};
         titles[] = { 0, "" };
     };
 
     class USA_SOCOM_Generic_Objective_Intel_V1_0
     {
         name = "Generic_Objective_Intel_V1_0";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\objective\Generic_Objective_Intel_V1_0.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\objective\Generic_Objective_Intel_V1_0.ogg", 5, 1, 10};
         titles[] = { 0, "" };
     };
 
     class USA_SOCOM_Generic_Objective_Resource_V1_0
     {
         name = "Generic_Objective_Resource_V1_0";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\objective\Generic_Objective_Resource_V1_0.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\objective\Generic_Objective_Resource_V1_0.ogg", 5, 1, 10};
         titles[] = { 0, "" };
     };
 
@@ -521,7 +521,7 @@ class CfgSounds {
     class USA_SOCOM_Generic_Hostage_Rescued_Sam_0
     {
         name = "Generic_Hostage_Rescued_Sam_0";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\objective\Generic_Hostage_Rescued_Sam_0.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\objective\Generic_Hostage_Rescued_Sam_0.ogg", 5, 1, 10};
         titles[] = { 
             0, "Good job team, it looks like we got all the hostages alive."
         };
@@ -530,7 +530,7 @@ class CfgSounds {
     class USA_SOCOM_Generic_Hostage_Rescued_Sam_1
     {
         name = "Generic_Hostage_Rescued_Sam_1";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\objective\Generic_Hostage_Rescued_Sam_1.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\objective\Generic_Hostage_Rescued_Sam_1.ogg", 5, 1, 10};
         titles[] = { 
             0, "Team... you did a great job! we'll smuggle the hostages offsite."
         };
@@ -539,7 +539,7 @@ class CfgSounds {
     class USA_SOCOM_Generic_Hostage_Rescued_Sam_2
     {
         name = "Generic_Hostage_Rescued_Sam_2";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\objective\Generic_Hostage_Rescued_Sam_2.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\objective\Generic_Hostage_Rescued_Sam_2.ogg", 5, 1, 10};
         titles[] = { 
             0, "Hostages are secured, we've arranged for transport... Good job."
         };
@@ -548,7 +548,7 @@ class CfgSounds {
     class USA_SOCOM_Generic_Objective_Hostage_Presence_Sam_0
     {
         name = "Generic_Objective_Hostage_Presence_Sam_0";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\objective\Generic_Objective_Hostage_Presence_Sam_0.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\objective\Generic_Objective_Hostage_Presence_Sam_0.ogg", 5, 1, 10};
         titles[] = { 
             0, "Listen Iceman...",
             2, "I just received confirmation that hostages are present on this objective!",
@@ -560,7 +560,7 @@ class CfgSounds {
     class USA_SOCOM_Generic_Objective_Hostage_Presence_Sam_1
     {
         name = "Generic_Objective_Hostage_Presence_Sam_1";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\objective\Generic_Objective_Hostage_Presence_Sam_1.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\objective\Generic_Objective_Hostage_Presence_Sam_1.ogg", 5, 1, 10};
         titles[] = { 
             0, "Iceman...",
             2, "We have confirmation that hostages are present on site...",
@@ -573,7 +573,7 @@ class CfgSounds {
     class USA_SOCOM_Generic_Objective_Hostage_Presence_Sam_2
     {
         name = "Generic_Objective_Hostage_Presence_Sam_2";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\objective\Generic_Objective_Hostage_Presence_Sam_2.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\objective\Generic_Objective_Hostage_Presence_Sam_2.ogg", 5, 1, 10};
         titles[] = { 
             0, "Hostages on site Iceman...",
             3, "Our Sources have confirmed it...",
@@ -587,7 +587,7 @@ class CfgSounds {
     class USA_SOCOM_Generic_Hostage_Rescued_Kathleen_0
     {
         name = "Generic_Hostage_Rescued_Kathleen_0";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\objective\Generic_Hostage_Rescued_Kathleen_0.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\objective\Generic_Hostage_Rescued_Kathleen_0.ogg", 5, 1, 10};
         titles[] = { 
             0, "Good job team, it looks like we got all the hostages alive."
         };
@@ -596,7 +596,7 @@ class CfgSounds {
     class USA_SOCOM_Generic_Hostage_Rescued_Kathleen_1
     {
         name = "Generic_Hostage_Rescued_Kathleen_1";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\objective\Generic_Hostage_Rescued_Kathleen_1.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\objective\Generic_Hostage_Rescued_Kathleen_1.ogg", 5, 1, 10};
         titles[] = { 
             0, "Team... you did a great job! we'll smuggle the hostages offsite."
         };
@@ -605,7 +605,7 @@ class CfgSounds {
     class USA_SOCOM_Generic_Hostage_Rescued_Kathleen_2
     {
         name = "Generic_Hostage_Rescued_Kathleen_2";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\objective\Generic_Hostage_Rescued_Kathleen_2.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\objective\Generic_Hostage_Rescued_Kathleen_2.ogg", 5, 1, 10};
         titles[] = { 
             0, "Hostages are secured, we've arranged for transport... Good job."
         };
@@ -614,7 +614,7 @@ class CfgSounds {
     class USA_SOCOM_Generic_Objective_Hostage_Presence_Kathleen_0
     {
         name = "Generic_Objective_Hostage_Presence_Kathleen_0";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\objective\Generic_Objective_Hostage_Presence_Kathleen_0.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\objective\Generic_Objective_Hostage_Presence_Kathleen_0.ogg", 5, 1, 10};
         titles[] = { 
             0, "Listen Iceman...",
             2, "I just received confirmation that hostages are present on this objective!",
@@ -626,7 +626,7 @@ class CfgSounds {
     class USA_SOCOM_Generic_Objective_Hostage_Presence_Kathleen_1
     {
         name = "Generic_Objective_Hostage_Presence_Kathleen_1";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\objective\Generic_Objective_Hostage_Presence_Kathleen_1.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\objective\Generic_Objective_Hostage_Presence_Kathleen_1.ogg", 5, 1, 10};
         titles[] = { 
             0, "Iceman...",
             2, "We have confirmation that hostages are present on site...",
@@ -639,7 +639,7 @@ class CfgSounds {
     class USA_SOCOM_Generic_Objective_Hostage_Presence_Kathleen_2
     {
         name = "Generic_Objective_Hostage_Presence_Kathleen_2";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\objective\Generic_Objective_Hostage_Presence_Kathleen_2.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\objective\Generic_Objective_Hostage_Presence_Kathleen_2.ogg", 5, 1, 10};
         titles[] = { 
             0, "Hostages on site Iceman...",
             2, "Our Sources have confirmed it...",

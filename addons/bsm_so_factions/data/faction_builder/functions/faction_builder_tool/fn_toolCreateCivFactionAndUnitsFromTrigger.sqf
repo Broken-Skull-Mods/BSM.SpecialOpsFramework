@@ -38,17 +38,14 @@ private _requiredAddons = [];
         if (_typeFaceGreek) then { _typeFaceGreek = 1; } else { _typeFaceGreek = 0; };
         if (_typeFaceAsian) then { _typeFaceAsian = 1; } else { _typeFaceAsian = 0; };
     };
-
     private _faceSelected = [[_typeFacePersian, _typeFaceWhite, _typeFaceBlack, _typeFaceGreek, _typeFaceAsian]] call SpecOps_fnc_commonGetRandomFace;
     private _voiceSelected = [_typeVoice] call SpecOps_fnc_commonGetRandomVoice; 
     diag_log format ["%1", _voiceSelected];
-
     private _typePreset = _unit getVariable ["SpecOps_FactionGenerator", -1];
     private _typeCamo = _unit getVariable ["SpecOps_FactionGeneratorCamo", 0];
     private _camoName = "";
     private _camoNameShort = "";
     if (_typeCamo == 0) then { _camoName = "Woodland"; _camoNameShort = "WL"; };
-
     private _typeName = "";
     private _scope = 2;
     private _typeDisplayname = "";
@@ -60,12 +57,7 @@ private _requiredAddons = [];
         _scope = 2;
         
     };
-
-    
     private _unitIdentityOption = format ["{ %1, %2, %3, %4, %5 };", _typeFacePersian, _typeFaceWhite, _typeFaceBlack, _typeFaceGreek, _typeFaceAsian];
-    /*
-
-    */
     private _loadout =  str (getUnitLoadout [_unit, true]);
     private _extractedStuff = [(getUnitLoadout [_unit, true])] call SpecOps_fnc_commonExtractUnitGearnStuff;
     {
@@ -78,7 +70,6 @@ private _requiredAddons = [];
     } forEach(_extractedStuff);
     _loadout = [_loadout, '[', '{'] call CBA_fnc_replace;
     _loadout = [_loadout, ']', '}'] call CBA_fnc_replace;
-
     private _linkedItems = str (assignedItems [_unit, true, false]);
     _linkedItems = [_linkedItems, '[', '{'] call CBA_fnc_replace;
     _linkedItems = [_linkedItems, ']', '}'] call CBA_fnc_replace;

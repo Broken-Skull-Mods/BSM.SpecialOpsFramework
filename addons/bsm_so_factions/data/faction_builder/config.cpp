@@ -20,6 +20,7 @@ class CfgFunctions {
             class toolCreateCivFactionAndUnitsFromTrigger {};
 			class toolAutoFillLoadout {};
 			class toolFillCargoWithPercentageTable {};
+			class toolCreateFactionUnitType {};
 		}
 	};
 };

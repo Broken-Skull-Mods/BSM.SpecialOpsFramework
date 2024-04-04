@@ -16,7 +16,7 @@ class CfgSounds {
     class USA_SOCOM_Generic_Operation_Success_Clyde_0
 {
     name = "USA_SOCOM_Generic_Operation_Success_Clyde_0";
-    sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\operation\Generic_Operation_Success_Clyde_0.ogg", 5, 1, 10};
+    sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\operation\Generic_Operation_Success_Clyde_0.ogg", 5, 1, 10};
     titles[] = {
         0, "Iceman, Iceman... Good work on the operation success."
     };
@@ -25,7 +25,7 @@ class CfgSounds {
 class USA_SOCOM_Generic_Operation_Success_Next_Clyde_0
 {
     name = "USA_SOCOM_Generic_Operation_Success_Next_Clyde_0";
-    sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\operation\Generic_Operation_Success_Next_Clyde_0.ogg", 5, 1, 10};
+    sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\operation\Generic_Operation_Success_Next_Clyde_0.ogg", 5, 1, 10};
     titles[] = {
         0, "Iceman... Spitfire here!",
         3, "Your success allowed us to find new opportunities in the region."
@@ -35,7 +35,7 @@ class USA_SOCOM_Generic_Operation_Success_Next_Clyde_0
 class USA_SOCOM_Generic_Operation_Success_Next_Clyde_1
 {
     name = "USA_SOCOM_Generic_Operation_Success_Next_Clyde_1";
-    sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\operation\Generic_Operation_Success_Next_Clyde_1.ogg", 5, 1, 10};
+    sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\operation\Generic_Operation_Success_Next_Clyde_1.ogg", 5, 1, 10};
     titles[] = {
         0, "Iceman... Spitfire here!",
         2, "New oppotunities have arise from your success, good work team."
@@ -46,7 +46,7 @@ class USA_SOCOM_Generic_Operation_Success_Next_Clyde_1
 class USA_SOCOM_Generic_Operation_Failure_No_Next_Clyde_0
 {
     name = "USA_SOCOM_Generic_Operation_Failure_No_Next_Clyde_0";
-    sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\operation\Generic_Operation_Failure_No_Next_Clyde_0.ogg", 5, 1, 10};
+    sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\operation\Generic_Operation_Failure_No_Next_Clyde_0.ogg", 5, 1, 10};
     titles[] = {
         0, "Spitfire to Iceman...",
         2, "The brass decided to scrap this operation!",
@@ -57,7 +57,7 @@ class USA_SOCOM_Generic_Operation_Failure_No_Next_Clyde_0
 class USA_SOCOM_Generic_Operation_Failure_No_Next_Clyde_1
 {
     name = "USA_SOCOM_Generic_Operation_Failure_No_Next_Clyde_1";
-    sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\operation\Generic_Operation_Failure_No_Next_Clyde_1.ogg", 5, 1, 10};
+    sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\operation\Generic_Operation_Failure_No_Next_Clyde_1.ogg", 5, 1, 10};
     titles[] = {
         0, "Spitfire to Iceman...",
         2, "We're done! The brass pulled the plug on this operation...",
@@ -68,7 +68,7 @@ class USA_SOCOM_Generic_Operation_Failure_No_Next_Clyde_1
 class USA_SOCOM_Generic_Operation_Failure_No_Next_Clyde_2
 {
     name = "Generic_Operation_Failure_No_Next_Clyde_2";
-    sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\operation\Generic_Operation_Failure_No_Next_Clyde_2.ogg", 5, 1, 10};
+    sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\operation\Generic_Operation_Failure_No_Next_Clyde_2.ogg", 5, 1, 10};
     titles[] = {
         0, "Look Iceman... I hate to say this but,",
         2, "we are pulling the plug on this operation...",
@@ -79,7 +79,7 @@ class USA_SOCOM_Generic_Operation_Failure_No_Next_Clyde_2
 class USA_SOCOM_Generic_Operation_Failure_No_Next_Clyde_3
 {
     name = "USA_SOCOM_Generic_Operation_Failure_No_Next_Clyde_3";
-    sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\operation\Generic_Operation_Failure_No_Next_Clyde_3.ogg", 5, 1, 10};
+    sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\operation\Generic_Operation_Failure_No_Next_Clyde_3.ogg", 5, 1, 10};
     titles[] = {
         0, "Iceman, Iceman... The operation is scrapped!",
         5, "The brass is a ashamed to call y'all SEALs...",
@@ -91,7 +91,7 @@ class USA_SOCOM_Generic_Operation_Failure_No_Next_Clyde_3
 class USA_SOCOM_Generic_Operation_Success_Walker_0
 {
     name = "USA_SOCOM_Generic_Operation_Success_Walker_0";
-    sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\operation\Generic_Operation_Success_Walker_0.ogg", 5, 1, 10};
+    sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\operation\Generic_Operation_Success_Walker_0.ogg", 5, 1, 10};
     titles[] = {
         0, "Iceman, Iceman... Good work on the operation success."
     };
@@ -101,7 +101,7 @@ class USA_SOCOM_Generic_Operation_Success_Walker_0
 class USA_SOCOM_Generic_Operation_Success_Next_Walker_0
 {
     name = "USA_SOCOM_Generic_Operation_Success_Next_Walker_0";
-    sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\operation\Generic_Operation_Success_Next_Walker_0.ogg", 5, 1, 10};
+    sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\operation\Generic_Operation_Success_Next_Walker_0.ogg", 5, 1, 10};
     titles[] = {
         0, "Iceman... Spitfire here!",
         3, "Your success allowed us to find new opportunities in the region."
@@ -111,7 +111,7 @@ class USA_SOCOM_Generic_Operation_Success_Next_Walker_0
 class USA_SOCOM_Generic_Operation_Success_Next_Walker_1
 {
     name = "USA_SOCOM_Generic_Operation_Success_Next_Walker_1";
-    sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\operation\Generic_Operation_Success_Next_Walker_1.ogg", 5, 1, 10};
+    sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\operation\Generic_Operation_Success_Next_Walker_1.ogg", 5, 1, 10};
     titles[] = {
         0, "Iceman... Spitfire here!",
         2, "New oppotunities have arise from your success, good work team."
@@ -123,7 +123,7 @@ class USA_SOCOM_Generic_Operation_Success_Next_Walker_1
 class USA_SOCOM_Generic_Operation_Failure_Next_Clyde_0
 {
     name = "Generic_Operation_Failure_Next_Clyde_0";
-    sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\operation\Generic_Operation_Failure_Next_Clyde_0.ogg", 5, 1, 10};
+    sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\operation\Generic_Operation_Failure_Next_Clyde_0.ogg", 5, 1, 10};
     titles[] = {
         0, "Iceman, this is spitfire base...",
         1, "This operation is a failure but, we might be able to redeem ourselves."
@@ -133,7 +133,7 @@ class USA_SOCOM_Generic_Operation_Failure_Next_Clyde_0
 class USA_SOCOM_Generic_Operation_Failure_Next_Walker_0
 {
     name = "USA_SOCOM_Generic_Operation_Failure_Next_Walker_0";
-    sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\operation\Generic_Operation_Failure_Next_Walker_0.ogg", 5, 1, 10};
+    sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\operation\Generic_Operation_Failure_Next_Walker_0.ogg", 5, 1, 10};
     titles[] = {
         0, "Iceman, this is spitfire base...",
         3, "This operation is a failure but, we might be able to redeem ourselves."
@@ -143,7 +143,7 @@ class USA_SOCOM_Generic_Operation_Failure_Next_Walker_0
 class USA_SOCOM_Generic_Operation_Failure_No_Next_Walker_0
 {
     name = "USA_SOCOM_Generic_Operation_Failure_No_Next_Walker_0";
-    sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\operation\Generic_Operation_Failure_No_Next_Walker_0.ogg", 5, 1, 10};
+    sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\operation\Generic_Operation_Failure_No_Next_Walker_0.ogg", 5, 1, 10};
     titles[] = {
         0, "Spitfire to Iceman...",
         2, "The brass decided to scrap this operation!",
@@ -154,7 +154,7 @@ class USA_SOCOM_Generic_Operation_Failure_No_Next_Walker_0
 class USA_SOCOM_Generic_Operation_Failure_No_Next_Walker_1
 {
     name = "USA_SOCOM_Generic_Operation_Failure_No_Next_Walker_1";
-    sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\operation\Generic_Operation_Failure_No_Next_Walker_1.ogg", 5, 1, 10};
+    sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\operation\Generic_Operation_Failure_No_Next_Walker_1.ogg", 5, 1, 10};
     titles[] = {
         0, "Spitfire to Iceman...",
         2, "We're done! The brass pulled the plug on this operation...",
@@ -165,7 +165,7 @@ class USA_SOCOM_Generic_Operation_Failure_No_Next_Walker_1
 class USA_SOCOM_Generic_Operation_Failure_No_Next_Walker_2
 {
     name = "USA_SOCOM_Generic_Operation_Failure_No_Next_Walker_2";
-    sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\operation\Generic_Operation_Failure_No_Next_Walker_2.ogg", 5, 1, 10};
+    sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\operation\Generic_Operation_Failure_No_Next_Walker_2.ogg", 5, 1, 10};
     titles[] = {
         0, "Look Iceman... I hate to say this but,",
         3, "we are pulling the plug on this operation...",
@@ -176,7 +176,7 @@ class USA_SOCOM_Generic_Operation_Failure_No_Next_Walker_2
 class USA_SOCOM_Generic_Operation_Failure_No_Next_Walker_3
 {
     name = "USA_SOCOM_Generic_Operation_Failure_No_Next_Walker_3";
-    sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\operation\Generic_Operation_Failure_No_Next_Walker_3.ogg", 5, 1, 10};
+    sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\operation\Generic_Operation_Failure_No_Next_Walker_3.ogg", 5, 1, 10};
     titles[] = {
         0, "Iceman, Iceman... The operation is scrapped!",
         5, "The brass is a ashamed to call y'all SEALs...",

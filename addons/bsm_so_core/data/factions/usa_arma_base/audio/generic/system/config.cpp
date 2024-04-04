@@ -17,7 +17,7 @@ class CfgSounds
     class USA_SOCOM_Generic_Budget_Exceeded_V0_0
     {
         name = "Generic_Budget_Exceeded_V0_0";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\system\Generic_Budget_Exceeded_V0_0.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\system\Generic_Budget_Exceeded_V0_0.ogg", 5, 1, 10};
         titles[] = {
             0, "Look, we don't have the budget...",
             2, "Sorry Iceman...",
@@ -28,7 +28,7 @@ class CfgSounds
     class USA_SOCOM_Generic_Budget_Exceeded_V0_1
     {
         name = "Generic_Budget_Exceeded_V0_1";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\system\Generic_Budget_Exceeded_V0_1.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\system\Generic_Budget_Exceeded_V0_1.ogg", 5, 1, 10};
         titles[] = {
             0, "Sorry Iceman, we already blown through our budget!",
             3, "I know it sucks but that's the brass decision, stay safe!...",
@@ -39,7 +39,7 @@ class CfgSounds
     class USA_SOCOM_Generic_Budget_Exceeded_V0_2
     {
         name = "Generic_Budget_Exceeded_V0_2";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\system\Generic_Budget_Exceeded_V0_2.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\system\Generic_Budget_Exceeded_V0_2.ogg", 5, 1, 10};
         titles[] = {
             0, "You're out of control, Iceman!",
             2, "We already spend too much for this operation!",
@@ -51,7 +51,7 @@ class CfgSounds
     class USA_SOCOM_Generic_Budget_Exceeded_V0_3
     {
         name = "Generic_Budget_Exceeded_V0_3";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\system\Generic_Budget_Exceeded_V0_3.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\system\Generic_Budget_Exceeded_V0_3.ogg", 5, 1, 10};
         titles[] = {
             0, "Fuckin eh, Iceman!",
             1, "I got the brass up my ass for you to do your job!",
@@ -64,7 +64,7 @@ class CfgSounds
     class USA_SOCOM_Generic_Budget_Exceeded_V0_4
     {
         name = "Generic_Budget_Exceeded_V0_4";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\system\Generic_Budget_Exceeded_V0_4.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\system\Generic_Budget_Exceeded_V0_4.ogg", 5, 1, 10};
         titles[] = {
             0, "I'm gonna lose it, Iceman!",
             3, "THE BRASS IS DEEP INSIDE MY ASS!",
@@ -79,7 +79,7 @@ class CfgSounds
     class USA_SOCOM_Generic_Budget_Exceeded_V1_0
     {
         name = "Generic_Budget_Exceeded_V1_0";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\system\Generic_Budget_Exceeded_V1_0.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\system\Generic_Budget_Exceeded_V1_0.ogg", 5, 1, 10};
         titles[] = {
             0, "Look, we don't have the budget...",
             2, "Sorry Iceman...",
@@ -90,7 +90,7 @@ class CfgSounds
     class USA_SOCOM_Generic_Budget_Exceeded_V1_1
     {
         name = "Generic_Budget_Exceeded_V1_1";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\system\Generic_Budget_Exceeded_V1_1.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\system\Generic_Budget_Exceeded_V1_1.ogg", 5, 1, 10};
         titles[] = {
             0, "Sorry Iceman, we already blown through our budget!",
             3, "I know it sucks but that's the brass decision, stay safe!...", 
@@ -101,7 +101,7 @@ class CfgSounds
     class USA_SOCOM_Generic_Budget_Exceeded_V1_2
     {
         name = "Generic_Budget_Exceeded_V1_2";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\system\Generic_Budget_Exceeded_V1_2.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\system\Generic_Budget_Exceeded_V1_2.ogg", 5, 1, 10};
         titles[] = {
             0, "You're out of control, Iceman!",
             2, "We already spend too much for this operation!",
@@ -113,7 +113,7 @@ class CfgSounds
     class USA_SOCOM_Generic_Budget_Exceeded_V1_3
     {
         name = "Generic_Budget_Exceeded_V1_3";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\system\Generic_Budget_Exceeded_V1_3.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\system\Generic_Budget_Exceeded_V1_3.ogg", 5, 1, 10};
         titles[] = {
             0, "Fuckin eh, Iceman!",
             1, "I got the brass up my ass for you to do your job!",
@@ -126,7 +126,7 @@ class CfgSounds
     class USA_SOCOM_Generic_Budget_Exceeded_V1_4
     {
         name = "Generic_Budget_Exceeded_V1_4";
-        sound[] = {"\bsm_so_core\factions\usa_socom\audio\generic\system\Generic_Budget_Exceeded_V1_4.ogg", 5, 1, 10};
+        sound[] = {"\bsm_so_core\data\factions\usa_arma_base\audio\generic\system\Generic_Budget_Exceeded_V1_4.ogg", 5, 1, 10};
         titles[] = {
             0, "I'm gonna lose it, Iceman!",
             2, "THE BRASS IS DEEP INSIDE MY ASS!",
