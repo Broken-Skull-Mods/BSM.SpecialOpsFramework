@@ -1,0 +1,3 @@
+[list]
+    [*] Fix Self Halo not working.
+[/list]

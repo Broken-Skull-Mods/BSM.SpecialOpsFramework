@@ -342,7 +342,7 @@ class CfgPatches
 {
 	class bm_specops_faction_WORLD_CIV_BASE
 	{
-		author = "BloodyMystik & Orka";
+		author = "Broken Skull Mods";
 		units[]={};
 		weapons[]={};
 		requiredVersion=0.1;

@@ -1,0 +1,3 @@
+[list]
+    [*] Now Prelist all of building position as global factual information.
+[/list]

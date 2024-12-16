@@ -1,0 +1,3 @@
+[list]
+    [*] Added Boundaries, Now the Trigger aroung each building will serve as building Boundaries so review will have to happen.
+[/list]

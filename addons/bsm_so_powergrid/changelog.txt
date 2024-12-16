@@ -1,0 +1,7 @@
+[list]
+    [*] Added Support for Liviona
+    [*] Added Support for Malden
+    [*] Added Support for Sefrou Ramal
+    [*] Added Support for Stratis
+    [*] Added Support for Tanoa
+[/list]

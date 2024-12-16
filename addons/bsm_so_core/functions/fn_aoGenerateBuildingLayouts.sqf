@@ -1,6 +1,6 @@
 	params ["_area", "_areaHalfSize", "_totalEnemies", "_leaderNb", "_intelMax", "_staticGunnerCount", "_hostagesNb", 
-		["_garrisonRatio", TFT_SPECOPS_GEN_GARRISON_MIN], ["_tier", 3], 
-		["_faction", TFTSRV_SAVEDVAR_ENEMY_FACTION], ["_factionCamo", TFTSRV_SAVEDVAR_PLAYER_FACTION_CAMO]
+		["_garrisonRatio", 0], ["_tier", 3], 
+		["_faction", "BS_B_US_ARMA_BASE"], ["_factionCamo", "WL"]
 	];
 	/*
         [testBuilding, 50, 5, 1, 1, 1, 1] call SpecOps_fnc_aoGenerateBuildingLayouts;
@@ -209,7 +209,9 @@
 			private _randomUp = _randomHostageInfoSet select 2;
 			private _randomDir = _randomHostageInfoSet select 3;
 			private _randomHostageOptions = _randomHostageInfoSet select 4;
-
+			private _canProne = (_randomHostageOptions select 0) == 0;
+			private _IsCanCrouch = (_randomHostageOptions select 1) == 0;
+			private _IsCanStand = (_randomHostageOptions select 2) == 0;
 			diag_log format ["SPEC-OPS (AO): _randomHostageInfoSet  (%1)", _randomHostageInfoSet];
 
 			private _index = _buildingsAndUnitPositions findIf { (_x select 0) == _randomBuildingObject };
@@ -260,8 +262,20 @@
 			};
 
 			private _spawnPos = [_randomBuildingObject, _randomHostagePos] call SpecOps_fnc_getRelatedPosition;
-			
+				
+			private _animHostage = [];
+			if (_canProne || {!_canProne && !_IsCanCrouch && !_IsCanStand}) then { _animHostage pushbackUnique "revive_secured"; };
+			if (_IsCanCrouch || {!_canProne && !_IsCanCrouch && !_IsCanStand}) then { _animHostage pushbackUnique "ACE_HandcuffedFFV"; };
+			if (_IsCanStand || {!_canProne && !_IsCanCrouch && !_IsCanStand}) then { 
+				_animHostage append [
+					"UnaErcPoslechVelitele1",
+					"UnaErcPoslechVelitele2",
+					"UnaErcPoslechVelitele3",
+					"UnaErcPoslechVelitele4"
+				]; 
+			};
 
+			private _cuffAnim = selectRandom _animHostage;
 			private _hostageAgent = createAgent ["B_Survivor_F", _spawnPos, [], 0, "CAN_COLLIDE"];
 			_unit = _hostageAgent;
 			
@@ -272,7 +286,7 @@
 			private _isVisibleFromOutside = (_randomHostageOptions select 1) == 1;
 			_unit setVariable ["Unit_VisibleFromOutside", _isVisibleFromOutside];
 			_unit setCaptive true;
-			_unit allowDamage false;
+			// _unit allowDamage false;
 			_unit hideObjectGlobal true;
 			[_randomBuildingObject, _unit, _randomHostagePos, 0] call BIS_fnc_relPosObject;
 			_unit setDir (getDir _randomBuildingObject - _randomDir);
@@ -280,8 +294,9 @@
 			_unit enableSimulationGlobal false;
 			_unit disableAI "PATH";
 			[_unit, true, _unit] call ACE_captives_fnc_setHandcuffed;
-			[_unit] spawn { sleep 2; (_this select 0) allowDamage true; };
-
+			// [_unit] spawn { sleep 2; (_this select 0) allowDamage true; };
+			_unit switchMove _cuffAnim;
+			_unit playMoveNow _cuffAnim;
 			_hostages pushback _unit;
 			_priorityBuildings pushbackUnique _randomBuildingObject;
 			_cqbBuildings pushbackUnique _randomBuildingObject;
@@ -306,17 +321,18 @@
 			if(isNil "_randomInfoSet") exitWith { };
 			diag_log format ["SPEC-OPS (AO): _randomInfoSet = %1", _randomInfoSet];
 			private _randomPos = _randomInfoSet select 0;
-			private _randomDir = _randomInfoSet select 1;
+			private _randomVectorDir = _randomInfoSet select 1;
 			private _randomUp = _randomInfoSet select 2;
+			private _randomDir = _randomInfoSet select 3;
 			private _randomOptions = _randomInfoSet select 4;
 			private _typeOfGun = _randomOptions select 0;
 			diag_log format ["SPEC-OPS (AO): _randomPos = %1 | _randomDir = %2 | _randomOptions = %3", _randomPos, _randomDir, _randomOptions];
 
-			private _lowMachineGuns = getArray (configfile >> "CfgFactionClasses" >> TFTSRV_SAVEDVAR_ENEMY_FACTION >> "StaticLowMG");
-			private _highMachineGuns = getArray (configfile >> "CfgFactionClasses" >> TFTSRV_SAVEDVAR_ENEMY_FACTION >> "StaticHighMG");
-			private _motar = getArray (configfile >> "CfgFactionClasses" >> TFTSRV_SAVEDVAR_ENEMY_FACTION >> "StaticMotar");
-			private _antiAir = getArray (configfile >> "CfgFactionClasses" >> TFTSRV_SAVEDVAR_ENEMY_FACTION >> "StaticAntiAir");
-			private _sam = getArray (configfile >> "CfgFactionClasses" >> TFTSRV_SAVEDVAR_ENEMY_FACTION >> "SamSystem");
+			private _lowMachineGuns = getArray (configfile >> "CfgFactionClasses" >> TFTSRV_SAVEDVAR_ENEMY_FACTION >> "StaticLowMG")  apply { _x select 0 };
+			private _highMachineGuns = getArray (configfile >> "CfgFactionClasses" >> TFTSRV_SAVEDVAR_ENEMY_FACTION >> "StaticHighMG")  apply { _x select 0 };
+			private _motar = getArray (configfile >> "CfgFactionClasses" >> TFTSRV_SAVEDVAR_ENEMY_FACTION >> "StaticMotar")  apply { _x select 0 };
+			private _antiAir = getArray (configfile >> "CfgFactionClasses" >> TFTSRV_SAVEDVAR_ENEMY_FACTION >> "StaticAntiAir")  apply { _x select 0 };
+			private _sam = getArray (configfile >> "CfgFactionClasses" >> TFTSRV_SAVEDVAR_ENEMY_FACTION >> "SamSystem")  apply { _x select 0 };
 			if (_typeOfGun == 0 && {count _lowMachineGuns <= 0}) then { continue; };
 			if (_typeOfGun == 1 && {count _highMachineGuns <= 0}) then { continue; };
 			if (_typeOfGun == 2 && {count _motar <= 0}) then { continue; };
@@ -338,7 +354,7 @@
 			private _unit = leader _group;
 			private _vehicle = vehicle _unit;
 
-			[_building, _vehicle, _randomPos, [_randomDir, _randomUp], false, true] call SpecOps_fnc_commonRelPosObject;
+			[_randomBuildingObject, _vehicle, _randomPos, [_randomVectorDir, _randomUp], false, true] call SpecOps_fnc_commonRelPosObject;
 			// [_randomBuildingObject, _vehicle, _randomPos, _randomDir] call BIS_fnc_relPosObject;
 			private _correctedRotation = (getDir _randomBuildingObject) + _randomDir;
 			// _vehicle setDir _correctedRotation;
@@ -369,10 +385,10 @@
 			_vehicle setVariable ["Unit_VisibleFromOutside", true];
 			_unit setVariable ["Unit_VisibleFromOutside", true];
 
-			_unit allowDamage false;
-			[_unit] spawn { sleep 2; (_this select 0) allowDamage true; };
-			_vehicle allowDamage false;
-			[_vehicle] spawn { sleep 2; (_this select 0) allowDamage true; };
+			// _unit allowDamage false;
+			// [_unit] spawn { sleep 2; (_this select 0) allowDamage true; };
+			// _vehicle allowDamage false;
+			// [_vehicle] spawn { sleep 2; (_this select 0) allowDamage true; };
 			_enemyUnits pushback _unit;
 			_enemyVehicles pushback _vehicle;
 			missionNamespace setVariable ["tft_global_loading_status", format['Spawning Enemies (%1)', ([1000, 9999] call BIS_fnc_randomInt)], true];

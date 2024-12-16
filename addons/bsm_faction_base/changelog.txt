@@ -1,0 +1,3 @@
+[list]
+    [*] Added more gear to base faction.
+[/list]

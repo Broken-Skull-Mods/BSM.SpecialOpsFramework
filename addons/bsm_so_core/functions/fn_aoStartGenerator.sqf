@@ -139,8 +139,11 @@ for "_i" from 1 to _fireteamCount do {
     private _selectedPatrolType = selectRandomWeighted _patrolType;
     private _patrolPosition = getPos _area;
     private _patrolSize = _areaHalfSize;
-    if (_selectedPatrolType == "PATROL_BUILDING") then { _patrolSize = 75; _patrolPosition = getPos (selectRandom _cqbBuildings); };
-    if (_selectedPatrolType == "DEFEND_BUILDING") then { _patrolSize = 75; _patrolPosition = getPos (selectRandom _cqbBuildings); };
+    if (count _cqbBuildings > 0) then {
+        if (_selectedPatrolType == "PATROL_BUILDING") then { _patrolSize = 75; _patrolPosition = getPos (selectRandom _cqbBuildings); };
+        if (_selectedPatrolType == "DEFEND_BUILDING") then { _patrolSize = 75; _patrolPosition = getPos (selectRandom _cqbBuildings); };
+    };
+
 
     private _units = [_fireteam, _safePos, _selectedPatrolType, _patrolPosition, _patrolSize] call SpecOps_fnc_aoSpawnEnemyPatrol;
     _patrolEnemyUnits append _units;

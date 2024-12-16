@@ -1,0 +1,5 @@
+[list]
+    [*] Initial Upload Using the new release system.
+    [*] Fix bad variables
+    [*] Restore Audio Support (Player Faction or Default US faction voices).
+[/list]

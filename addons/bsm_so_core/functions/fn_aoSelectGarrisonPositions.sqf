@@ -1,4 +1,4 @@
-	params ["_area", "_areaHalfSize", "_totalEnemies", "_leaderNb", "_intelMax", "_staticGunnerCount", "_hostagesNb", ["_garrisonRatio", TFT_SPECOPS_GEN_GARRISON_MIN], ["_tier", 3]];
+	params ["_area", "_areaHalfSize", "_totalEnemies", "_leaderNb", "_intelMax", "_staticGunnerCount", "_hostagesNb", ["_garrisonRatio", 0], ["_tier", 3]];
 	/*
         [testBuilding, 50, 5, 1, 1, 1, 1] call SpecOps_fnc_aoSelectGarrisonPositions;
     */
@@ -242,7 +242,7 @@
 			private _isVisibleFromOutside = (_randomHostageOptions select 1) == 1;
 			_unit setVariable ["Unit_VisibleFromOutside", _isVisibleFromOutside];
 			_unit setCaptive true;
-			_unit allowDamage false;
+			// _unit allowDamage false;
 			_unit hideObjectGlobal true;
 			[_randomBuildingObject, _unit, _randomHostagePos, [_randomHostageDir, _randomHostageUp], false, true] call SpecOps_fnc_commonRelPosObject;
 			// [_randomBuildingObject, _unit, _randomHostagePos, 0] call BIS_fnc_relPosObject;
@@ -251,7 +251,7 @@
 			_unit enableSimulationGlobal false;
 			_unit disableAI "PATH";
 			[_unit, true, _unit] call ACE_captives_fnc_setHandcuffed;
-			[_unit] spawn { sleep 2; (_this select 0) allowDamage true; };
+			// [_unit] spawn { sleep 2; (_this select 0) allowDamage true; };
 
 			_hostages pushback _unit;
 			_priorityBuildings pushbackUnique _randomBuildingObject;
@@ -284,11 +284,11 @@
 			private _typeOfGun = _randomOptions select 0;
 			diag_log format ["SPEC-OPS (AO): _randomPos = %1 | _randomDir = %2 | _randomOptions = %3", _randomPos, _randomDir, _randomOptions];
 
-			private _lowMachineGuns = getArray (configfile >> "CfgFactionClasses" >> TFTSRV_SAVEDVAR_ENEMY_FACTION >> "StaticLowMG");
-			private _highMachineGuns = getArray (configfile >> "CfgFactionClasses" >> TFTSRV_SAVEDVAR_ENEMY_FACTION >> "StaticHighMG");
-			private _motar = getArray (configfile >> "CfgFactionClasses" >> TFTSRV_SAVEDVAR_ENEMY_FACTION >> "StaticMotar");
-			private _antiAir = getArray (configfile >> "CfgFactionClasses" >> TFTSRV_SAVEDVAR_ENEMY_FACTION >> "StaticAntiAir");
-			private _sam = getArray (configfile >> "CfgFactionClasses" >> TFTSRV_SAVEDVAR_ENEMY_FACTION >> "SamSystem");
+			private _lowMachineGuns = getArray (configfile >> "CfgFactionClasses" >> TFTSRV_SAVEDVAR_ENEMY_FACTION >> "StaticLowMG")  apply { _x select 0 };
+			private _highMachineGuns = getArray (configfile >> "CfgFactionClasses" >> TFTSRV_SAVEDVAR_ENEMY_FACTION >> "StaticHighMG")  apply { _x select 0 };
+			private _motar = getArray (configfile >> "CfgFactionClasses" >> TFTSRV_SAVEDVAR_ENEMY_FACTION >> "StaticMotar") apply { _x select 0 };
+			private _antiAir = getArray (configfile >> "CfgFactionClasses" >> TFTSRV_SAVEDVAR_ENEMY_FACTION >> "StaticAntiAir") apply { _x select 0 };
+			private _sam = getArray (configfile >> "CfgFactionClasses" >> TFTSRV_SAVEDVAR_ENEMY_FACTION >> "SamSystem") apply { _x select 0 };
 			if (_typeOfGun == 0 && {count _lowMachineGuns <= 0}) then { continue; };
 			if (_typeOfGun == 1 && {count _highMachineGuns <= 0}) then { continue; };
 			if (_typeOfGun == 2 && {count _motar <= 0}) then { continue; };
@@ -341,10 +341,10 @@
 			_vehicle setVariable ["Unit_VisibleFromOutside", true];
 			_unit setVariable ["Unit_VisibleFromOutside", true];
 
-			_unit allowDamage false;
-			[_unit] spawn { sleep 2; (_this select 0) allowDamage true; };
-			_vehicle allowDamage false;
-			[_vehicle] spawn { sleep 2; (_this select 0) allowDamage true; };
+			// _unit allowDamage false;
+			// [_unit] spawn { sleep 2; (_this select 0) allowDamage true; };
+			// _vehicle allowDamage false;
+			// [_vehicle] spawn { sleep 2; (_this select 0) allowDamage true; };
 			_enemyUnits pushback _unit;
 			_enemyVehicles pushback _vehicle;
     		uiSleep 0.5;

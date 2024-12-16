@@ -1,0 +1,14 @@
+force force BSM_SO_CBA_MAAO = 1;
+force force BSM_SO_CBA_MINAOSIZE = 100;
+force force BSM_ALLOW_UNCONCAM_ALLOW_DAMAGE = true;
+force force BSM_ALLOW_MEDIC_RESPAWN = true;
+force force BSM_SO_CBA_OSK_E = true;
+force force BSM_SO_CBA_OSK_P_E = false;
+force force BSM_SO_CBA_OSK_DEBUG = false;
+force force TFT_SPECOPS_GEN_CIV_KAMIKAZEE_ENABLED = true;
+force force TFT_SVEST_PROB_BLOW_ON_EXPLOSION = 0.7;
+force force TFT_SVEST_PROB_BLOW_ON_HIT = 0.2;
+force force TFT_SVEST_PROB_EXPLOSIVE_LARGE = 0.1;
+force force TFT_SVEST_PROB_EXPLOSIVE_MEDIUM = 1;
+force force TFT_SVEST_PROB_EXPLOSIVE_SMALL = 10;
+BSM_ALLOW_UNCONCAM_ENABLED = true;

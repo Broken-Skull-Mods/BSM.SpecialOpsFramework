@@ -8,18 +8,21 @@ private _isSpawnDone = missionNamespace getVariable ["AO_Spawning_Done", false];
 if (!_isSpawnDone) exitWith {
     ["The AO is not done spawning, leave the AO and wait for it to be ready."] remoteExec ["hintc", allPlayers];
 };
+private _faction = missionNameSpace getVariable ["bsm_so_factionInitial", "BS_B_US_ARMA_BASE"];
+private _audioHashmap = [_faction] call SpecOps_fnc_voiceInitialize;
 
 if (!isNull _area && (_trigger getVariable ["spec_ops_ao_notice_given", false])) then {
     _trigger setVariable ["spec_ops_ao_notice_given", true];
 _nbHostages = _area getVariable["TFT_ObjectiveCaptureHostages", 0];
     private _audio = [];
     if(_nbHostages > 0 ) then { 
-        _audio pushback ([TFTSRV_SAVEDVAR_PLAYER_FACTION, (missionNamespace getVariable ["spec_ops_genericVoicesHashed", createHashMap]), "IntelligenceCommander", "ObjectiveHostagePresence"] call SpecOps_fnc_voiceSelectFromHashMap);
+        private _audioHashmap = [_faction] call SpecOps_fnc_voiceInitialize;
+        _audio pushback ([_faction, _audioHashmap, "IntelligenceCommander", "ObjectiveHostagePresence"] call SpecOps_fnc_voiceSelectFromHashMap);
     };
     
     _nbHVTs = _area getVariable["TFT_ObjectiveCaptureHVT", 0];
     if(_nbHVTs > 0 ) then { 
-    _audio pushback ([TFTSRV_SAVEDVAR_PLAYER_FACTION, (missionNamespace getVariable ["spec_ops_genericVoicesHashed", createHashMap]), "IntelligenceCommander", "ObjectiveHostagePresence"] call SpecOps_fnc_voiceSelectFromHashMap);
+    _audio pushback ([_faction, _audioHashmap, "IntelligenceCommander", "ObjectiveHostagePresence"] call SpecOps_fnc_voiceSelectFromHashMap);
     };
     [_audio] remoteExec ["TFT_FUNC_COMMON_PLAY_AUDIO_LONG_RANGE_ARR_QUEUED", ([0, -2] select isDedicated)]; 
 

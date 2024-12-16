@@ -1,1 +1,2 @@
-class a3AmbientAnimCombat {};
+
+class a3WorldLocations { preInit = 1; };

@@ -1,0 +1,40 @@
+// DUI - Squad Radar - Radar
+force force diwako_dui_compass_hide_alone_group = false;
+force force diwako_dui_compass_hide_blip_alone_group = false;
+force force diwako_dui_dir_showMildot = false;
+force force diwako_dui_distanceWarning = 0;
+force force diwako_dui_enable_compass = false;
+force force diwako_dui_enable_occlusion = false;
+force force diwako_dui_radar_ace_finger = false;
+force force diwako_dui_radar_ace_medic = false;
+force force diwako_dui_radar_compassRangeCrew = 75;
+force force diwako_dui_radar_group_by_vehicle = false;
+force force diwako_dui_radar_icon_opacity_no_player = false;
+force force diwako_dui_radar_icon_priority_setting = 1;
+force force diwako_dui_radar_leadingZeroes = false;
+force force diwako_dui_radar_namelist_hideWhenLeader = false;
+force force diwako_dui_radar_pointer_color = [1,0.5,0,1];
+force force diwako_dui_radar_pointer_style = "arrowhead";
+force force diwako_dui_radar_show_cardinal_points = false;
+force force diwako_dui_radar_sh	owSpeaking = false;
+force force diwako_dui_radar_showSpeaking_radioOnly = false;
+force force diwako_dui_radar_showSpeaking_replaceIcon = false;
+force force diwako_dui_radar_sortType = "fireteam2";
+force force diwako_dui_radar_sqlFirst = false;
+force force diwako_dui_radar_syncGroup = false;
+force force diwako_dui_radar_vehicleCompassEnabled = false;
+force force diwako_dui_use_layout_editor = false;
+
+// CLIENT
+diwako_dui_compass_style = ["\z\diwako_dui\addons\radar\UI\compass_styles\milint\limited.paa","\z\diwako_dui\addons\radar\UI\compass_styles\milint\full.paa"];
+diwako_dui_dir_size = 1;
+diwako_dui_namelist_size = 1;
+diwako_dui_radar_dir_padding = 15;
+diwako_dui_radar_dir_shadow = 1;
+diwako_dui_radar_icon_scale_crew = 0.8;
+diwako_dui_compass_icon_scale = 0.7;
+diwako_dui_compassRange = 50;
+diwako_dui_compassRefreshrate = 0.1;
+diwako_dui_enable_compass_dir = 2;
+diwako_dui_enable_occlusion_cone = 360;
+diwako_dui_hudScaling = 1.65;

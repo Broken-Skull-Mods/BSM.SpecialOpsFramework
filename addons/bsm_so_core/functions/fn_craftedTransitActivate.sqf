@@ -13,7 +13,7 @@ if ((_isEverPresent == "") || { !isNil "TFTSRV_CAMPAIGN_VAR_MISSION_OPERATION" &
 
         _vec = createVehicle [_xItem, _xPos, [], 0, "NONE"];
         _vec setDir _xDirection;
-        _vec allowDamage false;
+        // _vec allowDamage false;
         _vec enableSimulation false;
         _vec enableSimulationGlobal false;
         {

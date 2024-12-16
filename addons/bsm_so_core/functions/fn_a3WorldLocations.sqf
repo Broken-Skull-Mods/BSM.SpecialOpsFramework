@@ -1,0 +1,3 @@
+private _areas = ("getText (_x >> 'name') != '' && {getText (_x >> 'name') != 'NameVillage' || getText (_x >> 'name') != 'NameCity'  || getText (_x >> 'name') != 'NameCityCapital'}" configClasses (configFile >> "CfgWorlds" >> worldName >> "Names")) 
+apply { [getText (_x >> "name"), getArray (_x >> "position"), ((getNumber (_x >> "RadiusA") + getNumber (_x >> "RadiusB"))), getText (_x >> "type")]; };
+missionNamespace setVariable ["bsm_so_locations", _areas];

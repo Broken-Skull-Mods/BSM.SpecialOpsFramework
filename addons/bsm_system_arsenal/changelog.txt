@@ -1,0 +1,3 @@
+[list]
+    [*] Changed Special 1 into Anti-Tank.
+[/list]

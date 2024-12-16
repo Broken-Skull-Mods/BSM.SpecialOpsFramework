@@ -1,0 +1,4 @@
+[list]
+    [*] Can Execute Hostage
+    [*] Rename Mod
+[/list]

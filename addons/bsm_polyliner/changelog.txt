@@ -1,0 +1,5 @@
+[list]
+    [*] Fixed Cover Map Not Available.
+    [*] Fixed bad function not generating polylines. 
+    [*] Remove App 
+[/list]

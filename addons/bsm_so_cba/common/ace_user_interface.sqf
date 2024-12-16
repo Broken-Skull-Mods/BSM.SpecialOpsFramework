@@ -1,0 +1,40 @@
+// ACE User Interface
+force force ace_ui_allowSelectiveUI = false;
+force force ace_ui_ammoCount = false;
+force force ace_ui_ammoType = true;
+force force ace_ui_commandMenu = true;
+force force ace_ui_enableSpeedIndicator = true;
+force force ace_ui_firingMode = true;
+force force ace_ui_groupBar = true;
+force force ace_ui_gunnerAmmoCount = false;
+force force ace_ui_gunnerAmmoType = true;
+force force ace_ui_gunnerFiringMode = true;
+force force ace_ui_gunnerLaunchableCount = true;
+force force ace_ui_gunnerLaunchableName = true;
+force force ace_ui_gunnerMagCount = true;
+force force ace_ui_gunnerWeaponLowerInfoBackground = true;
+force force ace_ui_gunnerWeaponName = true;
+force force ace_ui_gunnerWeaponNameBackground = true;
+force force ace_ui_gunnerZeroing = true;
+force force ace_ui_magCount = true;
+force force ace_ui_soldierVehicleWeaponInfo = true;
+force force ace_ui_staminaBar = true;
+force force ace_ui_stance = true;
+force force ace_ui_throwableCount = true;
+force force ace_ui_throwableName = true;
+force force ace_ui_vehicleAltitude = true;
+force force ace_ui_vehicleCompass = true;
+force force ace_ui_vehicleDamage = true;
+force force ace_ui_vehicleFuelBar = true;
+force force ace_ui_vehicleInfoBackground = true;
+force force ace_ui_vehicleName = true;
+force force ace_ui_vehicleNameBackground = true;
+force force ace_ui_vehicleRadar = true;
+force force ace_ui_vehicleSpeed = true;
+force force ace_ui_weaponLowerInfoBackground = true;
+force force ace_ui_weaponName = true;
+force force ace_ui_weaponNameBackground = true;
+force force ace_ui_zeroing = true;
+
+// Client Side
+ace_ui_hideDefaultActionIcon = false;

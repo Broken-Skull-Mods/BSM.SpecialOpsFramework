@@ -1,0 +1,3 @@
+[list]
+    [*] Added New Function with get the world position from offet and parent obj.
+[/list]

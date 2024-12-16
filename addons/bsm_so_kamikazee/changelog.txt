@@ -1,0 +1,4 @@
+[list]
+    [*] Added Remote Bomb Trigger for Kamikazee Vehicles like Drone Remote Controlled.
+    [*] Added ACE action for Explosive Specialist to hook bomb on drones.
+[/list]

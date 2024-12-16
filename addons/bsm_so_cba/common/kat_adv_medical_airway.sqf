@@ -1,0 +1,27 @@
+// KAT - ADV Medical: Airway
+force force kat_airway_Accuvac_time = 4;
+force force kat_airway_autoTriage = true;
+force force kat_airway_block_headTurning_ifAirwayItem = true;
+force force kat_airway_CancelRecoveryPosition_Time = 3;
+force force kat_airway_CheckAirway_time = 2;
+force force kat_airway_checkbox_puking_sound = true;
+force force kat_airway_enable = true;
+force force kat_airway_Guedeltubus_time = 4;
+force force kat_airway_HeadTurn_Interval = 3;
+force force kat_airway_Hyperextend_Time = 3;
+force force kat_airway_Larynxtubus_time = 3.9;
+force force kat_airway_medLvl_Accuvac = 1;
+force force kat_airway_medLvl_Guedeltubus = 0;
+force force kat_airway_medLvl_Larynxtubus = 1;
+force force kat_airway_medLvl_Suction = 0;
+force force kat_airway_occlusion_cooldownPeriod = 6;
+force force kat_airway_occlusion_repeatTimer = 60;
+force force kat_airway_probability_headturning = 70;
+force force kat_airway_probability_obstruction = 20;
+force force kat_airway_probability_occluded = 20;
+force force kat_airway_RecoveryPosition_Time = 3;
+force force kat_airway_RecoveryPosition_TimeToDrain = 10;
+force force kat_airway_ReusableAirwayItems = true;
+force force kat_airway_string_exit = "";
+force force kat_airway_Suction_reuse = true;
+force force kat_airway_Suction_time = 6;

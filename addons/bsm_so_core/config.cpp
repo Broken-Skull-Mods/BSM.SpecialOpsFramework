@@ -90,461 +90,7 @@ class CfgEditorSubcategories
 };
 
 
-class Cfg3DEN
-{
-    class Object
-    {
-        class AttributeCategories
-        {
-            class SpecOps_UnitRole
-            {
-				displayName = "Spec-Ops (Unit Role)";
-                class Attributes
-                {
-					class TFT_CanBeLeader
-					{
-						unique = 0; 
-						displayName = "Leader Only?";
-						tooltip = "All others should be false of this one is true.";
-						property = "TFT_CanBeLeader";
-						control = "Checkbox";
-						expression = "_this setVariable ['%s', _value];";
-						defaultValue = false;
-						typeName = "BOOL"; 
-					};
 
-					class TFT_CanBeRifleman
-					{
-						unique = 0; 
-						displayName = "Rifleman Allowed?";
-						tooltip = "TFT_CanBeRifleman";
-						property = "TFT_CanBeRifleman";
-						control = "Checkbox";
-						expression = "_this setVariable ['%s', _value];";
-						defaultValue = false;
-						typeName = "BOOL"; 
-					};
-
-					class TFT_CanBeAutoRifleman
-					{
-						unique = 0; 
-						displayName = "AutoRifleman Allowed?";
-						tooltip = "TFT_CanBeAutoRifleman";
-						property = "TFT_CanBeAutoRifleman";
-						control = "Checkbox";
-						expression = "_this setVariable ['%s', _value];";
-						defaultValue = false;
-						typeName = "BOOL"; 
-					};
-
-					class TFT_CanBeGrenadier
-					{
-						unique = 0; 
-						displayName = "Grenadier Allowed?";
-						tooltip = "TFT_CanBeGrenadier";
-						property = "TFT_CanBeGrenadier";
-						control = "Checkbox";
-						expression = "_this setVariable ['%s', _value];";
-						defaultValue = false;
-						typeName = "BOOL"; 
-					};
-
-					class TFT_CanBeAT
-					{
-						unique = 0; 
-						displayName = "Anti-Tank Allowed?";
-						tooltip = "TFT_CanBeAT";
-						property = "TFT_CanBeAT";
-						control = "Checkbox";
-						expression = "_this setVariable ['%s', _value];";
-						defaultValue = false;
-						typeName = "BOOL"; 
-					};
-
-					class TFT_CanBeSniper
-					{
-						unique = 0; 
-						displayName = "Sniper Allowed?";
-						tooltip = "TFT_CanBeSniper";
-						property = "TFT_CanBeSniper";
-						control = "Checkbox";
-						expression = "_this setVariable ['%s', _value];";
-						defaultValue = false;
-						typeName = "BOOL"; 
-					};
-                };
-            };
-
-            class SpecOps_UnitMovement
-            {
-				displayName = "Spec-Ops (Unit Movements)";
-                class Attributes
-                {
-					class TFT_CanProne
-					{
-						unique = 0; 
-						displayName = "Can Prone?";
-						tooltip = "True if unit can be proning";
-						property = "TFT_CanProne";
-						control = "Checkbox";
-						expression = "_this setVariable ['%s', _value];";
-						defaultValue = false;
-						typeName = "BOOL"; 
-					};
-
-					class TFT_CanCrouch
-					{
-						unique = 0; 
-						displayName = "Can Crouch?";
-						tooltip = "True if unit can crouch";
-						property = "TFT_CanCrouch";
-						control = "Checkbox";
-						expression = "_this setVariable ['%s', _value];";
-						defaultValue = false;
-						typeName = "BOOL"; 
-					};
-
-					class TFT_CanStand
-					{
-						unique = 0; 
-						displayName = "Can Stand?";
-						tooltip = "True if unit can stand.";
-						property = "TFT_CanStand";
-						control = "Checkbox";
-						expression = "_this setVariable ['%s', _value];";
-						defaultValue = false;
-						typeName = "BOOL"; 
-					};
-
-					class TFT_CanMove
-					{
-						unique = 0; 
-						displayName = "Can Move?";
-						tooltip = "True if unit is able to move around";
-						property = "TFT_CanMove";
-						control = "Checkbox";
-						expression = "_this setVariable ['%s', _value];";
-						defaultValue = false;
-						typeName = "BOOL"; 
-					};
-					
-					class TFT_CanMoveFixed
-					{
-						unique = 0; 
-						displayName = "Position Fixed? (Cannot Rotate)";
-						tooltip = "Player cannot rotate (look around), (Can Move?) must be false.";
-						property = "TFT_CanMoveFixed";
-						control = "Checkbox";
-						expression = "_this setVariable ['%s', _value];";
-						defaultValue = false;
-						typeName = "BOOL"; 
-					};
-
-					class TFT_FixedAnimation
-					{
-						unique = 0; 
-						displayName = "Fixed Animation";
-						tooltip = "Set a animation for the AI, only use if AI has Fixed Position.";
-						property = "TFT_FixedAnimation";
-						control = "combo";
-						expression = "_this setVariable ['%s', _value];";
-						defaultValue = "";
-						validate = "none";
-						typeName = "STRING";
-						class Values 
-						{
-							class none { name = "Unspecified"; value = ""; };
-							class AadjPpneMstpSrasWrflDdown { name = "Prone (Face Down Stance)"; value = "AadjPpneMstpSrasWrflDdown"; };
-							class AadjPpneMstpSrasWrflDleft { name = "Prone (Left Stance)"; value = "AadjPpneMstpSrasWrflDleft"; };
-							class AadjPpneMstpSrasWrflDright { name = "Prone (Right Stance)"; value = "AadjPpneMstpSrasWrflDright"; };
-							class AadjPpneMstpSrasWrflDup { name = "Prone (Sit Stance)"; value = "AadjPpneMstpSrasWrflDup"; };
-							
-							class AadjPknlMstpSrasWrflDdown { name = "Crouch (Down Stance)"; value = "AadjPknlMstpSrasWrflDdown"; };
-							class AadjPknlMstpSrasWrflDleft { name = "Crouch (Left Stance)"; value = "AadjPknlMstpSrasWrflDleft"; };
-							class AadjPknlMstpSrasWrflDright { name = "Crouch (Right Stance)"; value = "AadjPknlMstpSrasWrflDright"; };
-							class AadjPknlMstpSrasWrflDup { name = "Crouch (Up Stance)"; value = "AadjPknlMstpSrasWrflDup"; };
-
-							class AadjPercMstpSrasWrflDdown { name = "Stand (Down Stance)"; value = "AadjPercMstpSrasWrflDdown"; };
-							class AadjPercMstpSrasWrflDleft { name = "Stand (Left Stance)"; value = "AadjPercMstpSrasWrflDleft"; };
-							class AadjPercMstpSrasWrflDright { name = "Stand (Right Stance)"; value = "AadjPercMstpSrasWrflDright"; };
-							class AadjPercMstpSrasWrflDup { name = "Stand (Up Stance)"; value = "AadjPercMstpSrasWrflDup"; };
-						};
-					};
-
-					class SpecOps_AmbientCanStand
-					{
-						unique = 0; 
-						displayName = "Ambient Standing?";
-						tooltip = "True if unit should be standing at ease in animation.";
-						property = "SpecOps_AmbientCanStand";
-						control = "Checkbox";
-						expression = "_this setVariable ['%s', _value];";
-						defaultValue = false;
-						typeName = "BOOL"; 
-					};
-
-					class SpecOps_AmbientCanSitLow
-					{
-						unique = 0; 
-						displayName = "Ambient Sitdown?";
-						tooltip = "True if unit should be shitdown at ease in animation (MUST BE ABLE TO ROTATE OR MOVE).";
-						property = "SpecOps_AmbientCanSitLow";
-						control = "Checkbox";
-						expression = "_this setVariable ['%s', _value];";
-						defaultValue = false;
-						typeName = "BOOL"; 
-					};
-
-					class SpecOps_AmbientCanKneel
-					{
-						unique = 0; 
-						displayName = "Ambient Kneel?";
-						tooltip = "True if unit should be Kneel at ease in animation (MUST BE ABLE TO ROTATE OR MOVE).";
-						property = "SpecOps_AmbientCanKneel";
-						control = "Checkbox";
-						expression = "_this setVariable ['%s', _value];";
-						defaultValue = false;
-						typeName = "BOOL"; 
-					};
-
-					class SpecOps_AmbientCanLean
-					{
-						unique = 0; 
-						displayName = "Ambient Lean (Standing / Back on Wall)?";
-						tooltip = "True if unit should be lean back on a wall at ease in animation (MUST BE ABLE TO ROTATE OR MOVE).";
-						property = "SpecOps_AmbientCanLean";
-						control = "Checkbox";
-						expression = "_this setVariable ['%s', _value];";
-						defaultValue = false;
-						typeName = "BOOL"; 
-					};
-
-					class SpecOps_AmbientCanWatch
-					{
-						unique = 0; 
-						displayName = "Ambient Watch (Standing)?";
-						tooltip = "True if unit should be watch at ease in animation (MUST BE ABLE TO ROTATE OR MOVE).";
-						property = "SpecOps_AmbientCanWatch";
-						control = "Checkbox";
-						expression = "_this setVariable ['%s', _value];";
-						defaultValue = false;
-						typeName = "BOOL"; 
-					};
-                };
-            };
-            
-			class SpecialOperationsFramework_Area
-            {
-				displayName = "Spec-Ops (Area)";
-                class Attributes
-                {
-					class SpecOps_Area_TierLevel
-					{
-						unique = 0; 
-						displayName = "Zone Tier?";
-						tooltip = "Choose the tier of that zone T1 = Low Fortification, T3 = Very High Fortification.";
-						property = "SpecOps_Area_TierLevel";
-						control = "combo";
-						expression = "_this setVariable ['%s', _value];";
-						defaultValue = 1;
-						validate = "none";
-						typeName = "NUMBER";
-						class Values 
-						{
-							class T1 { name = "T1"; value = 1; };
-							class T2 { name = "T2"; value = 2; };
-							class T3 { name = "T3"; value = 3; };
-						};
-					};
-
-					class TFT_IsGore {
-						unique = 0; 
-						displayName = "Is Gore Scene?";
-						tooltip = "TFT_IsGore";
-						property = "TFT_IsGore";
-						control = "Checkbox";
-						expression = "_this setVariable ['%s', _value];";
-						defaultValue = false;
-						typeName = "BOOL"; 
-					};
-
-					class TFT_BuildingIsEnterable
-					{
-						unique = 0; 
-						displayName = "Is Enterable?";
-						tooltip = "TFT_BuildingIsEnterable";
-						property = "TFT_BuildingIsEnterable";
-						control = "Checkbox";
-						expression = "_this setVariable ['%s', _value];";
-						defaultValue = false;
-						typeName = "BOOL"; 
-					};
-
-
-					class SpecOps_Area_Type
-					{
-						unique = 0; 
-						displayName = "Area Type?";
-						tooltip = "Choose if zone is a building or other type (only define on building or area marker).";
-						property = "SpecOps_Area_Type";
-						control = "combo";
-						expression = "_this setVariable ['%s', _value];";
-						defaultValue = 0;
-						validate = "none";
-						typeName = "NUMBER";
-						class Values {
-							class T0 { name = "Unspecified"; value = 0; };
-							class T1 { name = "Building"; value = 1; };
-							class T2 { name = "Camp"; value = 2; };
-							class T3 { name = "Social Event"; value = 3; };
-						};
-					};
-                };
-            };
-            
-			class SpecialOperationsFramework_Furniture
-            {
-				displayName = "Spec-Ops (Furnitures)";
-                class Attributes
-                {
-
-
-					class SpecOps_Furniture_Important {
-						unique = 0; 
-						displayName = "Is Important?";
-						tooltip = "False when object is not important and can be remove base on settings";
-						property = "SpecOps_Furniture_Important";
-						control = "Checkbox";
-						expression = "_this setVariable ['%s', _value];";
-						defaultValue = true;
-						typeName = "BOOL"; 
-					};
-
-					class SpecOps_Spawn_As_Vehicle {
-						unique = 0; 
-						displayName = "Spawn as Vehicle?";
-						tooltip = "Spawn as functional vehicle.";
-						property = "SpecOps_Spawn_As_Vehicle";
-						control = "Checkbox";
-						expression = "_this setVariable ['%s', _value];";
-						defaultValue = false;
-						typeName = "BOOL"; 
-					};
-
-					class TFT_IsIntelSearchable {
-						unique = 0; 
-						displayName = "Is Searchable Intel?";
-						tooltip = "TFT_IsIntelSearchable";
-						property = "TFT_IsIntelSearchable";
-						control = "Checkbox";
-						expression = "_this setVariable ['%s', _value];";
-						defaultValue = false;
-						typeName = "BOOL"; 
-					};
-
-					class TFT_CanVisibleFromOutside
-					{
-						unique = 0; 
-						displayName = "Is Visible From Outside?";
-						tooltip = "TFT_CanVisibleFromOutside";
-						property = "TFT_CanVisibleFromOutside";
-						control = "Checkbox";
-						expression = "_this setVariable ['%s', _value];";
-						defaultValue = false;
-						typeName = "BOOL"; 
-					};
-                };
-            };
-          
-		    class SpecialOperationsFrameworkRole
-            {
-				displayName = "Spec-Ops (Role)";
-                class Attributes
-                {
-					class TFT_IsDemoLead {
-						unique = 0; 
-						displayName = "Demolition Lead?";
-						tooltip = "This lead must be connected before demolition can occur (Demolition Trigger is required).";
-						property = "TFT_IsDemoLead";
-						control = "Checkbox";
-						expression = "_this setVariable ['%s', _value];";
-						defaultValue = false;
-						typeName = "BOOL"; 
-					};
-
-					class TFT_IsDemoTrigger {
-						unique = 0; 
-						displayName = "Demolition Trigger?";
-						tooltip = "This trigger will sync to demo phone when all leads are connected if any.";
-						property = "TFT_IsDemoTrigger";
-						control = "Checkbox";
-						expression = "_this setVariable ['%s', _value];";
-						defaultValue = false;
-						typeName = "BOOL"; 
-					};
-
-					class TFT_IsHacking {
-						unique = 0; 
-						displayName = "Is Hacking?";
-						tooltip = "This will unlock hacking point.";
-						property = "TFT_IsHacking";
-						control = "Checkbox";
-						expression = "_this setVariable ['%s', _value];";
-						defaultValue = false;
-						typeName = "BOOL"; 
-					};
-                };
-            };
-			
-			class SpecialOperationsFramework_Garage_Generator
-            {
-				displayName = "Spec-Ops (Faction Garage Generator)";
-                class Attributes
-                {
-					class SpecOps_GarageVehicleCategory
-					{
-						unique = 0; 
-						displayName = "Category?";
-						tooltip = "Vehicle's Category.";
-						property = "SpecOps_GarageVehicleCategory";
-						control = "combo";
-						expression = "_this setVariable ['%s', _value];";
-						defaultValue = -1;
-						validate = "none";
-						typeName = "NUMBER";
-						class Values {
-							class MDEF { name = "Unlisted"; value = -1; };
-							class MAA { name = "Anti-Air"; value = 0; };
-							class MTANK { name = "Tank"; value = 1; };
-							class MTECHNICAL { name = "Technical"; value = 2; };
-							class MTROOP { name = "Troop Transporter"; value = 3; };
-						};
-					};
-
-					class SpecOps_GarageRequiredCertification
-					{
-						unique = 0; 
-						displayName = "Certification?";
-						tooltip = "Level of Certification Required to Drive/Pilot.";
-						property = "SpecOps_GarageRequiredCertification";
-						control = "combo";
-						expression = "_this setVariable ['%s', _value];";
-						defaultValue = 0;
-						validate = "none";
-						typeName = "NUMBER";
-						class Values {
-							class MALL { name = "Everyone"; value = 0; };
-							class DRIVER { name = "Driver"; value = 1; };
-							class SUPPORT { name = "Support Specialist"; value = 2; };
-						};
-					};
-                };
-            };
-        };
-    };
-
-
-};
 
 class CfgVehicles
 {
@@ -1208,7 +754,7 @@ class CfgVehicles
 		displayName = "Town Area";
 		scope = 2;
 		scopeCurator = 0;
-		author = "BloodyMystik";
+		author = "Broken Skull Mods";
 		icon="\tftm\markers\family_house.paa";
 		editorCategory = "TFTE_Category";
 		editorSubcategory = "TFTE_SpecialOps";
@@ -1221,7 +767,7 @@ class CfgVehicles
 		displayName = "Airport";
 		scope = 2;
 		scopeCurator = 0;
-		author = "BloodyMystik";
+		author = "Broken Skull Mods";
 		icon="\tftm\markers\commercial_airplane.paa";
 		editorCategory = "TFTE_Category";
 		editorSubcategory = "TFTE_SpecialOps";
@@ -1234,7 +780,7 @@ class CfgVehicles
 		displayName = "Village Area";
 		scope = 2;
 		scopeCurator = 0;
-		author = "BloodyMystik";
+		author = "Broken Skull Mods";
 		icon="\tftm\markers\wood_cabin.paa";
 		editorCategory = "TFTE_Category";
 		editorSubcategory = "TFTE_SpecialOps";
@@ -1247,7 +793,7 @@ class CfgVehicles
 		displayName = "Camp Area";
 		scope = 2;
 		scopeCurator = 0;
-		author = "BloodyMystik";
+		author = "Broken Skull Mods";
 		icon="\tftm\markers\barracks_tent.paa";
 		editorCategory = "TFTE_Category";
 		editorSubcategory = "TFTE_SpecialOps";
@@ -1260,7 +806,7 @@ class CfgVehicles
 		displayName = "Comm Area";
 		scope = 2;
 		scopeCurator = 0;
-		author = "BloodyMystik";
+		author = "Broken Skull Mods";
 		icon="\tftm\markers\walkie_talkie.paa";
 		editorCategory = "TFTE_Category";
 		editorSubcategory = "TFTE_SpecialOps";
@@ -1273,7 +819,7 @@ class CfgVehicles
 		displayName = "Resource Area";
 		scope = 2;
 		scopeCurator = 0;
-		author = "BloodyMystik";
+		author = "Broken Skull Mods";
 		icon="\tftm\markers\crystal_growth.paa";
 		editorCategory = "TFTE_Category";
 		editorSubcategory = "TFTE_SpecialOps";
@@ -1286,7 +832,7 @@ class CfgVehicles
 		displayName = "Anti-Air Area";
 		scope = 2;
 		scopeCurator = 0;
-		author = "BloodyMystik";
+		author = "Broken Skull Mods";
 		icon="\tftm\markers\missile_launcher.paa";
 		editorCategory = "TFTE_Category";
 		editorSubcategory = "TFTE_SpecialOps";
@@ -1300,7 +846,7 @@ class CfgVehicles
 		displayName = "Ambush Area";
 		scope = 2;
 		scopeCurator = 0;
-		author = "BloodyMystik";
+		author = "Broken Skull Mods";
 		icon="\tftm\markers\stop_sign.paa";
 		editorCategory = "TFTE_Category";
 		editorSubcategory = "TFTE_SpecialOps";
@@ -1314,7 +860,7 @@ class CfgVehicles
 		// Standard object definitions:
 		displayName = "BigTown (Clearing)";
 		scope = 2;
-		author = "BloodyMystik";
+		author = "Broken Skull Mods";
 		icon="\tftm\icons\cross_mark.paa";
 		category = "TFTE_SpecOp_Mission";
 		isGlobal = 1;						// 0 for server only execution, 1 for global execution, 2 for persistent global execution
@@ -1332,7 +878,7 @@ class CfgVehicles
 		// Standard object definitions:
 		displayName = "Airport (Clearing)";
 		scope = 2;
-		author = "BloodyMystik";
+		author = "Broken Skull Mods";
 		icon="\tftm\icons\commercial_airplane.paa";
 		category = "TFTE_SpecOp_Mission";
 		isGlobal = 1;						// 0 for server only execution, 1 for global execution, 2 for persistent global execution
@@ -1350,7 +896,7 @@ class CfgVehicles
 		// Standard object definitions:
 		displayName = "SmallTown (Clearing)";
 		scope = 2;
-		author = "BloodyMystik";
+		author = "Broken Skull Mods";
 		icon="\tftm\icons\cross_mark.paa";
 		category = "TFTE_SpecOp_Mission";
 		isGlobal = 1;						// 0 for server only execution, 1 for global execution, 2 for persistent global execution
@@ -1368,7 +914,7 @@ class CfgVehicles
 		// Standard object definitions:
 		displayName = "Village (Clearing)";
 		scope = 2;
-		author = "BloodyMystik";
+		author = "Broken Skull Mods";
 		icon="\tftm\icons\cross_mark.paa";
 		category = "TFTE_SpecOp_Mission";
 		isGlobal = 1;						// 0 for server only execution, 1 for global execution, 2 for persistent global execution
@@ -1386,7 +932,7 @@ class CfgVehicles
 		// Standard object definitions:
 		displayName = "Camp (Clearing)";
 		scope = 2;
-		author = "BloodyMystik";
+		author = "Broken Skull Mods";
 		icon="\tftm\icons\cross_mark.paa";
 		category = "TFTE_SpecOp_Mission";
 		isGlobal = 1;						// 0 for server only execution, 1 for global execution, 2 for persistent global execution
@@ -1405,7 +951,7 @@ class CfgVehicles
 		// Standard object definitions:
 		displayName = "Comms (Sabotage)";
 		scope = 2;
-		author = "BloodyMystik";
+		author = "Broken Skull Mods";
 		icon="\tftm\icons\walkie_talkie.paa";
 		category = "TFTE_SpecOp_Mission";
 		isGlobal = 1;						// 0 for server only execution, 1 for global execution, 2 for persistent global execution
@@ -1423,7 +969,7 @@ class CfgVehicles
 		// Standard object definitions:
 		displayName = "Resources (Sabotage)";
 		scope = 2;
-		author = "BloodyMystik";
+		author = "Broken Skull Mods";
 		icon="\tftm\icons\crystal_growth.paa";
 		category = "TFTE_SpecOp_Mission";
 		isGlobal = 1;						// 0 for server only execution, 1 for global execution, 2 for persistent global execution
@@ -1441,7 +987,7 @@ class CfgVehicles
 		// Standard object definitions:
 		displayName = "Air Defense (Sabotage)";
 		scope = 2;
-		author = "BloodyMystik";
+		author = "Broken Skull Mods";
 		icon="\tftm\icons\missile_launcher.paa";
 		category = "TFTE_SpecOp_Mission";
 		isGlobal = 1;						// 0 for server only execution, 1 for global execution, 2 for persistent global execution
@@ -1459,7 +1005,7 @@ class CfgVehicles
 		// Standard object definitions:
 		displayName = "Road Ambush (Ambush)";
 		scope = 2;
-		author = "BloodyMystik";
+		author = "Broken Skull Mods";
 		icon="\tftm\icons\impact_point.paa";
 		category = "TFTE_SpecOp_Mission";
 		isGlobal = 1;						// 0 for server only execution, 1 for global execution, 2 for persistent global execution
@@ -1477,7 +1023,7 @@ class CfgVehicles
 		// Standard object definitions:
 		displayName = "Gather Intel (Intel)";
 		scope = 2;
-		author = "BloodyMystik";
+		author = "Broken Skull Mods";
 		icon="\tftm\icons\tablet.paa";
 		category = "TFTE_SpecOp_Mission";
 		isGlobal = 1;						// 0 for server only execution, 1 for global execution, 2 for persistent global execution
@@ -1495,7 +1041,7 @@ class CfgVehicles
 		// Standard object definitions:
 		displayName = "Assasinate (Hunt)";
 		scope = 2;
-		author = "BloodyMystik";
+		author = "Broken Skull Mods";
 		icon="\tftm\icons\human_target.paa";
 		category = "TFTE_SpecOp_Mission";
 		isGlobal = 1;						// 0 for server only execution, 1 for global execution, 2 for persistent global execution
@@ -1513,7 +1059,7 @@ class CfgVehicles
 		// Standard object definitions:
 		displayName = "Fallen (Casualties)";
 		scope = 2;
-		author = "BloodyMystik";
+		author = "Broken Skull Mods";
 		icon="\tftm\icons\hasty_grave.paa";
 		category = "TFTE_SpecOp_Mission";
 		isGlobal = 1;						// 0 for server only execution, 1 for global execution, 2 for persistent global execution
@@ -1531,7 +1077,7 @@ class CfgVehicles
 		// Standard object definitions:
 		displayName = "Stronghold (Defend)";
 		scope = 2;
-		author = "BloodyMystik";
+		author = "Broken Skull Mods";
 		icon="\tftm\icons\on_target.paa";
 		category = "TFTE_SpecOp_Mission";
 		isGlobal = 1;						// 0 for server only execution, 1 for global execution, 2 for persistent global execution
@@ -1549,7 +1095,7 @@ class CfgVehicles
 		// Standard object definitions:
 		displayName = "Wild Enemy Area (System)";
 		scope = 2;
-		author = "BloodyMystik";
+		author = "Broken Skull Mods";
 		icon="\tftm\icons\bandit.paa";
 		category = "TFTE_SpecOp_Category";
 		isGlobal = 1;						// 0 for server only execution, 1 for global execution, 2 for persistent global execution
@@ -1618,7 +1164,7 @@ class CfgVehicles
 		// Standard object definitions:
 		displayName = "Open World (System)";
 		scope = 2;
-		author = "BloodyMystik";
+		author = "Broken Skull Mods";
 		icon="\tftm\icons\abstract_037.paa";
 		category = "TFTE_SpecOp_Category";
 		isGlobal = 1;						// 0 for server only execution, 1 for global execution, 2 for persistent global execution
@@ -1663,7 +1209,7 @@ class CfgVehicles
 		// Standard object definitions:
 		displayName = "Defined Mission (System)";
 		scope = 2;
-		author = "BloodyMystik";
+		author = "Broken Skull Mods";
 		icon="\tftm\icons\radar_sweep.paa";
 		category = "TFTE_SpecOp_Category";
 		isGlobal = 1;						// 0 for server only execution, 1 for global execution, 2 for persistent global execution
@@ -1681,7 +1227,7 @@ class CfgVehicles
 		// Standard object definitions:
 		displayName = "Failure Fallback (System)";
 		scope = 2;
-		author = "BloodyMystik";
+		author = "Broken Skull Mods";
 		icon="\tftm\icons\falling.paa";
 		category = "TFTE_SpecOp_Category";
 		isGlobal = 1;						// 0 for server only execution, 1 for global execution, 2 for persistent global execution
@@ -1699,7 +1245,7 @@ class CfgVehicles
 		// Standard object definitions:
 		displayName = "Success Transit (System)";
 		scope = 2;
-		author = "BloodyMystik";
+		author = "Broken Skull Mods";
 		icon="\tftm\icons\campfire.paa";
 		category = "TFTE_SpecOp_Category";
 		isGlobal = 1;						// 0 for server only execution, 1 for global execution, 2 for persistent global execution

@@ -1,0 +1,34 @@
+// Enhanced Movement Rework
+force force emr_main_allowClimbOnStandingUnits = false;
+force force emr_main_allowMidairClimbing = false;
+force force emr_main_animSpeedCoef = 0.7;
+force force emr_main_animSpeedStaminaCoef = 0.4;
+force force emr_main_assistDuty = 1.5;
+force force emr_main_assistHeight = 1;
+force force emr_main_blacklistStr = "";
+force force emr_main_climbingEnabled = true;
+force force emr_main_climbOnDuty = 2.5;
+force force emr_main_climbOverDuty = 2;
+force force emr_main_dropDuty = 1;
+force force emr_main_dropViewElevation = -0.7;
+force force emr_main_enableWalkableSurface = true;
+force force emr_main_enableWeightCheck = true;
+force force emr_main_hintType = 2;
+force force emr_main_jumpDuty = 1.5;
+force force emr_main_jumpForwardVelocity = 1;
+force force emr_main_jumpingEnabled = false;
+force force emr_main_jumpingLoadCoefficient = 1;
+force force emr_main_jumpVelocity = 2;
+force force emr_main_maxClimbHeight = 2.5;
+force force emr_main_maxDropHeight = 3.5;
+force force emr_main_maxWeightClimb1 = 95;
+force force emr_main_maxWeightClimb2 = 90;
+force force emr_main_maxWeightClimb3 = 85;
+force force emr_main_maxWeightJump = 80;
+force force emr_main_minClimbTerrain = 0.3;
+force force emr_main_preventHighVaulting = false;
+force force emr_main_staminaCoefficient = 1;
+force force emr_main_whitelistStr = "";
+force force emr_main_yeetCoefficient = 1;
+
+emr_main_interactBehaviorInVehicle = "DISMOUNT";

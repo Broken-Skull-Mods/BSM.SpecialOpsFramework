@@ -15,7 +15,7 @@ _origin addEventHandler ["Deleted", {
     _offPos = getArray (configFile >> "CfgVehicles" >> _classname >> "Ace_Points" >> _subclass >> "offsetPos");
     _vec = createVehicleLocal [_class, _positionOrigin, [], 0, "NONE"];
     _vec enableSimulation false;
-    _vec allowDamage false;
+    // _vec allowDamage false;
     _vec attachTo [_origin, _offPos, "", true];
     [_origin, _vec, _offPos, _positionOrigin] spawn {
         params ["_origin", "_vec", "_offPos", "_positionOrigin"];
